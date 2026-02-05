@@ -26,7 +26,7 @@ const redRose = Red_Rose({
 
 export const metadata: Metadata = {
   title: 'Infinitus 2026',
-  description: 'Annual Cultural fest of SRM University Andhra Pradesh',
+  description: 'Annual National Level Techno Cultural Fest of SRM University Andhra Pradesh',
 }
 
 export default function RootLayout({
