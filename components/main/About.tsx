@@ -40,7 +40,7 @@ const About = () => {
           variants={fadeInVariants}
         >
           <Image
-            src="/images/About Infinitus.jpg"
+            src="/images/About Infinitus.JPG"
             alt="About Us"
             width={450}
             height={500}
