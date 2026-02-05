@@ -1,0 +1,25 @@
+﻿node.exe : Invalid 
+project directory 
+provided, no such 
+directory: C:\Users\r
+ites\OneDrive\Documen
+ts\INFINITUS-2026\INF
+INITUS-2026\lint
+At C:\Program Files\n
+odejs\npx.ps1:29 
+char:3
++   & $NODE_EXE 
+$NPX_CLI_JS $args
++   ~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (Invalid   
+  project...NITUS    
+-2026\lint:Strin    
+g) [], RemoteExc    
+eption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 

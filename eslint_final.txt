@@ -1,0 +1,6 @@
+﻿
+C:\Users\rites\OneDrive\Documents\INFINITUS-2026\INFINITUS-2026\eslint.config.mjs
+  3:1  warning  Assign array to a variable before exporting as module default  import/no-anonymous-default-export
+
+Γ£û 1 problem (0 errors, 1 warning)
+

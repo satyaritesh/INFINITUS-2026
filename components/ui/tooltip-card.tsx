@@ -142,7 +142,8 @@ export const Tooltip = ({
             const newPosition = calculatePosition(mouse.x, mouse.y);
             setPosition(newPosition);
         }
-    }, [isVisible, height, mouse.x, mouse.y]);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [height]);
 
     return (
         <div

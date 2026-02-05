@@ -35,6 +35,7 @@ const committees = [
   { id: 12, name: "Fun Activities", imageSrc: "/images/final website photos/fun activites.JPG", head: "Prosnita", coHead: "Thanvi" },
   { id: 13, name: "Outreach", imageSrc: "/images/final website photos/outreach.JPG", head: "Nameer", coHead: "Hasitha" },
   { id: 14, name: "Hospitality", imageSrc: "/images/final website photos/Hospitality.JPG", head: "Wasim Raja", coHead: "Nirmal" },
+  { id: 15, name: "Publicity", imageSrc: "/images/final website photos/Publicity Committee.jpg", head: "Mohnish", coHead: "Raghavi" },
 ];
 
 const TeamMemberSection = () => {
