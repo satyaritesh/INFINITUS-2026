@@ -137,8 +137,8 @@ The workshop aims to equip learners with industry-relevant hardware design skill
           </div>
           <div>
             < Card
-              imageSrc="/images/TECHNICAL/FPV Race.png"
-              title="Your Event Title"
+              imageSrc="/images/TECHNICAL/Tech - Drone Soccer.jpg"
+              title="Drone Soccer"
               initialDescription="International FPV Drone Race is a high-speed competitive event conducted at global racing standards, where skilled pilots race FPV drones through a professionally designed track. Following MultiGP-style formats, the event showcases precision flying, advanced drone technology, and real-time competition, making it one of the most exciting technical highlights of the fest.
 " linkTo={'https://www.canva.com/design/DAF_BUmtfPE/oortHCPz2bSUfzKOuzhpdw/view?utm_content=DAF_BUmtfPE&utm_campaign=designshare&utm_medium=link&utm_source=editor'} />
             <EventDetails

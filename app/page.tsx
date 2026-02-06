@@ -1,54 +1,34 @@
 'use client';
 
-import { useState, useEffect } from 'react';
 import dynamic from 'next/dynamic';
 import Hero from '@/components/main/Hero';
 import Navbar from '@/components/main/Navbar';
-const StarsCanvas = dynamic(() => import('@/components/main/StarCanvas'), { ssr: false });
-import Gallery from '@/components/main/Gallery';
-import About from '@/components/main/About';
-import PastPerformers from '@/components/main/PastPerformers';
-import Proshows from '@/components/main/Proshows';
-import Footer from '@/components/main/Footer';
 import FlareCursor from '@/components/main/Cursor';
-import Loading from '@/components/main/Loading'
-import ZoomParallax from '@/components/main/ZoomParallax'
-import { SponsorSection } from '@/components/main/Sponser';
+
+const StarsCanvas = dynamic(() => import('@/components/main/StarCanvas'), { ssr: false });
+const Gallery = dynamic(() => import('@/components/main/Gallery'), { ssr: false });
+const About = dynamic(() => import('@/components/main/About'), { ssr: false });
+const PastPerformers = dynamic(() => import('@/components/main/PastPerformers'), { ssr: false });
+const Proshows = dynamic(() => import('@/components/main/Proshows'), { ssr: false });
+const Footer = dynamic(() => import('@/components/main/Footer'), { ssr: false });
+const ZoomParallax = dynamic(() => import('@/components/main/ZoomParallax'), { ssr: false });
+const SponsorSection = dynamic(() => import('@/components/main/Sponser').then(mod => mod.SponsorSection), { ssr: false });
 
 const Home: React.FC = () => {
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    const delay = setTimeout(() => {
-      setLoading(false);
-    }, 1000);
-
-    return () => clearTimeout(delay);
-  }, []);
-
-
   return (
     <main
       className="h-full w-full bg-[#030014] " >
-      {loading ? (
-        <div className="flex items-center justify-center h-screen ">
-          <Loading />
-        </div>
-      ) : (
-        <>
-          <FlareCursor />
-          <StarsCanvas />
-          <Hero />
-          <About />
-          <Proshows />
-          <Gallery />
-          <SponsorSection />
-          <PastPerformers />
-          <ZoomParallax />
-          <Footer />
-          <Navbar />
-        </>
-      )}
+      <FlareCursor />
+      <StarsCanvas />
+      <Hero />
+      <About />
+      <Proshows />
+      <Gallery />
+      <SponsorSection />
+      <PastPerformers />
+      <ZoomParallax />
+      <Footer />
+      <Navbar />
     </main>
   );
 };

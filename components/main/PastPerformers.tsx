@@ -119,7 +119,7 @@ const MyServices: React.FC = () => {
               <Image src="/images/TECHNICAL/BGMI Master Series.png" width={340} height={380} alt="BGMI Master Series" className="img w-[340px] h-[380px] object-cover object-fit" />
             </div>
             <div className="slide">
-              <Image src="/images/TECHNICAL/FPV Race.png" width={340} height={380} alt="FPV Race" className="img w-[340px] h-[380px] object-cover object-fit" />
+              <Image src="/images/TECHNICAL/Tech - Drone Soccer.jpg" width={340} height={380} alt="FPV Race" className="img w-[340px] h-[380px] object-cover object-fit" />
             </div>
             <div className="slide">
               <Image src="/images/TECHNICAL/Line Following Bot.png" width={340} height={380} alt="Line Following Bot" className="img w-[340px] h-[380px] object-cover object-fit" />

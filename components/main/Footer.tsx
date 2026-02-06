@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
           <div className="mb-8 lg:mb-0 lg:mr-4">
             <h4 className="text-3xl lg:text-3xl mb-4 font-space font-bold">SRM University, Andhra Pradesh</h4>
             <p className='text-xl lg:text-2xl font-light'>
-              Registered Address: Neerukonda, Mangalagiri, Guntur, Andhra Pradesh, 522240, Neerukonda, Andhra Pradesh,
+              Neerukonda, Mangalagiri, Guntur, Andhra Pradesh, 522240, Neerukonda, Andhra Pradesh,
               <br />
               PIN: 522240
             </p>

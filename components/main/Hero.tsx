@@ -50,6 +50,7 @@ const Hero: React.FC = () => {
             alt="infinitus logo"
             width={1000}
             height={300}
+            priority={true}
             style={{ maxWidth: '100%', height: 'auto', display: 'block', margin: '0' }}
             className='z-4 relative px-10 float'
           />

@@ -27,16 +27,18 @@ export const SponsorSection = () => {
             className="z-10 flex flex-col items-center justify-center space-y-5 rounded py-5"
             key={sponsor.name}
           >
-            <Link href={sponsor.link} target="_blank">
-              <Image
-                src={sponsor.image}
-                loading="lazy"
-                alt={sponsor.alt}
-                width={350}
-                height={240}
-                className={`h-[140px] sm:h-[240px] w-[350px] rounded-2xl bg-gray-950 object-contain p-3`}
-              />
-            </Link>
+            <div className="rounded-3xl bg-white p-4 shadow-lg transition-all hover:scale-105 hover:shadow-xl">
+              <Link href={sponsor.link} target="_blank">
+                <Image
+                  src={sponsor.image}
+                  loading="lazy"
+                  alt={sponsor.alt}
+                  width={350}
+                  height={240}
+                  className={`h-[140px] sm:h-[240px] w-[350px] object-contain p-3`}
+                />
+              </Link>
+            </div>
           </div>
         ))}
       </div>
