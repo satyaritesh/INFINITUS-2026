@@ -13,11 +13,9 @@ const Footer: React.FC = () => {
           <div className="mb-8 lg:mb-0 lg:mr-4">
             <h4 className="text-3xl lg:text-3xl mb-4 font-space font-bold">SRM University, Andhra Pradesh</h4>
             <p className='text-xl lg:text-2xl font-light'>
-              Registered Address: 54-15-4C, R K GALLERIA, SERVICE ROAD, BANK COLONY, SRINIVASA
+              Registered Address: Neerukonda, Mangalagiri, Guntur, Andhra Pradesh, 522240, Neerukonda, Andhra Pradesh,
               <br />
-              NAGAR, KRISHNA, ANDHRA PRADESH, 520008, VIJAYAWADA (URBAN), Andhra Pradesh,
-              <br />
-              PIN: 520008
+              PIN: 522240
             </p>
           </div>
 
@@ -44,44 +42,81 @@ const Footer: React.FC = () => {
           </div>
 
           <div>
-            <h3 className="text-3xl lg:text-4xl font-bold font-space mb-4">Follow us on Social Media</h3>
-            <div className="social-links flex flex-col gap-4">
-
-              <Link href="https://www.instagram.com/srmuapstudentcouncil?igsh=MWJpaW9ldnprbHNvaQ==" target='_blank' rel="noopener noreferrer" aria-label="Instagram" className="z-50 font-space text-2xl hover:scale-105 transition-all flex items-center">
-                <FaInstagram className="text-4xl lg:text-5xl mr-3" />
-                <span>Student Council</span>
+            <h3 className="text-3xl lg:text-4xl font-bold font-space mb-4">Follow us on</h3>
+            <div className="flex flex-col gap-4">
+              <Link href="https://linktr.ee/srmuapstudentcouncil?utm_source=qr_code" target="_blank" rel="noopener noreferrer" aria-label="Linktree">
+              <Image
+                src="/images/footerImages/LINKTREELOGO.jpeg"
+                alt="Linktree"
+                width={200}
+                height={200}
+                className="object-contain w-[150px] h-[150px] mix-blend-screen hover:scale-105 transition-all cursor-pointer"
+              />
               </Link>
-              <Link href="https://www.instagram.com/srmuap.infinitus/" target='_blank' rel="noopener noreferrer" aria-label="Instagram" className="z-50 font-space text-2xl hover:scale-105 transition-all flex items-center">
-                <FaInstagram className="text-4xl lg:text-5xl mr-3" />
-                <span>SRMAP INFINITUS</span>
-              </Link>
-
-              <Link href="https://www.linkedin.com/in/hack-srm-0a5624274/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="z-50 font-space text-2xl hover:scale-105 transition-all flex items-center">
-                <FaLinkedin className="text-4xl lg:text-5xl mr-3" />
-                <span>HackSRM LinkedIn</span>
-              </Link>
-
-              <Link href="https://www.instagram.com/infinitus.hacksrm/" target='_blank' rel="noopener noreferrer" aria-label="Instagram" className="z-50 font-space text-2xl hover:scale-105 transition-all flex items-center">
-                <FaInstagram className="text-4xl lg:text-5xl mr-3" />
-                <span>HackSRM Instagram</span>
-              </Link>
-
             </div>
           </div>
         </div>
 
       </footer>
 
-      <div className="w-full flex justify-center items-end select-none pointer-events-none overflow-hidden">
-        <div style={{ maskImage: 'linear-gradient(to bottom, transparent, black)', WebkitMaskImage: 'linear-gradient(to bottom, transparent, black)' }} className="w-full flex justify-center ">
+      <div className="w-full mx-auto flex flex-wrap lg:flex-nowrap justify-center items-center gap-4 lg:gap-20  select-none">
+
+        {/* 1. SC LOGO */}
+        <div className="order-2 lg:order-1 w-1/5 lg:w-auto flex justify-center">
           <Image
-            src="/img.png"
-            alt="INFINITUS"
-            width={1000}
-            height={300}
-            className="object-contain w-[70vw] sm:w-[50vw] mt-2"
+            src="/images/footerImages/SCLOGO.jpeg"
+            alt="Student Council"
+            width={150}
+            height={150}
+            className="object-contain w-full h-auto max-w-[80px] lg:max-w-[120px] mix-blend-screen"
           />
         </div>
+
+        {/* 2. HACKSRM LOGO */}
+        <div className="order-2 lg:order-2 w-1/5 lg:w-auto flex justify-center items-center">
+          <Image
+            src="/images/footerImages/hacksrm-logo.png"
+            alt="HackSRM"
+            width={150}
+            height={150}
+            className="object-contain w-full h-auto max-w-[80px] lg:max-w-[120px] mix-blend-screen"
+          />
+        </div>
+
+        {/* 3. INFINITUS LOGO (Center) */}
+        {/* Mobile: Width 100% to force break line, Order 1 to go top */}
+        <div className="order-1 lg:order-3 w-full lg:w-auto flex justify-center mb-4 lg:mb-0">
+          <Image
+            src="/images/footerImages/INFINITUS2026LOGO.jpeg"
+            alt="INFINITUS"
+            width={300}
+            height={300}
+            className="object-contain w-[60vw] sm:w-[50vw] h-auto lg:w-[180px] lg:h-[180px] mix-blend-screen"
+          />
+        </div>
+
+        {/* 4. DSA LOGO */}
+        <div className="order-2 lg:order-4 w-1/5 lg:w-auto flex justify-center items-center">
+          <Image
+            src="/images/footerImages/DSALOGO.jpeg"
+            alt="DSA"
+            width={150}
+            height={150}
+            className="object-contain w-full h-auto max-w-[80px] lg:max-w-[120px] mix-blend-screen"
+          />
+        </div>
+
+        {/* 5. SRM AP LOGO */}
+        <div className="order-2 lg:order-5 w-1/5 lg:w-auto flex justify-center">
+          <Image
+            src="/images/footerImages/SRMAPLOGO.jpeg"
+            alt="SRM AP"
+            width={150}
+            height={150}
+            className="object-contain w-full h-auto max-w-[80px] lg:max-w-[120px] mix-blend-screen"
+          />
+        </div>
+
       </div>
 
       <div className="w-full text-center mt-8 flex flex-row items-center justify-center cursor-pointer gap-2 hover:scale-110 whitespace-nowrap">
@@ -99,7 +134,7 @@ const Footer: React.FC = () => {
       <div className="w-full text-center flex flex-row items-center justify-center cursor-pointer gap-2 hover:scale-110 whitespace-nowrap">
         <span className="text-lg lg:text-2xl font-space flex items-center gap-1">
           Special Thanks to ♥️ <span className="text-purple-400">: </span>
-          <div  className="text-purple-400 z-50"> Nishant Tiwari </div>
+          <div className="text-purple-400 z-50"> Nishant Tiwari </div>
           <span className="text-purple-400"> and </span>
           <div className="text-purple-400 z-50"> Omkar Ghongade </div>
         </span>

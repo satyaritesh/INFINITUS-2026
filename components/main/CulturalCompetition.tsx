@@ -24,7 +24,7 @@ const Cultural: React.FC<Types> = ({ types }) => {
         <div className='grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3'>
           <div>
             < Card
-              imageSrc="/images/Cultural/GlobalBeats.webp"
+              imageSrc="/images/Cultural/GlobalBeats.png"
               title="Your Event Title"
               initialDescription="Cosmic Beats is a high-energy music and dance event that brings rhythm, movement, and passion to the stage. Participants captivate the audience with powerful performances and electrifying beats."
               linkTo={'https://docs.google.com/document/d/1tZlmFjtVttMitLgiyCsQLoz77ZKlS41XwwSWGvOv0Gc/edit?tab=t.0#heading=h.ho2evc94q0fh'}
@@ -39,7 +39,7 @@ const Cultural: React.FC<Types> = ({ types }) => {
 
           <div>
             < Card
-              imageSrc="/images/Cultural/Symphony.webp"
+              imageSrc="/images/Cultural/Symphony.png"
               title="Zenith"
               initialDescription="Symphony is a musical showcase that highlights instrumental and vocal talent. This event celebrates harmony, melody, and musical excellence across genres."
               linkTo={'https://docs.google.com/document/d/1tZlmFjtVttMitLgiyCsQLoz77ZKlS41XwwSWGvOv0Gc/edit?tab=t.pmzkea6f1eh8'}
@@ -54,7 +54,7 @@ const Cultural: React.FC<Types> = ({ types }) => {
 
           <div>
             < Card
-              imageSrc="/images/Cultural/Behind The Mask.webp"
+              imageSrc="/images/Cultural/Behind The Mask.png"
               title="Your Event Title"
               initialDescription="Behind The Mask explores expression, mystery, and performance. Participants present characters and emotions beyond appearances, highlighting creativity, confidence, and dramatic flair."
               linkTo={'https://docs.google.com/document/d/1tZlmFjtVttMitLgiyCsQLoz77ZKlS41XwwSWGvOv0Gc/edit?tab=t.7890j6houlk8'}
@@ -70,7 +70,7 @@ const Cultural: React.FC<Types> = ({ types }) => {
 
           <div>
             < Card
-              imageSrc="/images/TECHNICAL/Filmathon.webp"
+              imageSrc="/images/TECHNICAL/Filmathon.png"
               title="Your Event Title"
               initialDescription="FILMATHON is a high-intensity 28-hour short film competition designed to test participants’ creativity, teamwork, and filmmaking skills under strict time constraints. Teams will conceptualize, shoot, edit, and submit an original short film based on a randomly assigned theme or genre, all within the given time frame. The competition culminates in jury evaluation and audience screenings during INFINITUS’26."
               linkTo={'https://docs.google.com/document/d/1tZlmFjtVttMitLgiyCsQLoz77ZKlS41XwwSWGvOv0Gc/edit?tab=t.vp70m7gbsdp8'} />

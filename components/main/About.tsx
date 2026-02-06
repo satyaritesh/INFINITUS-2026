@@ -66,18 +66,14 @@ const About = () => {
               }
               containerClassName="flex gap-2 items-center flex-wrap"
             >
-              <p className='text-white font-space'> SRM &nbsp; University&apos;s &nbsp; </p><p className='Welcome-text font-space'>Annual National Level Techno Cultural Fest</p> &nbsp; <p className='text-white font-space'>Unveiled!</p>
+              <p className='text-white font-space'> SRM &nbsp; University - AP&apos;s &nbsp; </p><p className='Welcome-text font-space'>Annual National Level Techno Cultural Fest</p>
             </Tooltip>
           </h2>
           <motion.p
             className="text-2xl lg:text-3xl font-space text-justify"
             variants={fadeInVariants}
           >
-            The 2025 edition of Infinitus emerged as a defining chapter in the evolving legacy of cultural celebrations, bringing together an extraordinary gathering of 10,000 students from diverse backgrounds. The fest radiated unmatched energy, with over 5,000 participants actively taking part in competitions, performances, and showcases that reflected the spirit of innovation, creativity, and collaboration shaping the present generation.
-
-            Infinitus ’25 strengthened its digital presence like never before, achieving an impressive social media outreach of 15,000, as moments from the fest resonated across platforms through stories, reels, and live interactions. The official website continued to serve as a dynamic information hub, drawing more than 5,000 visitors seeking updates, schedules, and highlights.
-
-            This landmark edition of Infinitus not only celebrated culture and talent but also embraced the future, setting a higher benchmark and redefining expectations for the editions to come.
+Infinitus is the annual national level techno cultural fest of SRM University AP, bringing together technology, culture, creativity, and innovation on a single grand stage. Conceived as a dynamic platform for expression and excellence, Infinitus attracts students and young innovators from across the country to compete, collaborate, and push boundaries. The fest features a diverse spectrum of flagship tech competitions, hackathons, and innovation challenges, alongside engaging non tech and cultural events spanning music, dance, art, and performance. Elevating the experience are electrifying proshows by celebrated artists, immersive showcases, and a campus that comes alive with energy and enthusiasm. More than just a fest, Infinitus is a celebration of youth, ideas, and ambition, inviting everyone to be part of something truly infinite.
           </motion.p>
         </motion.div>
       </motion.div>

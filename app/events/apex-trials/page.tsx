@@ -46,9 +46,18 @@ const ApexTrials = () => {
             <Navbar />
             <div className="container mx-auto px-4 py-20 z-[20]">
 
-                <h1 className="text-[40px] md:text-[60px] font-semibold font-red-rose text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-center py-20">
+                <h1 className="text-[40px] md:text-[60px] font-semibold font-red-rose text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-center pt-20 pb-10">
                     APEX TRIALS 2.0
                 </h1>
+
+                <div className="max-w-4xl mx-auto px-4 mb-16">
+                    <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold font-red-rose mb-6 welcome-text text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+                        What Is Apex Trails?
+                    </h2>
+                    <p className="text-lg md:text-xl lg:text-2xl text-gray-200 font-space leading-relaxed">
+                        Apex Trails 2.0 is a pulse-pounding national-level game arena where speed, strategy, intelligence, and teamwork collide. From high-energy physical challenges to mind-bending puzzles and bluff-based eliminations, every round pushes players to their limits. With rising intensity, shrinking chances, and nonstop action, only the sharpest and toughest survive—culminating in an epic final run where one champion rises above all.
+                    </p>
+                </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4 md:px-10">
                     {games.map((game, index) => (

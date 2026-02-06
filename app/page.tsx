@@ -21,7 +21,7 @@ const Home: React.FC = () => {
   useEffect(() => {
     const delay = setTimeout(() => {
       setLoading(false);
-    }, 2000);
+    }, 1000);
 
     return () => clearTimeout(delay);
   }, []);
@@ -31,22 +31,22 @@ const Home: React.FC = () => {
     <main
       className="h-full w-full bg-[#030014] " >
       {loading ? (
-        <div className="flex items-center justify-center h-screen">
-          <Loading/>
+        <div className="flex items-center justify-center h-screen ">
+          <Loading />
         </div>
       ) : (
         <>
-      <FlareCursor/>
-      <StarsCanvas />
-      <Hero />
-      <About />
-      <Proshows />
-      <Gallery />
-      <SponsorSection/>
-      <PastPerformers />
-      <ZoomParallax/>
-      <Footer />
-      <Navbar />
+          <FlareCursor />
+          <StarsCanvas />
+          <Hero />
+          <About />
+          <Proshows />
+          <Gallery />
+          <SponsorSection />
+          <PastPerformers />
+          <ZoomParallax />
+          <Footer />
+          <Navbar />
         </>
       )}
     </main>

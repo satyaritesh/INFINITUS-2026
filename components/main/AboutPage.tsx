@@ -28,8 +28,7 @@ const AboutPage = () => {
               &nbsp; Andhra &nbsp; Pradesh
             </h2>
             <p className="text-2xl lg:text-3xl font-space text-justify">
-              SRM University, Andhra Pradesh, located near Neerukonda village, was established in 2017 and offers a variety of undergraduate, postgraduate, and Ph.D. programs in engineering, liberal arts, and sciences across three schools, the School of Engineering &amp; Applied Sciences, launched in 2017, and the School of Liberal Arts &amp; Social Sciences, initiated in 2018, and Paari School of Business launched in 2020. The campus, designed by notable architects, hosts over 3000 students and faculty in its hostels. Under the leadership of President P. Sathyanarayanan and Vice-Chancellor Manoj K. Arora, the university has quickly risen to prominence, securing the position as the 3rd best private university in the Nature Index Ranking.
-              <br />
+              SRM University–AP, located in Amaravati, Andhra Pradesh, is a premier private research driven institution envisioned to redefine higher education in India. Backed by the strong legacy of the SRM Group and guided by President Dr. P. Sathyanarayanan and Vice Chancellor Prof. Ch. Satish Kumar, the university seamlessly blends academic excellence, innovation, and global exposure to nurture future ready leaders. With a multidisciplinary learning ecosystem that emphasizes research, entrepreneurship, technology, and creativity, SRM AP offers world class infrastructure, globally trained faculty, and a vibrant, diverse student community from across the country. Recognized through major rankings, accreditations, and academic achievements, the university stands out for its global outlook through international collaborations and exchange programs, a strong focus on cutting edge research and startups, a state of the art campus with modern academic and cultural spaces, holistic student development across academics, culture, sports, and leadership, and deep industry and societal engagement, making SRM AP a true hub of ideas, innovation, and impact.              <br />
             </p>
           </div>
         </div>
@@ -51,14 +50,13 @@ const AboutPage = () => {
                 }
                 containerClassName="flex gap-2 items-center flex-wrap"
               >
-                <p className='text-white'> SRM &nbsp; University&apos;s &nbsp; </p><p className='Welcome-text font-red-rose'>Annual National Level Techno Cultural Fest</p> &nbsp; <p className='text-white'>Unveiled!</p>
+                <p className='text-white'> SRM &nbsp; University-AP&apos;s &nbsp; </p><p className='Welcome-text font-red-rose'>Annual National Level Techno Cultural Fest</p> &nbsp; <p className='text-white'>!</p>
               </Tooltip>
             </h2>
             <p
               className="text-2xl lg:text-3xl font-space text-justify"
             >
-              The 2025 edition of Infinitus marked a historical milestone in the legacy of cultural festivities, uniting an impressive assembly of 10,000 students from diverse backgrounds. The event witnessed an unprecedented level of enthusiasm, with over 5,000 participants actively engaging in various competitions and showcases, embodying the spirit of innovation and creativity. The digital footprint of Infinitus &apos;25 expanded beyond expectations, achieving a remarkable outreach of 15,000 through social media platforms, where engagement soared as attendees shared their exhilarating experiences. The official website became a hotspot for information and updates, attracting over 5,000 visitors, a testament to the fest&apos;s growing popularity and the anticipation it builds each year. This chapter in the Infinitus saga not only celebrated the cultures but also set a new benchmark for future editions.
-            </p>
+              The 2025 edition of Infinitus marked a defining chapter in the university’s cultural legacy, bringing together an extraordinary gathering of over 10,000 students from diverse backgrounds. With more than 5,000 participants actively competing across events, performances, and showcases, the fest radiated unmatched energy and celebrated the spirit of innovation, creativity, and collaboration shaping the present generation. Infinitus ’25 significantly strengthened its digital presence, achieving an impressive social media outreach of over 15,000 through stories, reels, and live interactions. Adding to its digital success, the Infinitus ’25 website earned recognition from Awwwards, marking a milestone in design and digital excellence. The official website continued to serve as a dynamic information hub, attracting more than 5,000 visitors seeking updates, schedules, and highlights. This landmark edition not only celebrated culture and talent but also embraced the future, setting a higher benchmark and redefining expectations for the editions to come.            </p>
           </div>
           <div className="mx-auto z-50">
             <Image
@@ -86,15 +84,22 @@ const AboutPage = () => {
           </div>
           <div className="lg:w-1/2">
             <h2 className="text-4xl lg:text-5xl font-semibold mb-4 lg:mb-6 text-left lg:text-left bg-clip-text text-transparent bg-gradient-to-b from-white to-[#AAAAAA] font-red-rose">
-              A note from the Directorate of Student Affairs
+              A note from the Director of Student Affairs
             </h2>
             <p className="text-2xl lg:text-3xl font-space font-thin text-justify">
-              From the director&apos;s desk of student affairs, I extend a warm welcome to all participants of Infinitus 2025.
-              This unique amalgamation of technical and cultural events reflects the diverse talents and interests within our student community.
-              As we embark on this journey of innovation and celebration, I encourage each participant to embrace the spirit of collaboration, learning, and creativity.
-              The carefully curated guest lectures and workshops have been thoughtfully designed to provide a holistic learning experience, aimed at inspiring and broadening the perspectives of our esteemed participants.
-              I extend my sincere appreciation to the organizers of &quot;Infinitus&quot; for their exceptional dedication and meticulous planning in orchestrating this year&apos;s event.
-              Also ensuring that students&apos; learning journey is not just educational but downright unforgettable.
+              Dear Students,
+
+              It gives me immense pleasure to welcome you all to INFINITUS, the national-level techno-cultural fest of SRM University–AP.
+
+              Infinitus 2026 stands as the ultimate testament to our collective spirit. A national arena where technical ingenuity converges with cultural brilliance. This festival is your platform to lead, to create, and to inspire.
+
+              Dream big. Prepare diligently. Step forward with confidence. Let us make this edition the most memorable one yet.
+              <br />
+              <br />
+              With best wishes  and  regards,
+              <br />
+              Major General Gurdeep Narang (Veteran) <br />
+              Director of Student Affairs
             </p>
           </div>
         </div>
@@ -104,7 +109,17 @@ const AboutPage = () => {
           <div className="lg:w-1/2">
             <h2 className="text-4xl lg:text-5xl font-semibold mb-4 lg:mb-6 text-left lg:text-left bg-clip-text text-transparent bg-gradient-to-b from-white to-[#AAAAAA] font-red-rose">A note from the Associate Director of Student Affairs</h2>
             <p className="text-2xl lg:text-3xl font-space text-justify">
-              Greetings from the Associate Director of Student Affairs! I am thrilled to welcome all participants to Infinitus 2025, a fusion of technical and cultural brilliance showcasing the diverse talents within our student community. As we embark on this innovative journey, I encourage each participant to embrace collaboration, learning, and creativity. Our carefully crafted guest lectures and workshops aim to provide a holistic and inspiring learning experience. Kudos to the dedicated organizers for their meticulous planning, ensuring this year&apos;s event is not just educational but truly unforgettable.
+              Infinitus is a celebration of innovation, creativity, and student spirit. It brings together technology and culture on a single platform, encouraging students to explore ideas, showcase talent, and collaborate beyond classrooms.
+              <br />
+              <br />
+              I appreciate the dedication of our student leaders, faculty advisors, and organizing teams in shaping this vibrant fest. I invite everyone to be part of Infinitus and experience the energy, excellence, and enthusiasm of our campus.
+              <br />
+              <br />
+              Warm regards,
+              <br />
+              Revathi B
+              <br />
+              Associate Director of Student Affairs
             </p>
           </div>
           <div className="mx-auto z-50">
