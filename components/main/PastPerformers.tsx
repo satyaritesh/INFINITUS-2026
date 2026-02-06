@@ -116,58 +116,58 @@ const MyServices: React.FC = () => {
         <Link href={'/events'}>
           <motion.div initial="hidden" animate={controls} variants={fadeInVariants} ref={ref} className="slider-track1">
             <div className="slide">
-              <Image src="/images/TECHNICAL/BGMI Master Series.png" width={340} height={380} alt="BGMI Master Series" className="img w-[340px] h-[380px] object-cover object-bottom" />
+              <Image src="/images/TECHNICAL/BGMI Master Series.png" width={340} height={380} alt="BGMI Master Series" className="img w-[340px] h-[380px] object-cover object-fit" />
             </div>
             <div className="slide">
-              <Image src="/images/TECHNICAL/FPV Race.png" width={340} height={380} alt="FPV Race" className="img w-[340px] h-[380px] object-cover object-bottom" />
+              <Image src="/images/TECHNICAL/FPV Race.png" width={340} height={380} alt="FPV Race" className="img w-[340px] h-[380px] object-cover object-fit" />
             </div>
             <div className="slide">
-              <Image src="/images/TECHNICAL/Line Following Bot.png" width={340} height={380} alt="Line Following Bot" className="img w-[340px] h-[380px] object-cover object-bottom" />
+              <Image src="/images/TECHNICAL/Line Following Bot.png" width={340} height={380} alt="Line Following Bot" className="img w-[340px] h-[380px] object-cover object-fit" />
             </div>
             <div className="slide">
-              <Image src="/images/TECHNICAL/Filmathon.png" width={340} height={380} alt="Filmathon" className="img w-[340px] h-[380px] object-cover object-bottom" />
+              <Image src="/images/TECHNICAL/Filmathon.png" width={340} height={380} alt="Filmathon" className="img w-[340px] h-[380px] object-cover object-fit" />
             </div>
             <div className="slide">
-              <Image src="/images/TECHNICAL/Inside Google's Lab.png" width={340} height={380} alt="Inside Google's Lab" className="img w-[340px] h-[380px] object-cover object-bottom" />
+              <Image src="/images/TECHNICAL/Inside Google's Lab.png" width={340} height={380} alt="Inside Google's Lab" className="img w-[340px] h-[380px] object-cover object-fit" />
             </div>
             <div className="slide">
-              <Image src="/images/TECHNICAL/Null point CTF.png" width={340} height={380} alt="Null point CTF" className="img w-[340px] h-[380px] object-cover object-bottom" />
+              <Image src="/images/TECHNICAL/Null point CTF.png" width={340} height={380} alt="Null point CTF" className="img w-[340px] h-[380px] object-cover object-fit" />
             </div>
             <div className="slide">
-              <Image src="/images/TECHNICAL/PCB Workshop.png" width={340} height={380} alt="PCB Workshop" className="img w-[340px] h-[380px] object-cover object-bottom" />
+              <Image src="/images/TECHNICAL/PCB Workshop.png" width={340} height={380} alt="PCB Workshop" className="img w-[340px] h-[380px] object-cover object-fit" />
             </div>
             <div className="slide">
-              <Image src="/images/NON TECHNICAL/Chaos Hour.png" width={340} height={380} alt="Chaos Hour" className="img w-[340px] h-[380px] object-cover object-bottom" />
+              <Image src="/images/NON TECHNICAL/Chaos Hour.png" width={340} height={380} alt="Chaos Hour" className="img w-[340px] h-[380px] object-cover object-fit" />
             </div>
             <div className="slide">
-              <Image src="/images/NON TECHNICAL/Herbal Quest.png" width={340} height={380} alt="Herbal Quest" className="img w-[340px] h-[380px] object-cover object-bottom" />
+              <Image src="/images/NON TECHNICAL/Herbal Quest.png" width={340} height={380} alt="Herbal Quest" className="img w-[340px] h-[380px] object-cover object-fit" />
             </div>
             <div className="slide">
-              <Image src="/images/TECHNICAL/Obstacle Course.png" width={340} height={380} alt="Obstacle Course" className="img w-[340px] h-[380px] object-cover object-bottom" />
+              <Image src="/images/TECHNICAL/Obstacle Course.png" width={340} height={380} alt="Obstacle Course" className="img w-[340px] h-[380px] object-cover object-fit" />
             </div>
             <div className="slide">
-              <Image src="/images/TECHNICAL/Real Cricket.png" width={340} height={380} alt="Real Cricket" className="img w-[340px] h-[380px] object-cover object-bottom" />
+              <Image src="/images/TECHNICAL/Real Cricket.png" width={340} height={380} alt="Real Cricket" className="img w-[340px] h-[380px] object-cover object-fit" />
             </div>
             <div className="slide">
-              <Image src="/images/TECHNICAL/VR Tennis.png" width={340} height={380} alt="VR Tennis" className="img w-[340px] h-[380px] object-cover object-bottom" />
+              <Image src="/images/TECHNICAL/VR Tennis.png" width={340} height={380} alt="VR Tennis" className="img w-[340px] h-[380px] object-cover object-fit" />
             </div>
             <div className="slide">
-              <Image src="/images/Cultural/Anime Hunt.png" width={340} height={380} alt="Anime Hunt" className="img w-[340px] h-[380px] object-cover object-bottom" />
+              <Image src="/images/Cultural/Anime Hunt.png" width={340} height={380} alt="Anime Hunt" className="img w-[340px] h-[380px] object-cover object-fit" />
             </div>
             <div className="slide">
-              <Image src="/images/Cultural/Behind The Mask.png" width={340} height={380} alt="Behind The Mask" className="img w-[340px] h-[380px] object-cover object-bottom" />
+              <Image src="/images/Cultural/Behind The Mask.png" width={340} height={380} alt="Behind The Mask" className="img w-[340px] h-[380px] object-cover object-fit" />
             </div>
             <div className="slide">
-              <Image src="/images/Cultural/GlobalBeats.png" width={340} height={380} alt="GlobalBeats" className="img w-[340px] h-[380px] object-cover object-bottom" />
+              <Image src="/images/Cultural/GlobalBeats.png" width={340} height={380} alt="GlobalBeats" className="img w-[340px] h-[380px] object-cover object-fit" />
             </div>
             <div className="slide">
-              <Image src="/images/Cultural/Symphony.png" width={340} height={380} alt="Symphony" className="img w-[340px] h-[380px] object-cover object-bottom" />
+              <Image src="/images/Cultural/Symphony.png" width={340} height={380} alt="Symphony" className="img w-[340px] h-[380px] object-cover object-fit" />
             </div>
             <div className="slide">
-              <Image src="/images/Cultural/art heist.png" width={340} height={380} alt="Art Heist" className="img w-[340px] h-[380px] object-cover object-bottom" />
+              <Image src="/images/Cultural/art heist.png" width={340} height={380} alt="Art Heist" className="img w-[340px] h-[380px] object-cover object-fit" />
             </div>
             <div className="slide">
-              <Image src="/images/Cultural/saga of devine.png" width={340} height={380} alt="Saga of Devine" className="img w-[340px] h-[380px] object-cover object-bottom" />
+              <Image src="/images/Cultural/saga of devine.png" width={340} height={380} alt="Saga of Devine" className="img w-[340px] h-[380px] object-cover object-fit" />
             </div>
           </motion.div>
         </Link>
