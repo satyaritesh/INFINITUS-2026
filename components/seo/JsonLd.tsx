@@ -22,7 +22,7 @@ const JsonLd = () => {
             },
         },
         image: [
-            'https://infinitus-srmap.com/images/footerImages/INFINITUS2026LOGO.jpeg',
+            'https://infinitus-2026-srmap.vercel.app/images/footerImages/INFINITUS2026LOGO.jpeg',
         ],
         description: 'The Annual National Level Techno Cultural Fest of SRM University Andhra Pradesh.',
         organizer: {
