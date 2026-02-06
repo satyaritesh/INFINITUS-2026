@@ -125,7 +125,7 @@ const MyServices: React.FC = () => {
               <Image src="/images/TECHNICAL/Line Following Bot.png" width={340} height={380} alt="Line Following Bot" className="img w-[340px] h-[380px] object-cover object-bottom" />
             </div>
             <div className="slide">
-              <Image src="/images/TECHNICAL/Filmathon.webp" width={340} height={380} alt="Filmathon" className="img w-[340px] h-[380px] object-cover object-bottom" />
+              <Image src="/images/TECHNICAL/Filmathon.png" width={340} height={380} alt="Filmathon" className="img w-[340px] h-[380px] object-cover object-bottom" />
             </div>
             <div className="slide">
               <Image src="/images/TECHNICAL/Inside Google's Lab.png" width={340} height={380} alt="Inside Google's Lab" className="img w-[340px] h-[380px] object-cover object-bottom" />
@@ -155,13 +155,13 @@ const MyServices: React.FC = () => {
               <Image src="/images/Cultural/Anime Hunt.png" width={340} height={380} alt="Anime Hunt" className="img w-[340px] h-[380px] object-cover object-bottom" />
             </div>
             <div className="slide">
-              <Image src="/images/Cultural/Behind The Mask.webp" width={340} height={380} alt="Behind The Mask" className="img w-[340px] h-[380px] object-cover object-bottom" />
+              <Image src="/images/Cultural/Behind The Mask.png" width={340} height={380} alt="Behind The Mask" className="img w-[340px] h-[380px] object-cover object-bottom" />
             </div>
             <div className="slide">
-              <Image src="/images/Cultural/GlobalBeats.webp" width={340} height={380} alt="GlobalBeats" className="img w-[340px] h-[380px] object-cover object-bottom" />
+              <Image src="/images/Cultural/GlobalBeats.png" width={340} height={380} alt="GlobalBeats" className="img w-[340px] h-[380px] object-cover object-bottom" />
             </div>
             <div className="slide">
-              <Image src="/images/Cultural/Symphony.webp" width={340} height={380} alt="Symphony" className="img w-[340px] h-[380px] object-cover object-bottom" />
+              <Image src="/images/Cultural/Symphony.png" width={340} height={380} alt="Symphony" className="img w-[340px] h-[380px] object-cover object-bottom" />
             </div>
             <div className="slide">
               <Image src="/images/Cultural/art heist.png" width={340} height={380} alt="Art Heist" className="img w-[340px] h-[380px] object-cover object-bottom" />
