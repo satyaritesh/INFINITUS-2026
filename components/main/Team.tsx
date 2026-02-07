@@ -23,7 +23,7 @@ const teamMembers = [
 const committees = [
   { id: 1, name: "Business Relations", imageSrc: "/images/final website photos/Business Relations.jpeg", head: "Amruth", coHead: "Jathin" },
   { id: 2, name: "Design", imageSrc: "/images/final website photos/Design.jpeg", head: "Adithya", coHead: "Mihirkanth" },
-  { id: 3, name: "Discipline Committee", imageSrc: "/images/final website photos/Discipline commitee.jpeg", head: "Roop Sai Karthik", coHead: "Revanth Settipalli" },
+  { id: 3, name: "Discipline Committee", imageSrc: "/images/final website photos/Discipline Commitee.jpeg", head: "Roop Sai Karthik", coHead: "Revanth Settipalli" },
   { id: 4, name: "Documentation", imageSrc: "/images/final website photos/Documenttion.jpeg", head: "Shashank", coHead: "MG Preethi" },
   { id: 5, name: "Media Production", imageSrc: "/images/final website photos/Media Production.jpeg", head: "Koushik", coHead: "Vasisht" },
   { id: 6, name: "Non-Technical", imageSrc: "/images/final website photos/Non-Tech.jpeg", head: "Sathwik G", coHead: "Prateek" },
@@ -36,8 +36,8 @@ const committees = [
   { id: 13, name: "Outreach", imageSrc: "/images/final website photos/outreach.jpeg", head: "Nameer", coHead: "Hasitha" },
   { id: 14, name: "Hospitality", imageSrc: "/images/final website photos/Hospitality.jpeg", head: "Wasim Raja", coHead: "Nirmal" },
   { id: 15, name: "Publicity", imageSrc: "/images/final website photos/Publicity Committee.jpeg", head: "Mohnish", coHead: "Raghavi" },
-  { id: 16, name: "Stalls", imageSrc: "/images/final website photos/Stalls.jpeg", head: "Dinesh", },
-  { id: 17, name: "Registrations", imageSrc: "/images/final website photos/Registrations.jpeg", head: "Jashwanth", coHead: "Manish" },
+  { id: 16, name: "Stalls", imageSrc: "/images/final website photos/stalls.jpeg", head: "Dinesh", },
+  { id: 17, name: "Registrations", imageSrc: "/images/final website photos/registrations.jpeg", head: "Jashwanth", coHead: "Manish" },
   { id: 18, name: "HackSRM", imageSrc: "/images/final website photos/HackSRM.jpeg", head: "Nitish Sriram", coHead: "Bhowmik" },
 ];
 
