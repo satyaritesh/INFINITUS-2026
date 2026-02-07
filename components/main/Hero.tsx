@@ -43,7 +43,7 @@ const Hero: React.FC = () => {
 
   return (
     <section className='flex flex-col items-center justify-center min-h-screen bg-contain bg-center bg-fixed' style={{ backgroundImage: `url(${background1})` }}>
-      <div className='mb-20'>
+      <div className='mb-20 mt-14'>
         <motion.div variants={fromTop(0.8)} initial="initial" animate="animate">
           <Image
             src="/img.png"
