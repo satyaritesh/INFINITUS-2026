@@ -32,7 +32,7 @@ export const SponsorSection = () => {
       id="Sponsors"
       className="px-2 pb-4 pt-5 sm:px-10 sm:pt-10"
     >
-      <h1 className='text-center text-5xl sm:text-7xl font-semibold Welcome-text text-transparent bg-gradient-to-r from-fuchsia-200 to-cyan-200 bg-clip-text font-space m-20 sm:m-10'>
+      <h1 className='text-center text-5xl sm:text-7xl font-semibold Welcome-text text-transparent bg-gradient-to-r from-fuchsia-200 to-cyan-200 bg-clip-text font-red-rose m-20 sm:m-10'>
         Sponsors
       </h1>
       <div className="flex flex-wrap justify-center gap-10 py-10">

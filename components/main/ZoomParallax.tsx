@@ -32,7 +32,7 @@ export default function Index() {
 
     return (
         <div ref={container} >
-            <h1 className='text-center text-5xl sm:text-7xl font-semibold Welcome-text font-space text-transparent  m-10'>Glimpses of Infinitus 2025</h1>
+            <h1 className='text-center text-5xl sm:text-7xl font-semibold Welcome-text font-red-rose text-transparent  m-10'>Glimpses of Infinitus 2025</h1>
             <div className='relative'>
                 <ThreeDMarquee images={pictures} />
             </div>

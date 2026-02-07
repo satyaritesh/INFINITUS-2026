@@ -87,13 +87,13 @@ const Hero: React.FC = () => {
         </div>
 
         <motion.div
-          className="flex flex-wrap items-center justify-center gap-16 md:gap-32 mt-10 px-4"
+          className="grid grid-cols-2 lg:flex flex-wrap items-center justify-center gap-8 md:gap-16 lg:gap-32 mt-10 px-4"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 2.5, duration: 0.8 }}
         >
           {/* Powered By */}
-          <div className="flex flex-col items-center gap-6">
+          <div className="col-span-2 flex flex-col items-center gap-6">
             <h3 className="text-white/80 text-sm md:text-base font-red-rose uppercase tracking-wider">Powered By</h3>
             <Image
               src="/images/sponsers/Unstop-Logo.png"
@@ -105,35 +105,35 @@ const Hero: React.FC = () => {
           </div>
 
           {/* Technical Title Sponsor */}
-          <div className="flex flex-col items-center gap-6">
-            <h3 className="text-white/80 text-sm md:text-base font-red-rose uppercase tracking-wider">Technical Title Sponsor</h3>
-            <div className="flex gap-12 md:gap-16">
+          <div className="col-span-1 flex flex-col items-center gap-6">
+            <h3 className="text-white/80 text-center text-xs md:text-base font-red-rose uppercase tracking-wider">Technical Title Sponsor</h3>
+            <div className="flex flex-row gap-4 md:gap-16 items-center">
               <Image
                 src="/images/sponsers/codegnan.png"
                 alt="Codegnan"
                 width={180}
                 height={90}
-                className="h-16 md:h-24 w-auto object-contain hover:scale-105 transition-transform duration-300"
+                className="h-12 md:h-24 w-auto object-contain hover:scale-105 transition-transform duration-300"
               />
               <Image
                 src="/images/sponsers/sreedhar.png"
                 alt="Sreedhar CCE"
                 width={180}
                 height={90}
-                className="h-16 md:h-24 w-auto object-contain hover:scale-105 transition-transform duration-300"
+                className="h-12 md:h-24 w-auto object-contain hover:scale-105 transition-transform duration-300"
               />
             </div>
           </div>
 
           {/* Cultural Title Sponsor */}
-          <div className="flex flex-col items-center gap-6">
-            <h3 className="text-white/80 text-sm md:text-base font-red-rose uppercase tracking-wider">Cultural Title Sponsor</h3>
+          <div className="col-span-1 flex flex-col items-center gap-6">
+            <h3 className="text-white/80 text-center text-xs md:text-base font-red-rose uppercase tracking-wider">Cultural Title Sponsor</h3>
             <Image
               src="/images/sponsers/sunsiri.png"
               alt="Sunsiri"
               width={180}
               height={90}
-              className="h-16 md:h-24 w-auto object-contain hover:scale-105 transition-transform duration-300"
+              className="h-12 md:h-24 w-auto object-contain hover:scale-105 transition-transform duration-300"
             />
           </div>
         </motion.div>

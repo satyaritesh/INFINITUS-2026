@@ -26,7 +26,7 @@ const Proshows: React.FC = () => {
     <main>
       <section className="section prowshows bg-cover bg-fixed -z-5" id="proshows" style={{ backgroundImage: `url(${urlbackground})` }} aria-labelledby="proshows-label">
         <motion.div className="container" initial="hidden" animate={controls} variants={fadeInVariants} ref={ref}>
-          <h1 className='text-center text-5xl sm:text-7xl font-semibold Welcome-text font-space -mt-4 text-transparent '>Proshows</h1>
+          <h1 className='text-center text-5xl sm:text-7xl font-semibold Welcome-text font-red-rose -mt-4 text-transparent '>Proshows</h1>
           <div className="proshows-list flex flex-col sm:flex-row gap-8 sm:gap-0">
             <div className="wrapper contents sm:block">
 
