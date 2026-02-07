@@ -50,25 +50,22 @@ const ApexTrials = () => {
                     APEX TRIALS 2.0
                 </h1>
 
-                <div className="max-w-4xl mx-auto px-4 mb-16">
-                    <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold font-red-rose mb-6 welcome-text text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+                <div className="px-4 md:px-10 mb-20 text-center">
+                    <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold font-red-rose mb-8 welcome-text text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 inline-block">
                         What Is Apex Trails?
                     </h2>
-                    <p className="text-lg md:text-xl lg:text-2xl text-gray-200 font-space leading-relaxed">
-                        Apex Trails 2.0 is a pulse-pounding national-level game arena where speed, strategy, intelligence, and teamwork collide. From high-energy physical challenges to mind-bending puzzles and bluff-based eliminations, every round pushes players to their limits. With rising intensity, shrinking chances, and nonstop action, only the sharpest and toughest survive—culminating in an epic final run where one champion rises above all.
+                    <p className="text-xl md:text-xl lg:text-3xl text-gray-200 font-space leading-relaxed text-left mx-auto">
+                        Inspired by the high-stakes survival challenges of <span className="text-purple-400 font-semibold inline">Squid Game</span>, Apex Trails 2.0 is a national-level competitive arena that puts strategy, mental agility, decision-making, and teamwork at the forefront—followed by precision, coordination, and controlled physical effort. Across three intense days, participants face 29 unique games spread across nine game rooms, each designed with unexpected rules, twists, and rising pressure. From mind games, logic puzzles, memory trials, and deduction rounds to carefully crafted movement-based challenges, every decision counts. A single mistake can lead to elimination, while adaptability and smart strategy ensure survival. The competition concludes with <span className="text-cyan-400 font-semibold inline">The Final Vault Run</span>, where finalists race against time, crack logic-based vaults, and complete precision tasks to claim ultimate victory. <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-cyan-400 inline">Think fast. Adapt faster. Survive longer. Become the Champion.</span>
                     </p>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4 md:px-10">
                     {games.map((game, index) => (
-                        <div key={index} className="relative group rounded-[22px] p-6 sm:p-10 bg-white/10 dark:bg-zinc-900/50 backdrop-blur-sm border border-white/20 h-full flex flex-col overflow-hidden hover:border-purple-500/50 transition-colors duration-300">
+                        <div key={index} className="relative group rounded-[22px] p-6 sm:p-10 bg-white/10 dark:bg-zinc-900/50 backdrop-blur-sm border border-white/20 h-full flex flex-col items-center justify-center text-center overflow-hidden hover:border-purple-500/50 transition-colors duration-300 min-h-[200px]">
                             <div className="absolute inset-0 bg-gradient-to-br from-purple-500/10 to-cyan-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-                            <h3 className="relative z-10 text-3xl lg:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-cyan-400 mb-6 font-red-rose">
+                            <h3 className="relative z-10 text-4xl md:text-5xl lg:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-cyan-400 font-red-rose">
                                 {index + 1}. {game.title}
                             </h3>
-                            <p className="relative z-10 text-gray-200 font-sans text-lg lg:text-xl leading-relaxed flex-grow">
-                                {game.description}
-                            </p>
                         </div>
                     ))}
                 </div>

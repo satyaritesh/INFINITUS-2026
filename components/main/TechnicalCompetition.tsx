@@ -137,7 +137,7 @@ The workshop aims to equip learners with industry-relevant hardware design skill
           </div>
           <div>
             < Card
-              imageSrc="/images/TECHNICAL/Tech - Drone Soccer.jpg"
+              imageSrc="/images/TECHNICAL/Tech - Drone Soccer.png"
               title="Drone Soccer"
               initialDescription="International FPV Drone Race is a high-speed competitive event conducted at global racing standards, where skilled pilots race FPV drones through a professionally designed track. Following MultiGP-style formats, the event showcases precision flying, advanced drone technology, and real-time competition, making it one of the most exciting technical highlights of the fest.
 " linkTo={'https://www.canva.com/design/DAF_BUmtfPE/oortHCPz2bSUfzKOuzhpdw/view?utm_content=DAF_BUmtfPE&utm_campaign=designshare&utm_medium=link&utm_source=editor'} />
@@ -151,7 +151,7 @@ The workshop aims to equip learners with industry-relevant hardware design skill
           <div>
             < Card
               imageSrc="/images/TECHNICAL/Line Following Bot.png"
-              title="Your Event Title"
+              title="Line Following Bot"
               initialDescription="The Line Following Bot Race is a speed-based autonomous robotics challenge where participants build a robot capable of tracking and following a line-based path. The bot must complete the predefined track in the least possible time using sensors and programmed logic.
 The course may include curves, junctions, and varying speeds to test precision and stability.
 

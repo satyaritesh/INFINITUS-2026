@@ -6,36 +6,39 @@ import Navbar from '@/components/main/Navbar';
 import Footer from "./Footer";
 
 const teamMembers = [
-  { id: 1, name: "Nivedha Sriram", designation: "President", imageSrc: "/images/TEAM IMAGES/President.JPG", contain: true },
-  { id: 2, name: "Sai Nithenn Redhi", designation: "Working President", imageSrc: "/images/TEAM IMAGES/Working President.webp" },
-  { id: 3, name: "Rishabh Ranjan", designation: "Vice President", imageSrc: "/images/TEAM IMAGES/rishab.JPG" },
-  { id: 4, name: "Sairam Koushal Kadambari", designation: "General Secretary", imageSrc: "/images/TEAM IMAGES/Gensec.jpg" },
-  { id: 5, name: "Leonel", designation: "General Secretary (IR)", imageSrc: "/images/TEAM IMAGES/General Secretary.webp" },
-  { id: 6, name: "Sri Nandan Talluri", designation: "Treasurer", imageSrc: "/images/TEAM IMAGES/Treasurer.webp" },
-  { id: 7, name: "Rakesh Settipalli", designation: "Executive , Public Relations", imageSrc: "/images/TEAM IMAGES/PR HEAD.JPG" },
+  { id: 1, name: "Nivedha Sriram", designation: "President", imageSrc: "/images/TEAM IMAGES/President.png", contain: true },
+  { id: 2, name: "Sai Nithenn Redhi", designation: "Working President", imageSrc: "/images/TEAM IMAGES/Working President.png" },
+  { id: 3, name: "Rishabh Ranjan", designation: "Vice President", imageSrc: "/images/TEAM IMAGES/rishab.png" },
+  { id: 4, name: "Sairam Koushal Kadambari", designation: "General Secretary", imageSrc: "/images/TEAM IMAGES/Gensec.png" },
+  { id: 5, name: "Leonel", designation: "General Secretary (IR)", imageSrc: "/images/TEAM IMAGES/General Secretary.png" },
+  { id: 6, name: "Sri Nandan Talluri", designation: "Treasurer", imageSrc: "/images/TEAM IMAGES/Treasurer.png" },
+  { id: 7, name: "Rakesh Settipalli", designation: "Executive , Public Relations", imageSrc: "/images/TEAM IMAGES/PR HEAD.png" },
   { id: 8, name: "Dinesh Reddy Andluru", designation: "Executive, Technical ", imageSrc: "/images/TEAM IMAGES/Technical executive.png" },
   { id: 9, name: "Sathwik Kompalli", designation: "Executive, Events", imageSrc: "/images/TEAM IMAGES/Cultural-exe.png" },
-  { id: 10, name: "Sai Avinash", designation: "Executive, Writers and Co.", imageSrc: "/images/TEAM IMAGES/avinash.jpg" },
-  { id: 11, name: "Nakshatra", designation: "Executive, Academics", imageSrc: "/images/TEAM IMAGES/nakstra writers executive.JPG" },
-  { id: 12, name: "Krishna", designation: "Executive, Discipline Committee", imageSrc: "/images/TEAM IMAGES/DC Exe.jpeg" },
+  { id: 10, name: "Sai Avinash", designation: "Executive, Writers and Co.", imageSrc: "/images/TEAM IMAGES/avinash.png" },
+  { id: 11, name: "Nakshatra", designation: "Executive, Academics", imageSrc: "/images/TEAM IMAGES/nakstra writers executive.png" },
+  { id: 12, name: "Krishna", designation: "Executive, Discipline Committee", imageSrc: "/images/TEAM IMAGES/DC Exe.png" },
 ];
 
 const committees = [
-  { id: 1, name: "Business Relations", imageSrc: "/images/final website photos/Business Relations.JPG", head: "Amruth", coHead: "Jathin" },
-  { id: 2, name: "Design", imageSrc: "/images/final website photos/Design.JPG", head: "Adithya", coHead: "Mihirkanth" },
-  { id: 3, name: "Discipline Committee", imageSrc: "/images/final website photos/Discipline commitee.JPG", head: "Roop Sai Karthik", coHead: "Revanth Settipalli" },
-  { id: 4, name: "Documentation", imageSrc: "/images/final website photos/Documenttion.JPG", head: "Shashank", coHead: "MG Preethi" },
-  { id: 5, name: "Media Production", imageSrc: "/images/final website photos/Media Production.JPG", head: "Koushik", coHead: "Vasisht" },
-  { id: 6, name: "Non-Technical", imageSrc: "/images/final website photos/Non-Tech.JPG", head: "Sathwik G", coHead: "Prateek" },
-  { id: 7, name: "Post Production", imageSrc: "/images/final website photos/Post Production.JPG", head: "Praharsha", coHead: "Abhinay" },
-  { id: 8, name: "Pre-Infinitus", imageSrc: "/images/final website photos/Pre-infinitus.JPG", head: "Sathwik K", coHead: "Dhanush G" },
-  { id: 9, name: "Technical", imageSrc: "/images/final website photos/Technical.JPG", head: "Vedansh", coHead: "Tejesh" },
-  { id: 10, name: "Culturals", imageSrc: "/images/final website photos/culturals.JPG", head: "Abhinav", coHead: "Sanjana" },
-  { id: 11, name: "Decor", imageSrc: "/images/final website photos/decor.JPG", head: "Anjali", coHead: "Humera" },
-  { id: 12, name: "Fun Activities", imageSrc: "/images/final website photos/fun activites.JPG", head: "Prosnita", coHead: "Thanvi" },
-  { id: 13, name: "Outreach", imageSrc: "/images/final website photos/outreach.JPG", head: "Nameer", coHead: "Hasitha" },
-  { id: 14, name: "Hospitality", imageSrc: "/images/final website photos/Hospitality.JPG", head: "Wasim Raja", coHead: "Nirmal" },
-  { id: 15, name: "Publicity", imageSrc: "/images/final website photos/Publicity Committee.jpg", head: "Mohnish", coHead: "Raghavi" },
+  { id: 1, name: "Business Relations", imageSrc: "/images/final website photos/Business Relations.jpeg", head: "Amruth", coHead: "Jathin" },
+  { id: 2, name: "Design", imageSrc: "/images/final website photos/Design.jpeg", head: "Adithya", coHead: "Mihirkanth" },
+  { id: 3, name: "Discipline Committee", imageSrc: "/images/final website photos/Discipline commitee.jpeg", head: "Roop Sai Karthik", coHead: "Revanth Settipalli" },
+  { id: 4, name: "Documentation", imageSrc: "/images/final website photos/Documenttion.jpeg", head: "Shashank", coHead: "MG Preethi" },
+  { id: 5, name: "Media Production", imageSrc: "/images/final website photos/Media Production.jpeg", head: "Koushik", coHead: "Vasisht" },
+  { id: 6, name: "Non-Technical", imageSrc: "/images/final website photos/Non-Tech.jpeg", head: "Sathwik G", coHead: "Prateek" },
+  { id: 7, name: "Post Production", imageSrc: "/images/final website photos/Post Production.jpeg", head: "Praharsha", coHead: "Abhinay" },
+  { id: 8, name: "Pre-Infinitus", imageSrc: "/images/final website photos/Pre-infinitus.jpeg", head: "Sathwik K", coHead: "Dhanush G" },
+  { id: 9, name: "Technical", imageSrc: "/images/final website photos/Technical.jpeg", head: "Vedansh", coHead: "Tejesh" },
+  { id: 10, name: "Culturals", imageSrc: "/images/final website photos/culturals.jpeg", head: "Abhinav", coHead: "Sanjana" },
+  { id: 11, name: "Decor", imageSrc: "/images/final website photos/decor.jpeg", head: "Anjali", coHead: "Humera" },
+  { id: 12, name: "Fun Activities", imageSrc: "/images/final website photos/fun activites.jpeg", head: "Prosnita", coHead: "Thanvi" },
+  { id: 13, name: "Outreach", imageSrc: "/images/final website photos/outreach.jpeg", head: "Nameer", coHead: "Hasitha" },
+  { id: 14, name: "Hospitality", imageSrc: "/images/final website photos/Hospitality.jpeg", head: "Wasim Raja", coHead: "Nirmal" },
+  { id: 15, name: "Publicity", imageSrc: "/images/final website photos/Publicity Committee.jpeg", head: "Mohnish", coHead: "Raghavi" },
+  { id: 16, name: "Stalls", imageSrc: "/images/final website photos/Stalls.jpeg", head: "Dinesh", },
+  { id: 17, name: "Registrations", imageSrc: "/images/final website photos/Registrations.jpeg", head: "Jashwanth", coHead: "Manish" },
+  { id: 18, name: "HackSRM", imageSrc: "/images/final website photos/HackSRM.jpeg", head: "Nitish Sriram", coHead: "Bhowmik" },
 ];
 
 const TeamMemberSection = () => {
@@ -105,7 +108,7 @@ interface TeamCardProps {
   heading: string;
   imageUrl: string;
   member1: string;
-  member2: string;
+  member2?: string;
   role1: string;
   role2: string;
 }
@@ -145,10 +148,10 @@ export const TeamCard: React.FC<TeamCardProps> = ({
         </div>
 
         {/* Right Side: Co-Head */}
-        <div className="text-right flex flex-col items-end w-1/2 pl-2">
+        {member2 && <div className="text-right flex flex-col items-end w-1/2 pl-2">
           <p className="sm:text-3xl font-semibold Welcome-text text-transparent bg-gradient-to-r from-fuchsia-200 to-cyan-200 bg-clip-text font-space break-words lg:text-4xl">{member2}</p>
           <p className="sm:text-2xl text-green-200 italic font-bold sm:-mt-2 lg:mt-2">Co-Head</p>
-        </div>
+        </div>}
       </div>
     </div>
   );

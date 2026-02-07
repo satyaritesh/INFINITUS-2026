@@ -10,6 +10,20 @@ const SilverSponsorsData = [
     sponsorsCategory: "",
     alt: "Codegnan LOGO",
   },
+  {
+    name: "CCE",
+    image: "/images/sponsers/CCE LOGO.jpeg",
+    link: "https://www.sreedharscce.com",
+    sponsorsCategory: "",
+    alt: "CCE LOGO",
+  },
+  {
+    name: "Sunsiri",
+    image: "/images/sponsers/sunsiri.png",
+    link: "https://www.sunsiri.in",
+    sponsorsCategory: "",
+    alt: "Sunsiri LOGO",
+  },
 ];
 
 export const SponsorSection = () => {
