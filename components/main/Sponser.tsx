@@ -41,7 +41,7 @@ export const SponsorSection = () => {
             className="z-10 flex flex-col items-center justify-center space-y-5 rounded py-5"
             key={sponsor.name}
           >
-            <div className="rounded-3xl bg-white p-4 shadow-lg transition-all hover:scale-105 hover:shadow-xl">
+            <div className="rounded-3xl p-4 shadow-lg transition-all hover:scale-105 hover:shadow-xl">
               <Link href={sponsor.link} target="_blank">
                 <Image
                   src={sponsor.image}

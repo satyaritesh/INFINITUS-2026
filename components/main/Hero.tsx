@@ -85,7 +85,60 @@ const Hero: React.FC = () => {
             </button>
           </motion.div>
         </div>
+
+        <motion.div
+          className="flex flex-wrap items-center justify-center gap-16 md:gap-32 mt-10 px-4"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 2.5, duration: 0.8 }}
+        >
+          {/* Powered By */}
+          <div className="flex flex-col items-center gap-6">
+            <h3 className="text-white/80 text-sm md:text-base font-red-rose uppercase tracking-wider">Powered By</h3>
+            <Image
+              src="/images/sponsers/Unstop-Logo.png"
+              alt="Unstop"
+              width={160}
+              height={80}
+              className="h-16 md:h-24 w-auto object-contain brightness-0 invert hover:scale-105 transition-transform duration-300"
+            />
+          </div>
+
+          {/* Technical Title Sponsor */}
+          <div className="flex flex-col items-center gap-6">
+            <h3 className="text-white/80 text-sm md:text-base font-red-rose uppercase tracking-wider">Technical Title Sponsor</h3>
+            <div className="flex gap-12 md:gap-16">
+              <Image
+                src="/images/sponsers/codegnan.png"
+                alt="Codegnan"
+                width={180}
+                height={90}
+                className="h-16 md:h-24 w-auto object-contain hover:scale-105 transition-transform duration-300"
+              />
+              <Image
+                src="/images/sponsers/sreedhar.png"
+                alt="Sreedhar CCE"
+                width={180}
+                height={90}
+                className="h-16 md:h-24 w-auto object-contain hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+          </div>
+
+          {/* Cultural Title Sponsor */}
+          <div className="flex flex-col items-center gap-6">
+            <h3 className="text-white/80 text-sm md:text-base font-red-rose uppercase tracking-wider">Cultural Title Sponsor</h3>
+            <Image
+              src="/images/sponsers/sunsiri.png"
+              alt="Sunsiri"
+              width={180}
+              height={90}
+              className="h-16 md:h-24 w-auto object-contain hover:scale-105 transition-transform duration-300"
+            />
+          </div>
+        </motion.div>
       </div>
+
     </section>
   );
 };

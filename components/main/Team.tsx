@@ -39,6 +39,7 @@ const committees = [
   { id: 16, name: "Stalls", imageSrc: "/images/final website photos/stalls.jpeg", head: "Dinesh", },
   { id: 17, name: "Registrations", imageSrc: "/images/final website photos/registrations.jpeg", head: "Jashwanth", coHead: "Manish" },
   { id: 18, name: "HackSRM", imageSrc: "/images/final website photos/HackSRM.jpeg", head: "Nitish Sriram", coHead: "Bhowmik" },
+  { id: 19, name: "Website", imageSrc: "/images/final website photos/website.jpg", head: "Sadhvik", coHead: "Ritesh" },
 ];
 
 const TeamMemberSection = () => {
