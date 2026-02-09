@@ -5,10 +5,10 @@ import FlareCursor from "@/components/main/Cursor";
 
 function Events() {
   const eventData = [
-    { title: "Cultural Fest Events", imageSrc: "/images/eventThumnails/cultural.png", name: "Cultural Events", href: "/events/cultural" },
-    { title: "Technical Fest Events", imageSrc: "/images/eventThumnails/tech events.png", name: "Technical Event", href: "/events/technical" },
+    { title: "Cultural Events", imageSrc: "/images/eventThumnails/cultural.png", name: "Cultural Events", href: "/events/cultural" },
+    { title: "Technical Events", imageSrc: "/images/eventThumnails/tech events.png", name: "Technical Event", href: "/events/technical" },
     { title: "Non Technical Events", imageSrc: "/images/eventThumnails/non tech.png", name: "Technical Event", href: "/events/nontechnical" },
-    { title: "APEX TRIALS 2.0", imageSrc: "/images/eventThumnails/apex trails.png", name: "APEX TRIALS 2.0", href: "/events/apex-trials", buttonText: "Continue" }
+    { title: "APEX TRAILS 2.0", imageSrc: "/images/eventThumnails/apex trails.png", name: "APEX TRIALS 2.0", href: "/events/apex-trials", buttonText: "Continue" }
   ];
   return (
     <div className='pt-20'>

@@ -804,6 +804,47 @@ body.active {
   box-shadow: 0 0px 10px #de1c3280;
 }
 
+/* Apex Slider */
+.slider-apex {
+  height: auto;
+  margin: auto;
+  position: relative;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  justify-content: flex-start;
+}
+
+.slider-track-apex {
+  display: flex;
+  width: max-content;
+  animation: scroll-apex 60s linear infinite;
+  /* gap is handled by Tailwind utility class, but let's add default just in case */
+  gap: 2rem;
+}
+
+.slider-track-apex:hover {
+  animation-play-state: paused;
+}
+
+@keyframes scroll-apex {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.slide-apex {
+  height: 200px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
 .error__icon {
   width: 20px;
   height: 20px;

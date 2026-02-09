@@ -63,7 +63,7 @@ Ocean&apos;s Eleven and museum heist scenarios.Teams solve themed puzzles to ste
             <EventDetails
               venue="+91 9537530501"
               date="25-28 February 2026"
-              time="Trophy"
+              time="0 /-"
               href='Registration Link!!!'
             />
           </div>
@@ -87,7 +87,7 @@ Ocean&apos;s Eleven and museum heist scenarios.Teams solve themed puzzles to ste
             <EventDetails
               venue="+91 9265025088"
               date="25-28 February 2026"
-              time="NA"
+              time="0 /-"
               href='Registration Link!!!'
             />
           </div>
@@ -172,7 +172,7 @@ explore campus plants and complete herbal-themed tasks
             <EventDetails
               venue="+91 9023230922"
               date="25-28 February 2026"
-              time="NA"
+              time="0 /-"
               href='Registration Link!!!'
             />
           </div>

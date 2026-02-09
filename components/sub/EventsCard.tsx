@@ -14,7 +14,7 @@ interface EventsCardProps {
 const EventsCard: React.FC<EventsCardProps> = ({ title, imageSrc, name, href, buttonText = 'Continue' }) => {
   return (
     <div>
-      <h1 className='text-center sm:text-5xl text-4xl font-semibold text-gray-400 font-space py-10'>{title}</h1>
+      <h1 className='text-center sm:text-5xl w-full text-4xl font-semibold text-gray-400 font-red-rose py-10'>{title}</h1>
       <Link href={href}>
         <ElectricBorder
           color="#bf80ff"

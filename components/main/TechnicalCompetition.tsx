@@ -58,7 +58,7 @@ The session will bridge the gap between academic learning and industry practices
             <EventDetails
               venue="+91 7061828823"
               date="25-28 February 2026"
-              time="Sponsored"
+              time="0 /-"
               href='Registration Link!!!'
             />
           </div>

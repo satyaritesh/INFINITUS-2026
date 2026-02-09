@@ -11,11 +11,9 @@ const Footer: React.FC = () => {
       <footer className="pt-8 z-50 ">
         <div className="container mx-auto flex flex-col lg:flex-row justify-between">
           <div className="mb-8 lg:mb-0 lg:mr-4">
-            <h4 className="text-3xl lg:text-3xl mb-4 font-space font-bold">SRM University, Andhra Pradesh</h4>
+            <h4 className="text-3xl lg:text-3xl mb-4 font-space font-bold">SRM University-Andhra Pradesh</h4>
             <p className='text-xl lg:text-2xl font-light'>
-              Neerukonda, Mangalagiri, Guntur, Andhra Pradesh, 522240, Neerukonda, Andhra Pradesh,
-              <br />
-              PIN: 522240
+              Neerukonda, Mangalagiri Mandal, Guntur District, Andhra Pradesh, 522240
             </p>
           </div>
 
@@ -45,13 +43,13 @@ const Footer: React.FC = () => {
             <h3 className="text-3xl lg:text-4xl font-bold font-space mb-4">Follow us on</h3>
             <div className="flex flex-col gap-4">
               <Link href="https://linktr.ee/srmuapstudentcouncil?utm_source=qr_code" target="_blank" rel="noopener noreferrer" aria-label="Linktree">
-              <Image
-                src="/images/footerImages/LINKTREELOGO.jpeg"
-                alt="Linktree"
-                width={200}
-                height={200}
-                className="object-contain w-[150px] h-[150px] mix-blend-screen hover:scale-105 transition-all cursor-pointer"
-              />
+                <Image
+                  src="/images/footerImages/LINKTREELOGO.jpeg"
+                  alt="Linktree"
+                  width={200}
+                  height={200}
+                  className="object-contain w-[150px] h-[150px] mix-blend-screen hover:scale-105 transition-all cursor-pointer"
+                />
               </Link>
             </div>
           </div>
@@ -59,7 +57,7 @@ const Footer: React.FC = () => {
 
       </footer>
 
-      <div className="w-full mx-auto flex flex-wrap lg:flex-nowrap justify-center items-center gap-4 lg:gap-20  select-none">
+      <div className="w-full mx-auto flex flex-wrap lg:flex-nowrap justify-center items-center gap-4 lg:gap-20 lg:-mt-[10rem] -mt-8 select-none">
 
         {/* 1. SC LOGO */}
         <div className="order-2 lg:order-1 w-1/5 lg:w-auto flex justify-center">
@@ -85,7 +83,7 @@ const Footer: React.FC = () => {
 
         {/* 3. INFINITUS LOGO (Center) */}
         {/* Mobile: Width 100% to force break line, Order 1 to go top */}
-        <div className="order-1 lg:order-3 w-full lg:w-auto flex justify-center mb-4 lg:mb-0">
+        <div className="order-1 lg:order-3 w-full lg:w-auto flex justify-center lg:mb-0 -mb-10">
           <Image
             src="/images/footerImages/INFINITUS2026LOGO.jpeg"
             alt="INFINITUS"
@@ -119,7 +117,7 @@ const Footer: React.FC = () => {
 
       </div>
 
-      <div className="w-full text-center mt-8 flex flex-row items-center justify-center cursor-pointer gap-2 hover:scale-110 whitespace-nowrap">
+      <div className="w-full text-center flex flex-row items-center justify-center cursor-pointer gap-2 hover:scale-110 whitespace-nowrap -lg:mt-2">
         <Link href="https://github.com/sadhvikbaba" target="_blank" aria-label="GitHub" className="z-50 font-space text-lg lg:text-2xl hover:scale-110">
           <FaGithub className="text-2xl lg:text-3xl" />
         </Link>

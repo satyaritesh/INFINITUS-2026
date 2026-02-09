@@ -70,7 +70,7 @@ const AboutPage = () => {
           </div>
         </div>
         <hr />
-        <h1 className=' text-center text-6xl font-semibold Welcome-text bg-clip-text text-transparent bg-gradient-to-b from-white to-[#AAAAAA] py-20 font-red-rose'>Director of Student Affairs</h1>
+        <h1 className=' text-center text-6xl font-semibold Welcome-text bg-clip-text text-transparent bg-gradient-to-b from-white to-[#AAAAAA] py-20 font-red-rose'>Director Student Affairs</h1>
         <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-between p-8 gap-16">
           <div className="mx-auto z-50">
             <Image
@@ -84,7 +84,7 @@ const AboutPage = () => {
           </div>
           <div className="lg:w-1/2">
             <h2 className="text-4xl lg:text-5xl font-semibold mb-4 lg:mb-6 text-left lg:text-left bg-clip-text text-transparent bg-gradient-to-b from-white to-[#AAAAAA] font-red-rose">
-              A note from the Director of Student Affairs
+              A note from the Director Student Affairs
             </h2>
             <p className="text-2xl lg:text-3xl font-space font-thin text-justify">
               Dear Students,
@@ -99,15 +99,15 @@ const AboutPage = () => {
               With best wishes  and  regards,
               <br />
               Major General Gurdeep Narang (Veteran) <br />
-              Director of Student Affairs
+              Director Student Affairs
             </p>
           </div>
         </div>
         <hr />
-        <h1 className=' text-center text-6xl font-semibold Welcome-text text-transparent bg-gradient-to-r from-fuchsia-200 to-cyan-200 bg-clip-text py-20 font-red-rose'>Associate Director of Student Affairs</h1>
+        <h1 className=' text-center text-6xl font-semibold Welcome-text text-transparent bg-gradient-to-r from-fuchsia-200 to-cyan-200 bg-clip-text py-20 font-red-rose'>Associate Director Student Affairs</h1>
         <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-between p-8 gap-16">
           <div className="lg:w-1/2">
-            <h2 className="text-4xl lg:text-5xl font-semibold mb-4 lg:mb-6 text-left lg:text-left bg-clip-text text-transparent bg-gradient-to-b from-white to-[#AAAAAA] font-red-rose">A note from the Associate Director of Student Affairs</h2>
+            <h2 className="text-4xl lg:text-5xl font-semibold mb-4 lg:mb-6 text-left lg:text-left bg-clip-text text-transparent bg-gradient-to-b from-white to-[#AAAAAA] font-red-rose">A note from the Associate Director Student Affairs</h2>
             <p className="text-2xl lg:text-3xl font-space text-justify">
               Infinitus is a celebration of innovation, creativity, and student spirit. It brings together technology and culture on a single platform, encouraging students to explore ideas, showcase talent, and collaborate beyond classrooms.
               <br />
@@ -119,7 +119,7 @@ const AboutPage = () => {
               <br />
               Revathi B
               <br />
-              Associate Director of Student Affairs
+              Associate Director Student Affairs
             </p>
           </div>
           <div className="mx-auto z-50">
