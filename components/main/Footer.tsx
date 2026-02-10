@@ -129,7 +129,7 @@ const Footer: React.FC = () => {
         </span>
       </div>
 
-      <div className="w-full text-center flex flex-row items-center justify-center cursor-pointer gap-2 hover:scale-110 whitespace-nowrap">
+      <div className="w-full text-center flex flex-row items-center justify-center cursor-pointer gap-2 whitespace-nowrap">
         <span className="text-lg lg:text-2xl font-space flex items-center gap-1">
           Special Thanks to ♥️ <span className="text-purple-400">: </span>
           <div className="text-purple-400 z-50"> Nishant Tiwari </div>

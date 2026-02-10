@@ -31,7 +31,7 @@ const NonTechnical: React.FC<Types> = ({ types }) => {
               initialDescription="A hands-on creative session where participants learn to craft customized
 phone charms using Mouldit clay
 
-              " linkTo={'https://docs.google.com/document/d/1RujM3_pJty5f-lyL_tgv6Q6y9krVIbzXfVutLw2KF9g/edit?tab=t.0'} />
+              " linkTo={'https://www.canva.com/design/DAHA5seIFOA/RMFL_PV-8wmSAexmBoG7_g/edit?utm_content=DAHA5seIFOA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'} />
             <EventDetails
               venue="+91 7061828823"
               date="25-28 February 2026"
@@ -46,7 +46,7 @@ phone charms using Mouldit clay
               initialDescription="A story-driven escape challenge inspired by
 Ocean&apos;s Eleven and museum heist scenarios.Teams solve themed puzzles to steal the “Golden Canvas” without triggering alarms."
 
-              linkTo={'https://docs.google.com/document/d/1RujM3_pJty5f-lyL_tgv6Q6y9krVIbzXfVutLw2KF9g/edit?tab=t.4btmhywne3gf'}
+              linkTo={'https://www.canva.com/design/DAHA55D9biY/V24vh8CLPjEc9FnahsU2cA/edit?utm_content=DAHA55D9biY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'}
             />
             <EventDetails
               venue="+91 8247426373"
@@ -59,7 +59,8 @@ Ocean&apos;s Eleven and museum heist scenarios.Teams solve themed puzzles to ste
             < Card
               imageSrc="/images/NON TECHNICAL/among us.png"
               title="Your Event Title"
-              initialDescription="Experience a real-life Among Us, where trust & teamwork are vital & deception decides destiny!. Crewmates complete tasks to survive, while hidden Imposters deceive and eliminate without being caught." linkTo={'https://docs.google.com/document/d/1RujM3_pJty5f-lyL_tgv6Q6y9krVIbzXfVutLw2KF9g/edit?tab=t.9484451xu8z2'} />
+              initialDescription="Experience a real-life Among Us, where trust & teamwork are vital & deception decides destiny!. Crewmates complete tasks to survive, while hidden Imposters deceive and eliminate without being caught." 
+              linkTo={'https://www.canva.com/design/DAHA5_QS5uo/2nJkltOMaibCkspEWWQ45A/edit?utm_content=DAHA5_QS5uo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'} />
             <EventDetails
               venue="+91 9537530501"
               date="25-28 February 2026"
@@ -71,7 +72,8 @@ Ocean&apos;s Eleven and museum heist scenarios.Teams solve themed puzzles to ste
             < Card
               imageSrc="/images/NON TECHNICAL/escape room.png"
               title="Your Event Title"
-              initialDescription="Experience the thrill and challenge of a haunted escape room! Teams must unlock four different locks to escape the horror-themed room before time runs out" linkTo={'https://docs.google.com/document/d/1RujM3_pJty5f-lyL_tgv6Q6y9krVIbzXfVutLw2KF9g/edit?tab=t.vf6x1ppiyqrx'} />
+              initialDescription="Experience the thrill and challenge of a haunted escape room! Teams must unlock four different locks to escape the horror-themed room before time runs out" 
+              linkTo={'https://www.canva.com/design/DAHA56BONUU/xD1Bdv5uK-zzEh_tDc1tqQ/edit?utm_content=DAHA56BONUU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'} />
             <EventDetails
               venue="+91 6300357731"
               date="25-28 February 2026"
@@ -83,7 +85,8 @@ Ocean&apos;s Eleven and museum heist scenarios.Teams solve themed puzzles to ste
             < Card
               imageSrc="/images/NON TECHNICAL/cube clash.png"
               title="Dance Competition"
-              initialDescription="Two competitions for participants. One 3 x 3 cube clash and another mosaic challenge" linkTo={'https://docs.google.com/document/d/1RujM3_pJty5f-lyL_tgv6Q6y9krVIbzXfVutLw2KF9g/edit?tab=t.w0e7omequrp9'} />
+              initialDescription="Two competitions for participants. One 3 x 3 cube clash and another mosaic challenge" 
+              linkTo={'https://www.canva.com/design/DAHA55akbQk/yeEoHJXvWV6gmu5Extcvew/edit?utm_content=DAHA55akbQk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'} />
             <EventDetails
               venue="+91 9265025088"
               date="25-28 February 2026"
@@ -96,7 +99,7 @@ Ocean&apos;s Eleven and museum heist scenarios.Teams solve themed puzzles to ste
               imageSrc="/images/TECHNICAL/bizathon.png"
               title="Your Event Title"
               initialDescription="A one-day, high-energy entrepreneurial hackathon that blends innovation, humor, and chaos.Rounds are a mix up of Shark Tank, Hackathon, Meme Fest & Stand-Up Comedy, offering students an unforgettable mix of learning and laughter."
-              linkTo={'https://docs.google.com/document/d/1RujM3_pJty5f-lyL_tgv6Q6y9krVIbzXfVutLw2KF9g/edit?tab=t.fz9dsg3fdek7'} />
+              linkTo={'https://www.canva.com/design/DAHA591P1xs/AyB2kX_2OW5l6p_qYxd-qQ/edit?utm_content=DAHA591P1xs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'} />
             <EventDetails
               venue="+91 7061828823"
               date="25-28 February 2026"
@@ -112,7 +115,7 @@ Ocean&apos;s Eleven and museum heist scenarios.Teams solve themed puzzles to ste
 creative instinct. Teams of two where each team is given a specific visual theme such as Color, Symmetry,
 or Nature and teams are assigned distinct color palettes or visual categories to capture
 within a fixed time limit.
-" linkTo={'https://docs.google.com/document/d/1RujM3_pJty5f-lyL_tgv6Q6y9krVIbzXfVutLw2KF9g/edit?tab=t.8tdxvn50wxqa'} />
+" linkTo={'https://www.canva.com/design/DAHA5-cAAzw/9bTbLL4DqVPpKD4_neTjKQ/edit?utm_content=DAHA5-cAAzw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'} />
             <EventDetails
               venue="+91 6300357731"
               date="25-28 February 2026"
@@ -126,7 +129,7 @@ within a fixed time limit.
               title="Chronicle of Crimes"
               initialDescription="A multi-stage competition that challenges
 participants to think like detectives.
-" linkTo={'https://docs.google.com/document/d/1RujM3_pJty5f-lyL_tgv6Q6y9krVIbzXfVutLw2KF9g/edit?tab=t.m7eaolgdp99q'} />
+" linkTo={'https://www.canva.com/design/DAHA55eLyls/cSN8-T4BNuYDwdHSDt3eSA/edit?utm_content=DAHA55eLyls&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'} />
             <EventDetails
               venue="+91 9023230922"
               date="25-28 February 2026"
@@ -141,7 +144,7 @@ participants to think like detectives.
               initialDescription="The event “Saga of the Divine” celebrates the grandeur of ancient gods
 and mythology bybringing to life majestic styles and mythical tales through a captivating fashion walk.The event will be a vibrant cultural spectacle that highlights artistry, storytelling, and fashion
 innovation."
-              linkTo={'https://docs.google.com/document/d/1RujM3_pJty5f-lyL_tgv6Q6y9krVIbzXfVutLw2KF9g/edit?tab=t.to4q5ce4dsgf'}
+              linkTo={'https://www.canva.com/design/DAHA56l11EM/NrVZjIyDqkwuL9ds9S_e6w/edit?utm_content=DAHA56l11EM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'}
             />
             <EventDetails
               venue="+91 9182012021"
@@ -154,7 +157,8 @@ innovation."
             < Card
               imageSrc="/images/NON TECHNICAL/global fusion.png"
               title="Global Fusion"
-              initialDescription="The event tests participants on quick thinking, global awareness, teamwork, speech clarity, and crisis handling." linkTo={'https://docs.google.com/document/d/1RujM3_pJty5f-lyL_tgv6Q6y9krVIbzXfVutLw2KF9g/edit?tab=t.n2rx4qc15xkq'} />
+              initialDescription="The event tests participants on quick thinking, global awareness, teamwork, speech clarity, and crisis handling." 
+              linkTo={'https://www.canva.com/design/DAHA5x8K9O0/-CLu-_51cz6smd44ryhyRA/edit?utm_content=DAHA5x8K9O0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'} />
             <EventDetails
               venue="+91 9537530501"
               date="25-28 February 2026"
@@ -168,7 +172,7 @@ innovation."
               title="Your Event Title"
               initialDescription="Herbal Quest is a simple nature-based treasure hunt where teams
 explore campus plants and complete herbal-themed tasks
-" linkTo={'https://docs.google.com/document/d/1RujM3_pJty5f-lyL_tgv6Q6y9krVIbzXfVutLw2KF9g/edit?tab=t.xey80b9ai4r5'} />
+" linkTo={'https://www.canva.com/design/DAHA51-KwQ8/JafePWz-aV1txQvTA89eAQ/edit?utm_content=DAHA51-KwQ8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'} />
             <EventDetails
               venue="+91 9023230922"
               date="25-28 February 2026"
@@ -185,7 +189,7 @@ and through that find the hidden, also some hidden side
 quests that can help along the way. This event will have
 clues for multiple anime not just one piece
 "
-              linkTo={'https://docs.google.com/document/d/1RujM3_pJty5f-lyL_tgv6Q6y9krVIbzXfVutLw2KF9g/edit?tab=t.2a2v1e16gyxu'}
+              linkTo={'https://www.canva.com/design/DAHA5zrm_mk/JNnze3kTJRrl5vMxJwgVVg/edit?utm_content=DAHA5zrm_mk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'}
             />
             <EventDetails
               venue="+91 7032749777"
@@ -200,7 +204,7 @@ clues for multiple anime not just one piece
               title="Your Event Title"
               initialDescription="Chaos Hour blends fun, mindfulness, and connection - transforming “wellness” from a quiet idea into a dynamic, laughter-filled experience.
 Along with another online event Reel-A-Live, where anyone can express themselves through 30-second reels on Instagram, celebrating individuality, humor, and positivity.
-" linkTo={'https://docs.google.com/document/d/1RujM3_pJty5f-lyL_tgv6Q6y9krVIbzXfVutLw2KF9g/edit?tab=t.vc3zuptpuyy'} />
+" linkTo={'https://www.canva.com/design/DAHA5wLGo28/n5bRNTQ7Ree3qmRMzLG9_w/edit?utm_content=DAHA5wLGo28&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'} />
             <EventDetails
               venue="+91 9315268810"
               date="25-28 February 2026"

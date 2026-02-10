@@ -10,10 +10,10 @@ import Image from "next/image";
 import confetti from "canvas-confetti";
 
 const games = [
-    { title: "Rope Maze", image: "/images/ApexTrails/Rope maze .png" },
-    { title: "Red Light & Green Light", image: "/images/ApexTrails/red light green light .png" },
-    { title: "Mingle", image: "/images/ApexTrails/Mingle.png" },
-    { title: "Apex Trail - The Final Vault Run", image: "/images/ApexTrails/Apex trails 2.0.png" },
+    { title: "The Rope Labyrinth", image: "/images/ApexTrails/Rope maze .png" },
+    { title: "Red Light, Green Light", image: "/images/ApexTrails/red light green light .png" },
+    { title: "The Mingle Mixer", image: "/images/ApexTrails/Mingle.png" },
+    { title: "Synergy Challenge", image: "/images/ApexTrails/teamwork.png" },
 ];
 
 const TimelineItem = ({
@@ -44,7 +44,7 @@ const TimelineItem = ({
 
             {/* Content Card */}
             <div
-                className={`w-5/12 transition-all duration-500 flex ${index % 2 === 0 ? "justify-end text-right pr-8" : "justify-start text-left pl-8"} ${isActive ? "opacity-100 scale-100" : "opacity-30 scale-95"
+                className={`w-5/12 flex flex-col transition-all duration-500 ${index % 2 === 0 ? "items-end text-right pr-8" : "items-start text-left pl-8"} ${isActive ? "opacity-100 scale-100" : "opacity-30 scale-95"
                     }`}
             >
                 <div className={`relative h-40 w-64 rounded-lg overflow-hidden border-2 transition-colors duration-500 ${isActive ? "border-purple-500 shadow-[0_0_15px_rgba(168,85,247,0.5)]" : "border-transparent"}`}>
@@ -55,6 +55,11 @@ const TimelineItem = ({
                         className="object-cover"
                     />
                 </div>
+                <div className="mt-4 max-w-[16rem]">
+                    <h2 className={`text-2xl font-bold font-red-rose ${isActive ?"text-transparent bg-clip-text bg-gradient-to-r" : "text-neutral-300"} ${index % 2 === 0 ? "from-cyan-400 to-purple-400" : "from-purple-400 to-cyan-400"}`}>
+                        {item.title}
+                    </h2>
+                </div>
             </div>
         </div>
     );
@@ -63,41 +68,38 @@ const TimelineItem = ({
 export default function ApexScroll() {
     const ref = useRef<HTMLDivElement>(null);
     const containerRef = useRef<HTMLDivElement>(null);
-    const buttonRef = useRef<HTMLDivElement>(null);
+    const bottomImageRef = useRef<HTMLDivElement>(null);
     const [height, setHeight] = useState(0);
     const [activeCard, setActiveCard] = useState<number[]>([]);
-
     const [cardPositions, setCardPositions] = useState<number[]>([]);
 
     const updateHeight = () => {
-        if (buttonRef.current && ref.current) {
+        if (bottomImageRef.current && ref.current) {
             const containerRect = ref.current.getBoundingClientRect();
-            const buttonRect = buttonRef.current.getBoundingClientRect();
-            // Calculate distance from container top to the CENTER of the button
-            const newHeight = buttonRect.top - containerRect.top + (buttonRect.height / 2);
+            const bottomImageRect = bottomImageRef.current.getBoundingClientRect();
+
+            // Calculate distance from container top to the CENTER of the bottom image
+            const newHeight = bottomImageRect.top - containerRect.top + (bottomImageRect.height / 2);
             setHeight(newHeight);
 
             // Measure card positions
-            // Assume the first children in ref.current are the timeline items
             const itemElements = Array.from(ref.current.children).slice(0, games.length);
             const positions = itemElements.map((el) => {
                 const rect = (el as HTMLElement).getBoundingClientRect();
-                // Get the center of the item relative to container top
                 return (rect.top + rect.height / 2) - containerRect.top;
             });
+
+            // Add bottom image position to active tracking
+            const bottomImagePos = (bottomImageRect.top + bottomImageRect.height / 2) - containerRect.top;
+            positions.push(bottomImagePos);
+
             setCardPositions(positions);
         }
     };
 
     useEffect(() => {
-        // Initial update
-        // We need a slight delay to ensure images/layout are stable if that matters,
-        // but typically useLayoutEffect or just resizing handles it.
         const timer = setTimeout(updateHeight, 100);
-
-        const resizeObserver = new ResizeObserver(() => {
-            updateHeight();
-        });
+        const resizeObserver = new ResizeObserver(() => updateHeight());
 
         if (containerRef.current) {
             resizeObserver.observe(containerRef.current);
@@ -110,7 +112,7 @@ export default function ApexScroll() {
             resizeObserver.disconnect();
             window.removeEventListener('resize', updateHeight);
         };
-    }, []); // Removed [games] dependency as it is constant here
+    }, []);
 
     const { scrollYProgress } = useScroll({
         target: ref,
@@ -120,12 +122,9 @@ export default function ApexScroll() {
     const heightTransform = useTransform(scrollYProgress, [0, 1], [0, height]);
     const opacityTransform = useTransform(scrollYProgress, [0, 0.1], [0, 1]);
 
-    // Robust fast-scroll handling: derive active cards from exact ray position
     useEffect(() => {
         const unsubscribe = scrollYProgress.on("change", (latest) => {
             const currentRayHeight = latest * height;
-
-            // Find all cards whose center position is reached or passed by the ray
             const newActiveCards = cardPositions.reduce<number[]>((acc, pos, index) => {
                 if (currentRayHeight >= pos) {
                     acc.push(index);
@@ -144,15 +143,26 @@ export default function ApexScroll() {
         return () => unsubscribe();
     }, [scrollYProgress, height, cardPositions]);
 
-    // Confetti effect for the final game
+    // Confetti effect when the ray reaches the bottom image (last index)
     useEffect(() => {
-        const finalGameIndex = games.findIndex(g => g.title === "Apex Trail – The Final Vault Run");
-        if (activeCard.includes(finalGameIndex)) {
-            confetti({
-                particleCount: 100,
-                spread: 70,
-                origin: { y: 0.6 }
-            });
+        // The bottom image is effectively the last item in our tracked positions
+        // Index would be games.length
+        if (activeCard.includes(games.length)) {
+            const fireConfetti = () => {
+                confetti({
+                    particleCount: 200,
+                    spread: 160,
+                    origin: { y: 0.6 },
+                    colors: ['#a855f7', '#06b6d4', '#ec4899', '#8b5cf6', '#3b82f6'],
+                    startVelocity: 45,
+                    gravity: 1.2,
+                    scalar: 1.2
+                });
+            };
+
+            fireConfetti();
+            setTimeout(fireConfetti, 200);
+            setTimeout(fireConfetti, 400);
         }
     }, [activeCard]);
 
@@ -196,7 +206,21 @@ export default function ApexScroll() {
                     />
                 </div>
             </div>
-            <div ref={buttonRef} className="flex justify-center mt-10 mb-20 scale-150 ">
+
+            {/* Bottom Image Section */}
+            <div ref={bottomImageRef} className="flex justify-center mt-10 mb-10 scale-100 z-50 relative">
+                <div className={`relative h-40 w-64 rounded-lg overflow-hidden border-2 transition-colors duration-500 bg-black ${activeCard.includes(games.length) ? "border-purple-500 shadow-[0_0_15px_rgba(168,85,247,0.5)]" : "border-transparent"}`}>
+                    <Image
+                        src="/images/ApexTrails/Apex trails 2.0.png"
+                        alt="Apex Trails 2.0"
+                        fill
+                        className="object-cover"
+                    />
+                </div>
+            </div>
+
+            {/* Register Button */}
+            <div className="flex justify-center mb-20 scale-125 lg:scale-150">
                 <Link
                     href="https://unstop.com/p/apex-trails-20-infinitus-2026-srm-university-srmap-andhra-pradesh-1638306"
                     target="_blank"

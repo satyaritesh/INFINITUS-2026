@@ -69,7 +69,7 @@ const Cultural: React.FC<Types> = ({ types }) => {
               imageSrc="/images/Cultural/GlobalBeats.png"
               title="Your Event Title"
               initialDescription="Cosmic Beats is a high-energy music and dance event that brings rhythm, movement, and passion to the stage. Participants captivate the audience with powerful performances and electrifying beats."
-              linkTo={'https://docs.google.com/document/d/1tZlmFjtVttMitLgiyCsQLoz77ZKlS41XwwSWGvOv0Gc/edit?tab=t.0#heading=h.ho2evc94q0fh'}
+              linkTo={'https://www.canva.com/design/DAHA5uO2W6k/zqXGXdRmnY6uNpVEVC3PNQ/edit?utm_content=DAHA5uO2W6k&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'}
             />
             <EventDetails
               venue="+91 9963123747"
@@ -86,7 +86,7 @@ const Cultural: React.FC<Types> = ({ types }) => {
               imageSrc="/images/Cultural/Symphony.png"
               title="Zenith"
               initialDescription="Symphony is a musical showcase that highlights instrumental and vocal talent. This event celebrates harmony, melody, and musical excellence across genres."
-              linkTo={'https://docs.google.com/document/d/1tZlmFjtVttMitLgiyCsQLoz77ZKlS41XwwSWGvOv0Gc/edit?tab=t.pmzkea6f1eh8'}
+              linkTo={'https://www.canva.com/design/DAHA5uXqSnA/I3mrAcUkYRBPXI-6qqyjiA/edit?utm_content=DAHA5uXqSnA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'}
             />
             <EventDetails
               venue="+91 8886266647"
@@ -103,8 +103,8 @@ const Cultural: React.FC<Types> = ({ types }) => {
               imageSrc="/images/Cultural/Behind The Mask.png"
               title="Your Event Title"
               initialDescription="Behind The Mask explores expression, mystery, and performance. Participants present characters and emotions beyond appearances, highlighting creativity, confidence, and dramatic flair."
-              linkTo={'https://docs.google.com/document/d/1tZlmFjtVttMitLgiyCsQLoz77ZKlS41XwwSWGvOv0Gc/edit?tab=t.7890j6houlk8'}
-              linkTo2={'https://docs.google.com/document/d/1tZlmFjtVttMitLgiyCsQLoz77ZKlS41XwwSWGvOv0Gc/edit?tab=t.of335xlhi8p'}
+              linkTo={'https://www.canva.com/design/DAHA5p8Fu9s/fFKYQzrCBHX8D_I3SiJoMw/edit?utm_content=DAHA5p8Fu9s&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'}
+              linkTo2={'https://www.canva.com/design/DAHA5jrTI3U/FS2kYEM3rLinp9ELokykSA/edit?utm_content=DAHA5jrTI3U&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'}
             />
             <EventDetails
               venue="+91 6303853941"
@@ -121,7 +121,7 @@ const Cultural: React.FC<Types> = ({ types }) => {
               imageSrc="/images/TECHNICAL/Filmathon.png"
               title="Your Event Title"
               initialDescription="FILMATHON is a high-intensity 28-hour short film competition designed to test participants’ creativity, teamwork, and filmmaking skills under strict time constraints. Teams will conceptualize, shoot, edit, and submit an original short film based on a randomly assigned theme or genre, all within the given time frame. The competition culminates in jury evaluation and audience screenings during INFINITUS’26."
-              linkTo={'https://docs.google.com/document/d/1tZlmFjtVttMitLgiyCsQLoz77ZKlS41XwwSWGvOv0Gc/edit?tab=t.vp70m7gbsdp8'} />
+              linkTo={'https://www.canva.com/design/DAHA5jgQetQ/kQlZrlAeyTHsfsv_bNKx8A/edit?utm_content=DAHA5jgQetQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'} />
             <EventDetails
               venue="+91 6009923073"
               date="25-28 February 2026"

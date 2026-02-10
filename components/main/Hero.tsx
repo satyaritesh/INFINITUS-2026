@@ -16,8 +16,8 @@ const Hero: React.FC = () => {
     // Fire multiple confetti bursts for better visibility
     const fireConfetti = () => {
       confettiRef.current?.fire({
-        particleCount: 200,
-        spread: 160,
+        particleCount: 100,
+        spread: 100,
         origin: { y: 0.5 },
         colors: ['#a855f7', '#06b6d4', '#ec4899', '#8b5cf6', '#3b82f6'],
         startVelocity: 45,

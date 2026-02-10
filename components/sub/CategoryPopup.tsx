@@ -70,6 +70,7 @@ const CategoryPopup: React.FC<CategoryPopupProps> = ({ isOpen, onClose, imageSrc
                                             key={index}
                                             href={btn.href || "#"}
                                             className="group relative w-full"
+                                            target="_blank"
                                         >
                                             <div className="absolute -inset-0.5 bg-gradient-to-r from-pink-600 to-purple-600 rounded-lg opacity-60 blur group-hover:opacity-100 transition duration-200" />
                                             <button className="relative w-full px-6 py-4 bg-black rounded-lg leading-none flex items-center justify-between transition duration-200 group-hover:bg-black/80">
