@@ -1,9 +1,11 @@
-import React from 'react';
+"use client";
+import React, { useState } from 'react';
 import Card from '../sub/CompetitionCard';
 import EventDetails from '../sub/EventDetails';
 import FlareCursor from './Cursor';
 import Navbar from '@/components/main/Navbar';
 import Footer from './Footer';
+import CategoryPopup from '../sub/CategoryPopup';
 
 
 interface Types {
@@ -11,12 +13,52 @@ interface Types {
 }
 
 const Cultural: React.FC<Types> = ({ types }) => {
+  const [activePopup, setActivePopup] = useState<string | null>(null);
 
-  const handleRegisterClick = () => {
+  const popups = {
+    globalBeats: {
+      imageSrc: "/images/Cultural/GlobalBeats.png",
+      title: "Cosmic Beats Categories",
+      buttons: [
+        { label: "Contemporary Solo", href: "https://unstop.com/p/global-beats-contemporary-solo-infinitus-2026-srm-university-srmap-andhra-pradesh-1638025" },
+        { label: "Contemporary Duo", href: "https://unstop.com/p/global-beats-contemporary-duo-infinitus-2026-srm-university-srmap-andhra-pradesh-1638028" },
+        { label: "Contemporary Group", href: "https://unstop.com/p/global-beats-contemporary-group-infinitus-2026-srm-university-srmap-andhra-pradesh-1638030" },
+        { label: "Classical Solo", href: "https://unstop.com/p/global-beats-classical-solo-infinitus-2026-srm-university-srmap-andhra-pradesh-1637974" },
+        { label: "Classical Group", href: "https://unstop.com/p/global-beats-classical-group-infinitus-2026-srm-university-srmap-andhra-pradesh-1638013" }
+      ]
+    },
+    symphony: {
+      imageSrc: "/images/Cultural/Symphony.png",
+      title: "Symphony Categories",
+      buttons: [
+        { label: "Solo Western", href: "https://unstop.com/p/symphony-solo-western-infinitus-2026-srm-university-srmap-andhra-pradesh-1638039" },
+        { label: "Solo Eastern", href: "https://unstop.com/p/symphony-solo-eastern-infinitus-2026-srm-university-srmap-andhra-pradesh-1638036" },
+        { label: "Instrumental", href: "https://unstop.com/p/symphony-instrumental-infinitus-2026-srm-university-srmap-andhra-pradesh-1638032" }
+      ]
+    },
+    behindTheMask: {
+      imageSrc: "/images/Cultural/Behind The Mask.png",
+      title: "Behind The Mask Categories",
+      buttons: [
+        { label: "Prop To Plot", href: 'https://unstop.com/p/behind-the-mask-prop-to-plot-infinitus-2026-srm-university-srmap-andhra-pradesh-1638043' },
+        { label: "Solo Spotlight", href: 'https://unstop.com/p/behind-the-mask-solo-spotlight-infinitus-2026-srm-university-srmap-andhra-pradesh-1638042' }
+      ]
+    }
   };
+
+  const currentPopup = activePopup ? popups[activePopup as keyof typeof popups] : null;
+
   return (
     <div className='max-h-screen'>
       <FlareCursor />
+      <CategoryPopup
+        isOpen={!!activePopup}
+        onClose={() => setActivePopup(null)}
+        imageSrc={currentPopup?.imageSrc || ""}
+        buttons={currentPopup?.buttons || []}
+        title={currentPopup?.title}
+      />
+
       <h1 className='pt-28 text-center text-3xl sm:text-7xl font-red-rose Welcome-text text-transparent bg-gradient-to-r from-fuchsia-200 to-cyan-200 bg-clip-text font-semibold m-10'>
         {types}
       </h1>
@@ -33,7 +75,9 @@ const Cultural: React.FC<Types> = ({ types }) => {
               venue="+91 9963123747"
               date="25-28 February 2026"
               time="1,00,000 /-"
-              href='registration link !!!!'
+              href='#'
+              onSrmClick={() => setActivePopup('globalBeats')}
+              onExternalClick={() => setActivePopup('globalBeats')}
             />
           </div>
 
@@ -48,7 +92,9 @@ const Cultural: React.FC<Types> = ({ types }) => {
               venue="+91 8886266647"
               date="25-28 February 2026"
               time="48,000 /-"
-              href='registration link !!!!'
+              href='#'
+              onSrmClick={() => setActivePopup('symphony')}
+              onExternalClick={() => setActivePopup('symphony')}
             />
           </div>
 
@@ -64,7 +110,9 @@ const Cultural: React.FC<Types> = ({ types }) => {
               venue="+91 6303853941"
               date="25-28 February 2026"
               time="5,000 /-"
-              href='registration link !!!!'
+              href='#'
+              onSrmClick={() => setActivePopup('behindTheMask')}
+              onExternalClick={() => setActivePopup('behindTheMask')}
             />
           </div>
 
@@ -78,7 +126,7 @@ const Cultural: React.FC<Types> = ({ types }) => {
               venue="+91 6009923073"
               date="25-28 February 2026"
               time="0 /-"
-              href='registration link !!!!'
+              href='https://unstop.com/p/filmathon-infinitus-2026-srm-university-srmap-andhra-pradesh-1638045'
             />
           </div>
 

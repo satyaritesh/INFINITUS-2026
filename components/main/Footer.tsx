@@ -118,7 +118,7 @@ const Footer: React.FC = () => {
       </div>
 
       <div className="w-full text-center flex flex-row items-center justify-center cursor-pointer gap-2 hover:scale-110 whitespace-nowrap -lg:mt-2">
-        <Link href="https://github.com/sadhvikbaba" target="_blank" aria-label="GitHub" className="z-50 font-space text-lg lg:text-2xl hover:scale-110">
+        <Link href="https://github.com/satyaritesh/INFINITUS-2026" target="_blank" aria-label="GitHub" className="z-50 font-space text-lg lg:text-2xl hover:scale-110">
           <FaGithub className="text-2xl lg:text-3xl" />
         </Link>
         <span className="text-lg lg:text-2xl font-space flex items-center gap-1">

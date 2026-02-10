@@ -3,41 +3,17 @@ import {
     useScroll,
     useTransform,
     motion,
-    useInView,
 } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
+import confetti from "canvas-confetti";
 
 const games = [
-    { title: "Pop n Run" },
-    { title: "Rope Maze" },
-    { title: "The Floor is Lava!" },
-    { title: "Red or Blue?" },
-    { title: "Memory Dash" },
-    { title: "Countdown" },
-    { title: "Red Light & Green Light" },
-    { title: "Running Man" },
-    { title: "Puzzle Hunt Relay" },
-    { title: "Target Toss" },
-    { title: "The Sacrifice Game" },
-    { title: "Warships" },
-    { title: "Mingle" },
-    { title: "Tower of Titans" },
-    { title: "Path Finder" },
-    { title: "Quizfinity" },
-    { title: "End Game" },
-    { title: "Steal or No Steal?" },
-    { title: "Blindfolded Stacking" },
-    { title: "Auction Mystery Arena" },
-    { title: "Cipher Clash" },
-    { title: "Hoop Hustle" },
-    { title: "Pass the Picture" },
-    { title: "Blow Battle" },
-    { title: "Feud Rounds" },
-    { title: "Murder Mystery" },
-    { title: "Catch" },
-    { title: "Battle Bridge" },
-    { title: "Apex Trail – The Final Vault Run" },
+    { title: "Rope Maze", image: "/images/ApexTrails/Rope maze .png" },
+    { title: "Red Light & Green Light", image: "/images/ApexTrails/red light green light .png" },
+    { title: "Mingle", image: "/images/ApexTrails/Mingle.png" },
+    { title: "Apex Trail - The Final Vault Run", image: "/images/ApexTrails/Apex trails 2.0.png" },
 ];
 
 const TimelineItem = ({
@@ -45,7 +21,7 @@ const TimelineItem = ({
     index,
     activeCard,
 }: {
-    item: { title: string };
+    item: { title: string; image: string };
     index: number;
     activeCard: number[];
 }) => {
@@ -68,13 +44,17 @@ const TimelineItem = ({
 
             {/* Content Card */}
             <div
-                className={`w-5/12 transition-all duration-500 ${index % 2 === 0 ? "text-right pr-8" : "text-left pl-8"} ${isActive ? "opacity-100 scale-100" : "opacity-30 scale-95"
+                className={`w-5/12 transition-all duration-500 flex ${index % 2 === 0 ? "justify-end text-right pr-8" : "justify-start text-left pl-8"} ${isActive ? "opacity-100 scale-100" : "opacity-30 scale-95"
                     }`}
             >
-                <h3 className={`text-2xl md:text-5xl font-bold font-red-rose transition-colors duration-500 ${isActive ? "text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 drop-shadow-[0_0_10px_rgba(255,255,255,0.5)]" : "text-neutral-500 "
-                    }`}>
-                    {item.title}
-                </h3>
+                <div className={`relative h-40 w-64 rounded-lg overflow-hidden border-2 transition-colors duration-500 ${isActive ? "border-purple-500 shadow-[0_0_15px_rgba(168,85,247,0.5)]" : "border-transparent"}`}>
+                    <Image
+                        src={item.image}
+                        alt={item.title}
+                        fill
+                        className="object-cover"
+                    />
+                </div>
             </div>
         </div>
     );
@@ -110,7 +90,11 @@ export default function ApexScroll() {
     };
 
     useEffect(() => {
-        updateHeight();
+        // Initial update
+        // We need a slight delay to ensure images/layout are stable if that matters,
+        // but typically useLayoutEffect or just resizing handles it.
+        const timer = setTimeout(updateHeight, 100);
+
         const resizeObserver = new ResizeObserver(() => {
             updateHeight();
         });
@@ -119,10 +103,14 @@ export default function ApexScroll() {
             resizeObserver.observe(containerRef.current);
         }
 
+        window.addEventListener('resize', updateHeight);
+
         return () => {
+            clearTimeout(timer);
             resizeObserver.disconnect();
+            window.removeEventListener('resize', updateHeight);
         };
-    }, [games]); // Re-run if games change
+    }, []); // Removed [games] dependency as it is constant here
 
     const { scrollYProgress } = useScroll({
         target: ref,
@@ -155,6 +143,18 @@ export default function ApexScroll() {
         });
         return () => unsubscribe();
     }, [scrollYProgress, height, cardPositions]);
+
+    // Confetti effect for the final game
+    useEffect(() => {
+        const finalGameIndex = games.findIndex(g => g.title === "Apex Trail – The Final Vault Run");
+        if (activeCard.includes(finalGameIndex)) {
+            confetti({
+                particleCount: 100,
+                spread: 70,
+                origin: { y: 0.6 }
+            });
+        }
+    }, [activeCard]);
 
     return (
         <div
@@ -198,7 +198,7 @@ export default function ApexScroll() {
             </div>
             <div ref={buttonRef} className="flex justify-center mt-10 mb-20 scale-150 ">
                 <Link
-                    href="https://google.com" // Placeholder, user will update
+                    href="https://unstop.com/p/apex-trails-20-infinitus-2026-srm-university-srmap-andhra-pradesh-1638306"
                     target="_blank"
                     className="relative inline-flex h-12 lg:h-16 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
                 >

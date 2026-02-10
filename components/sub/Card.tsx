@@ -5,7 +5,7 @@ import Image from "next/image";
 export function ThreeDCardDemo() {
   return (
     <div className="inter-var flex gap-20 flex-col sm:flex-row">
-      <Link href={"https://unstop.com/p/music-fiesta-infinitus-2024-srm-university-srmap-andhra-pradesh-927977"}>
+      <Link href={"https://unstop.com/p/infinitus-pass-srmap-students-infinitus-2026-srm-university-srmap-andhra-pradesh-1638288"}>
         <div>
           <div className="relative group/card hover:shadow-2xl hover:shadow-emerald-500/[0.1] bg-black border-white/[0.2]  w-[35rem] sm:w-[60rem] mx-6 sm:h-[60rem] h-auto rounded-xl p-6 border sm:p-8 transition-all duration-300 ease-in-out">
             <div className="text-3xl sm:text-4xl font-space font-bold text-neutral-600 text-white">
@@ -26,7 +26,7 @@ export function ThreeDCardDemo() {
           </div>
         </div>
       </Link>
-      <Link href={"https://unstop.com/p/music-fiesta-external-participants-only-infinitus-2024-srm-university-srmap-andhra-pradesh-930395"}>
+      <Link href={"https://unstop.com/p/infinitus-pass-external-students-infinitus-2026-srm-university-srmap-andhra-pradesh-1638298"}>
         <div>
           <div className="relative group/card hover:shadow-2xl hover:shadow-emerald-500/[0.1] bg-black border-white/[0.2]  w-[35rem] sm:w-[60rem] mx-6 sm:h-[60rem] h-auto rounded-xl p-6 border sm:p-8 transition-all duration-300 ease-in-out">
             <div className="text-3xl sm:text-4xl font-space font-bold text-neutral-600 text-white">
