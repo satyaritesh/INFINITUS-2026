@@ -21,7 +21,7 @@ const CategoryPopup: React.FC<CategoryPopupProps> = ({ isOpen, onClose, imageSrc
 
     return (
         <AnimatePresence>
-            <div className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6">
+            <div className="fixed inset-0 z-[999] flex items-center justify-center p-4 sm:p-6">
                 {/* Backdrop */}
                 <motion.div
                     initial={{ opacity: 0 }}

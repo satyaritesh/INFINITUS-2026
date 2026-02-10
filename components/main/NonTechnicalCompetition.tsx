@@ -36,7 +36,8 @@ phone charms using Mouldit clay
               venue="+91 7061828823"
               date="25-28 February 2026"
               time="2500 /-"
-              href='https://unstop.com/p/charmistry-mouldit-moments-infinitus-2026-srm-university-srmap-andhra-pradesh-1638053'
+              href="https://forms.gle/3pVoNyFTW6Rv6tGx6"
+              href2='https://unstop.com/p/charmistry-mouldit-moments-infinitus-2026-srm-university-srmap-andhra-pradesh-1638053'
             />
           </div>
           <div>
@@ -52,7 +53,8 @@ Ocean&apos;s Eleven and museum heist scenarios.Teams solve themed puzzles to ste
               venue="+91 8247426373"
               date="25-28 February 2026"
               time="10,000 /-"
-              href='https://unstop.com/p/the-art-heist-infinitus-2026-srm-university-srmap-andhra-pradesh-1638056'
+              href="https://forms.gle/3pVoNyFTW6Rv6tGx6"
+              href2='https://unstop.com/p/the-art-heist-infinitus-2026-srm-university-srmap-andhra-pradesh-1638056'
             />
           </div>
           <div>
@@ -65,7 +67,8 @@ Ocean&apos;s Eleven and museum heist scenarios.Teams solve themed puzzles to ste
               venue="+91 9537530501"
               date="25-28 February 2026"
               time="0 /-"
-              href='https://unstop.com/p/among-us-real-life-edition-infinitus-2026-srm-university-srmap-andhra-pradesh-1638058'
+              href="https://forms.gle/3pVoNyFTW6Rv6tGx6"
+              href2='https://unstop.com/p/among-us-real-life-edition-infinitus-2026-srm-university-srmap-andhra-pradesh-1638058'
             />
           </div>
           <div>
@@ -78,7 +81,8 @@ Ocean&apos;s Eleven and museum heist scenarios.Teams solve themed puzzles to ste
               venue="+91 6300357731"
               date="25-28 February 2026"
               time="5,000 /-"
-              href='https://unstop.com/p/horror-escape-room-infinitus-2026-srm-university-srmap-andhra-pradesh-1638063'
+              href="https://forms.gle/3pVoNyFTW6Rv6tGx6"
+              href2='https://unstop.com/p/horror-escape-room-infinitus-2026-srm-university-srmap-andhra-pradesh-1638063'
             />
           </div>
           <div>
@@ -91,7 +95,8 @@ Ocean&apos;s Eleven and museum heist scenarios.Teams solve themed puzzles to ste
               venue="+91 9265025088"
               date="25-28 February 2026"
               time="0 /-"
-              href='https://www.worldcubeassociation.org/competitions/SRMAPCubeClashFeb2026'
+              href="https://forms.gle/3pVoNyFTW6Rv6tGx6"
+              href2='https://www.worldcubeassociation.org/competitions/SRMAPCubeClashFeb2026'
             />
           </div>
           <div>
@@ -104,7 +109,8 @@ Ocean&apos;s Eleven and museum heist scenarios.Teams solve themed puzzles to ste
               venue="+91 7061828823"
               date="25-28 February 2026"
               time="8,000 /-"
-              href='https://unstop.com/p/bizathon-hack-the-chaos-infinitus-2026-srm-university-srmap-andhra-pradesh-1638076'
+              href="https://forms.gle/3pVoNyFTW6Rv6tGx6"
+              href2='https://unstop.com/p/bizathon-hack-the-chaos-infinitus-2026-srm-university-srmap-andhra-pradesh-1638076'
             />
           </div>
           <div>
@@ -120,7 +126,8 @@ within a fixed time limit.
               venue="+91 6300357731"
               date="25-28 February 2026"
               time="16,000 /-"
-              href='https://unstop.com/p/blind-hunt-chromatic-chaos-infinitus-2026-srm-university-srmap-andhra-pradesh-1638073'
+              href="https://forms.gle/3pVoNyFTW6Rv6tGx6"
+              href2='https://unstop.com/p/blind-hunt-chromatic-chaos-infinitus-2026-srm-university-srmap-andhra-pradesh-1638073'
             />
           </div>
           <div>
@@ -134,7 +141,8 @@ participants to think like detectives.
               venue="+91 9023230922"
               date="25-28 February 2026"
               time="12,000 /-"
-              href='https://unstop.com/p/chronicles-of-crime-infinitus-2026-srm-university-srmap-andhra-pradesh-1638000'
+              href="https://forms.gle/3pVoNyFTW6Rv6tGx6"
+              href2='https://unstop.com/p/chronicles-of-crime-infinitus-2026-srm-university-srmap-andhra-pradesh-1638000'
             />
           </div>
           <div>
@@ -150,7 +158,8 @@ innovation."
               venue="+91 9182012021"
               date="25-28 February 2026"
               time="15,000 /-"
-              href='https://unstop.com/p/saga-of-the-divine-infinitus-2026-srm-university-srmap-andhra-pradesh-1638085'
+              href="https://forms.gle/3pVoNyFTW6Rv6tGx6"
+              href2='https://unstop.com/p/saga-of-the-divine-infinitus-2026-srm-university-srmap-andhra-pradesh-1638085'
             />
           </div>
           <div>
@@ -163,7 +172,8 @@ innovation."
               venue="+91 9537530501"
               date="25-28 February 2026"
               time="4,500"
-              href="https://unstop.com/p/global-fusion-trivia-meets-diplomacy-infinitus-2026-srm-university-srmap-andhra-pradesh-1638074"
+              href="https://forms.gle/3pVoNyFTW6Rv6tGx6"
+              href2="https://unstop.com/p/global-fusion-trivia-meets-diplomacy-infinitus-2026-srm-university-srmap-andhra-pradesh-1638074"
             />
           </div>
           <div>
@@ -177,7 +187,8 @@ explore campus plants and complete herbal-themed tasks
               venue="+91 9023230922"
               date="25-28 February 2026"
               time="0 /-"
-              href='https://unstop.com/p/herbal-quest-infinitus-2026-srm-university-srmap-andhra-pradesh-1638078'
+              href="https://forms.gle/3pVoNyFTW6Rv6tGx6"
+              href2='https://unstop.com/p/herbal-quest-infinitus-2026-srm-university-srmap-andhra-pradesh-1638078'
             />
           </div>
           <div>
@@ -195,7 +206,8 @@ clues for multiple anime not just one piece
               venue="+91 7032749777"
               date="25-28 February 2026"
               time="5,000 /-"
-              href='https://unstop.com/p/anime-treasure-hunt-multiversal-rush-for-the-onepiece-infinitus-2026-srm-university-srmap-andhra-pradesh-1638065'
+              href="https://forms.gle/3pVoNyFTW6Rv6tGx6"
+              href2='https://unstop.com/p/anime-treasure-hunt-multiversal-rush-for-the-onepiece-infinitus-2026-srm-university-srmap-andhra-pradesh-1638065'
             />
           </div>
           <div>
@@ -209,7 +221,8 @@ Along with another online event Reel-A-Live, where anyone can express themselves
               venue="+91 9315268810"
               date="25-28 February 2026"
               time="NA"
-              href='https://unstop.com/competitions/chaos-hour-where-wellness-goes-wild-infinitus-2026-srm-university-srmap-andhra-pradesh-1638080'
+              href="https://forms.gle/3pVoNyFTW6Rv6tGx6"
+              href2='https://unstop.com/competitions/chaos-hour-where-wellness-goes-wild-infinitus-2026-srm-university-srmap-andhra-pradesh-1638080'
 
             />
           </div>

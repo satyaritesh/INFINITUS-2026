@@ -8,6 +8,7 @@ import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import confetti from "canvas-confetti";
+import CategoryPopup from "../sub/CategoryPopup";
 
 const games = [
     { title: "The Rope Labyrinth", image: "/images/ApexTrails/Rope maze .png" },
@@ -56,7 +57,7 @@ const TimelineItem = ({
                     />
                 </div>
                 <div className="mt-4 max-w-[16rem]">
-                    <h2 className={`text-2xl font-bold font-red-rose ${isActive ?"text-transparent bg-clip-text bg-gradient-to-r" : "text-neutral-300"} ${index % 2 === 0 ? "from-cyan-400 to-purple-400" : "from-purple-400 to-cyan-400"}`}>
+                    <h2 className={`text-2xl font-bold font-red-rose ${isActive ? "text-transparent bg-clip-text bg-gradient-to-r" : "text-neutral-300"} ${index % 2 === 0 ? "from-cyan-400 to-purple-400" : "from-purple-400 to-cyan-400"}`}>
                         {item.title}
                     </h2>
                 </div>
@@ -72,6 +73,7 @@ export default function ApexScroll() {
     const [height, setHeight] = useState(0);
     const [activeCard, setActiveCard] = useState<number[]>([]);
     const [cardPositions, setCardPositions] = useState<number[]>([]);
+    const [isPopupOpen, setIsPopupOpen] = useState(false);
 
     const updateHeight = () => {
         if (bottomImageRef.current && ref.current) {
@@ -221,17 +223,27 @@ export default function ApexScroll() {
 
             {/* Register Button */}
             <div className="flex justify-center mb-20 scale-125 lg:scale-150">
-                <Link
-                    href="https://unstop.com/p/apex-trails-20-infinitus-2026-srm-university-srmap-andhra-pradesh-1638306"
-                    target="_blank"
+                <button
+                    onClick={() => setIsPopupOpen(true)}
                     className="relative inline-flex h-12 lg:h-16 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
                 >
                     <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
                     <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-8 py-1 text-sm font-medium text-white backdrop-blur-3xl font-red-rose hover:bg-slate-900 transition-colors text-2xl lg:w-64 lg:text-xl">
                         Register Now
                     </span>
-                </Link>
+                </button>
             </div>
+
+            <CategoryPopup
+                isOpen={isPopupOpen}
+                onClose={() => setIsPopupOpen(false)}
+                imageSrc="/images/eventThumnails/apex trails.png"
+                title="Apex Trails 2.0"
+                buttons={[
+                    { label: "SRM AP", href: "https://forms.gle/3pVoNyFTW6Rv6tGx6" },
+                    { label: "External", href: "https://unstop.com/p/apex-trails-20-infinitus-2026-srm-university-srmap-andhra-pradesh-1638306" }
+                ]}
+            />
             <div
                 className="slider-apex before:absolute before:left-0 before:z-10 before:h-full before:w-[100px] before:bg-gradient-to-r before:from-[#000] before:to-transparent after:absolute after:right-0 after:top-0 after:z-10 after:h-full after:w-[100px] after:bg-gradient-to-l after:from-[#000] after:to-transparent">
                 <div className="slider-track-apex gap-8">

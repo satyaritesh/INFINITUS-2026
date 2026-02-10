@@ -43,6 +43,34 @@ const Cultural: React.FC<Types> = ({ types }) => {
         { label: "Prop To Plot", href: 'https://unstop.com/p/behind-the-mask-prop-to-plot-infinitus-2026-srm-university-srmap-andhra-pradesh-1638043' },
         { label: "Solo Spotlight", href: 'https://unstop.com/p/behind-the-mask-solo-spotlight-infinitus-2026-srm-university-srmap-andhra-pradesh-1638042' }
       ]
+    },
+    globalBeatsSRM: {
+      imageSrc: "/images/Cultural/GlobalBeats.png",
+      title: "Cosmic Beats Categories",
+      buttons: [
+        { label: "Contemporary Solo", href: "https://forms.gle/3pVoNyFTW6Rv6tGx6" },
+        { label: "Contemporary Duo", href: "https://forms.gle/3pVoNyFTW6Rv6tGx6" },
+        { label: "Contemporary Group", href: "https://forms.gle/3pVoNyFTW6Rv6tGx6" },
+        { label: "Classical Solo", href: "https://forms.gle/3pVoNyFTW6Rv6tGx6" },
+        { label: "Classical Group", href: "https://forms.gle/3pVoNyFTW6Rv6tGx6" }
+      ]
+    },
+    symphonySRM: {
+      imageSrc: "/images/Cultural/Symphony.png",
+      title: "Symphony Categories",
+      buttons: [
+        { label: "Solo Western", href: "https://forms.gle/3pVoNyFTW6Rv6tGx6" },
+        { label: "Solo Eastern", href: "https://forms.gle/3pVoNyFTW6Rv6tGx6" },
+        { label: "Instrumental", href: "https://forms.gle/3pVoNyFTW6Rv6tGx6" }
+      ]
+    },
+    behindTheMaskSRM: {
+      imageSrc: "/images/Cultural/Behind The Mask.png",
+      title: "Behind The Mask Categories",
+      buttons: [
+        { label: "Prop To Plot", href: 'https://forms.gle/3pVoNyFTW6Rv6tGx6' },
+        { label: "Solo Spotlight", href: 'https://forms.gle/3pVoNyFTW6Rv6tGx6' }
+      ]
     }
   };
 
@@ -75,8 +103,8 @@ const Cultural: React.FC<Types> = ({ types }) => {
               venue="+91 9963123747"
               date="25-28 February 2026"
               time="1,00,000 /-"
-              href='#'
-              onSrmClick={() => setActivePopup('globalBeats')}
+              href='https://forms.gle/3pVoNyFTW6Rv6tGx6'
+              onSrmClick={() => setActivePopup('globalBeatsSRM')}
               onExternalClick={() => setActivePopup('globalBeats')}
             />
           </div>
@@ -93,7 +121,7 @@ const Cultural: React.FC<Types> = ({ types }) => {
               date="25-28 February 2026"
               time="48,000 /-"
               href='#'
-              onSrmClick={() => setActivePopup('symphony')}
+              onSrmClick={() => setActivePopup('symphonySRM')}
               onExternalClick={() => setActivePopup('symphony')}
             />
           </div>
@@ -111,7 +139,7 @@ const Cultural: React.FC<Types> = ({ types }) => {
               date="25-28 February 2026"
               time="5,000 /-"
               href='#'
-              onSrmClick={() => setActivePopup('behindTheMask')}
+              onSrmClick={() => setActivePopup('behindTheMaskSRM')}
               onExternalClick={() => setActivePopup('behindTheMask')}
             />
           </div>
@@ -126,7 +154,8 @@ const Cultural: React.FC<Types> = ({ types }) => {
               venue="+91 6009923073"
               date="25-28 February 2026"
               time="0 /-"
-              href='https://unstop.com/p/filmathon-infinitus-2026-srm-university-srmap-andhra-pradesh-1638045'
+              href="https://forms.gle/3pVoNyFTW6Rv6tGx6"
+              href2='https://unstop.com/p/filmathon-infinitus-2026-srm-university-srmap-andhra-pradesh-1638045'
             />
           </div>
 

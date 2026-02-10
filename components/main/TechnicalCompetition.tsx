@@ -33,7 +33,8 @@ const Technical: React.FC<Types> = ({ types }) => {
               venue="+91 9315268810"
               date="25-28 February 2026"
               time="30,000 /-"
-              href='https://unstop.com/p/bgmi-master-series-infinitus-2026-srm-university-srmap-andhra-pradesh-1638014'
+              href="https://forms.gle/3pVoNyFTW6Rv6tGx6"
+              href2='https://unstop.com/p/bgmi-master-series-infinitus-2026-srm-university-srmap-andhra-pradesh-1638014'
             />
           </div>
           <div>
@@ -46,7 +47,8 @@ const Technical: React.FC<Types> = ({ types }) => {
               venue="+91 9265025088"
               date="25-28 February 2026"
               time="10,000 /-"
-              href='https://unstop.com/p/vr-tennis-infinitus-2026-srm-university-srmap-andhra-pradesh-1638037'
+              href="https://forms.gle/3pVoNyFTW6Rv6tGx6"
+              href2='https://unstop.com/p/vr-tennis-infinitus-2026-srm-university-srmap-andhra-pradesh-1638037'
             />
           </div>
           <div>
@@ -59,7 +61,8 @@ const Technical: React.FC<Types> = ({ types }) => {
               venue="+91 7702068993"
               date="25-28 February 2026"
               time="22,500 /-"
-              href='https://unstop.com/p/valorant-vanguard-series-infinitus-2026-srm-university-srmap-andhra-pradesh-1638018'
+              href="https://forms.gle/3pVoNyFTW6Rv6tGx6"
+              href2='https://unstop.com/p/valorant-vanguard-series-infinitus-2026-srm-university-srmap-andhra-pradesh-1638018'
             />
           </div>
           <div>
@@ -72,7 +75,8 @@ const Technical: React.FC<Types> = ({ types }) => {
               venue="+91 9537530501"
               date="25-28 February 2026"
               time="10,000 /-"
-              href='https://unstop.com/p/real-cricket-infinitus-2026-srm-university-srmap-andhra-pradesh-1638044'
+              href="https://forms.gle/3pVoNyFTW6Rv6tGx6"
+              href2='https://unstop.com/p/real-cricket-infinitus-2026-srm-university-srmap-andhra-pradesh-1638044'
             />
           </div>
           <div>
@@ -85,7 +89,8 @@ const Technical: React.FC<Types> = ({ types }) => {
               venue="+91 9893986159"
               date="25-28 February 2026"
               time="1,00,000 /-"
-              href='https://unstop.com/p/drone-soccer-infinitus-2026-srm-university-srmap-andhra-pradesh-1638596'
+              href="https://forms.gle/3pVoNyFTW6Rv6tGx6"
+              href2='https://unstop.com/p/drone-soccer-infinitus-2026-srm-university-srmap-andhra-pradesh-1638596'
             />
           </div>
           <div>
@@ -99,7 +104,8 @@ The course may include curves, junctions, and varying speeds to test precision a
               venue="+91 6009923073"
               date="25-28 February 2026"
               time="22,000 /-"
-              href='https://unstop.com/p/robo-rush-line-follower-bot-infinitus-2026-srm-university-srmap-andhra-pradesh-1638047'
+              href="https://forms.gle/3pVoNyFTW6Rv6tGx6"
+              href2='https://unstop.com/p/robo-rush-line-follower-bot-infinitus-2026-srm-university-srmap-andhra-pradesh-1638047'
             />
           </div>
           <div>
@@ -115,7 +121,8 @@ The track design will be revealed only on the day of competition."
               venue="+91 7702068993"
               date="25-28 February 2026"
               time="22,000 /-"
-              href='https://unstop.com/p/obstacle-course-bot-infinitus-2026-srm-university-srmap-andhra-pradesh-1638052'
+              href="https://forms.gle/3pVoNyFTW6Rv6tGx6"
+              href2='https://unstop.com/p/obstacle-course-bot-infinitus-2026-srm-university-srmap-andhra-pradesh-1638052'
             />
           </div>
           <div>
@@ -129,7 +136,8 @@ The track design will be revealed only on the day of competition."
               venue="+91 7061828823"
               date="25-28 February 2026"
               time="30,000 /-"
-              href='https://unstop.com/p/texpo-26-infinitus-2026-srm-university-srmap-andhra-pradesh-1638541'
+              href="https://forms.gle/3pVoNyFTW6Rv6tGx6"
+              href2='https://unstop.com/p/texpo-26-infinitus-2026-srm-university-srmap-andhra-pradesh-1638541'
             />
           </div>
           <div>
@@ -144,7 +152,8 @@ The session is designed specifically for engineering students who already unders
               venue="+91 6009923073"
               date="25-28 February 2026"
               time="NA"
-              href='https://unstop.com/p/inside-googles-lab-infinitus-2026-srm-university-srmap-andhra-pradesh-1637982'
+              href="https://forms.gle/3pVoNyFTW6Rv6tGx6"
+              href2='https://unstop.com/p/inside-googles-lab-infinitus-2026-srm-university-srmap-andhra-pradesh-1637982'
             />
           </div>
           <div>
@@ -158,7 +167,8 @@ The session will bridge the gap between academic learning and industry practices
               venue="+91 6009923073"
               date="25-28 February 2026"
               time="NA"
-              href='https://unstop.com/p/robotics-reimagined-infinitus-2026-srm-university-srmap-andhra-pradesh-1637992'
+              href="https://forms.gle/3pVoNyFTW6Rv6tGx6"
+              href2='https://unstop.com/p/robotics-reimagined-infinitus-2026-srm-university-srmap-andhra-pradesh-1637992'
             />
           </div>
           <div>
@@ -171,7 +181,8 @@ The session will bridge the gap between academic learning and industry practices
               venue="+91 7061828823"
               date="25-28 February 2026"
               time="0 /-"
-              href='https://unstop.com/p/null-point-ctf-infinitus-2026-srm-university-srmap-andhra-pradesh-1638584'
+              href="https://forms.gle/3pVoNyFTW6Rv6tGx6"
+              href2='https://unstop.com/p/null-point-ctf-infinitus-2026-srm-university-srmap-andhra-pradesh-1638584'
             />
           </div>
           <div>
@@ -185,7 +196,8 @@ The workshop aims to equip learners with industry-relevant hardware design skill
               venue="+91 7061828823"
               date="25-28 February 2026"
               time="NA"
-              href='https://unstop.com/workshops-webinars/pcb-design-workshop-infinitus-2026-srm-university-srmap-andhra-pradesh-1638004'
+              href="https://forms.gle/3pVoNyFTW6Rv6tGx6"
+              href2='https://unstop.com/workshops-webinars/pcb-design-workshop-infinitus-2026-srm-university-srmap-andhra-pradesh-1638004'
             />
           </div>
           <div>
@@ -198,7 +210,8 @@ The workshop aims to equip learners with industry-relevant hardware design skill
               venue="+91 7061828823"
               date="25-28 February 2026"
               time="NA"
-              href='https://unstop.com/p/tech-sprint-robotics-reimagined-infinitus-2026-srm-university-srmap-andhra-pradesh-1637997'
+              href="https://forms.gle/3pVoNyFTW6Rv6tGx6"
+              href2='https://unstop.com/p/tech-sprint-robotics-reimagined-infinitus-2026-srm-university-srmap-andhra-pradesh-1637997'
             />
           </div>
         </div>
