@@ -91,7 +91,7 @@ Ocean&apos;s Eleven and museum heist scenarios.Teams solve themed puzzles to ste
               venue="+91 9265025088"
               date="25-28 February 2026"
               time="0 /-"
-              href='Registration Link!!!'
+              href='https://www.worldcubeassociation.org/competitions/SRMAPCubeClashFeb2026'
             />
           </div>
           <div>
