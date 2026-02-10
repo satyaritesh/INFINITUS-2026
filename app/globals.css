@@ -818,7 +818,7 @@ body.active {
 .slider-track-apex {
   display: flex;
   width: max-content;
-  animation: scroll-apex 60s linear infinite;
+  animation: scroll-apex 200s linear infinite;
   /* gap is handled by Tailwind utility class, but let's add default just in case */
   gap: 2rem;
 }
@@ -833,7 +833,7 @@ body.active {
   }
 
   100% {
-    transform: translateX(-100%);
+    transform: translateX(calc(-50% - 1rem));
   }
 }
 

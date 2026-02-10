@@ -17,6 +17,16 @@ const games = [
     { title: "Synergy Challenge", image: "/images/ApexTrails/teamwork.png" },
 ];
 
+const marqueeEvents = [
+    "Pop n Run", "Rope Maze", "The Floor is Lava!", "Red or Blue?", "Memory Dash",
+    "Countdown", "Red light & Green light", "Running man", "Puzzle Hunt Relay",
+    "Target Toss", "The Sacrifice Game", "Warships", "Mingle", "Tower of Titans",
+    "Path Finder", "Quizfinity", "End Game", "Steal or no Steal?",
+    "Blindfolded Stacking", "Auction Mystery Arena", "Cipher Clash", "Hoop Hustle",
+    "Pass the Picture", "Blow Battle", "Feud Rounds", "Murder Mystery", "Catch",
+    "Battle Bridge", "Apex Trail - The Final Vault Run"
+];
+
 const TimelineItem = ({
     item,
     index,
@@ -45,7 +55,7 @@ const TimelineItem = ({
 
             {/* Content Card */}
             <div
-                className={`w-5/12 flex flex-col transition-all duration-500 ${index % 2 === 0 ? "items-end text-right pr-8" : "items-start text-left pl-8"} ${isActive ? "opacity-100 scale-100" : "opacity-30 scale-95"
+                className={`w-5/12 flex flex-col transition-all duration-500 ${index % 2 === 0 ? "items-end text-right sm:pr-8" : "items-start text-left sm:pl-8"} ${isActive ? "opacity-100 scale-100" : "opacity-30 scale-95"
                     }`}
             >
                 <div className={`relative h-40 w-64 rounded-lg overflow-hidden border-2 transition-colors duration-500 ${isActive ? "border-purple-500 shadow-[0_0_15px_rgba(168,85,247,0.5)]" : "border-transparent"}`}>
@@ -53,7 +63,7 @@ const TimelineItem = ({
                         src={item.image}
                         alt={item.title}
                         fill
-                        className="object-cover"
+                        className="object-fit"
                     />
                 </div>
                 <div className="mt-4 max-w-[16rem]">
@@ -178,7 +188,7 @@ export default function ApexScroll() {
                     Apex Trials Journey
                 </h2>
                 <p className="text-neutral-500 text-3xl text-center w-full max-w-sm">
-                    Experience the ultimate competition through these stages.
+                    Experience the ultimate competition through 22 competitive events.
                 </p>
             </div>
 
@@ -211,7 +221,7 @@ export default function ApexScroll() {
 
             {/* Bottom Image Section */}
             <div ref={bottomImageRef} className="flex justify-center mt-10 mb-10 scale-100 z-50 relative">
-                <div className={`relative h-40 w-64 rounded-lg overflow-hidden border-2 transition-colors duration-500 bg-black ${activeCard.includes(games.length) ? "border-purple-500 shadow-[0_0_15px_rgba(168,85,247,0.5)]" : "border-transparent"}`}>
+                <div className={`relative h-[20rem] w-[30rem] rounded-lg overflow-hidden border-2 transition-colors duration-500 bg-black ${activeCard.includes(games.length) ? "border-purple-500 shadow-[0_0_15px_rgba(168,85,247,0.5)]" : "border-transparent"}`}>
                     <Image
                         src="/images/ApexTrails/Apex trails 2.0.png"
                         alt="Apex Trails 2.0"
@@ -245,9 +255,9 @@ export default function ApexScroll() {
                 ]}
             />
             <div
-                className="slider-apex before:absolute before:left-0 before:z-10 before:h-full before:w-[100px] before:bg-gradient-to-r before:from-[#000] before:to-transparent after:absolute after:right-0 after:top-0 after:z-10 after:h-full after:w-[100px] after:bg-gradient-to-l after:from-[#000] after:to-transparent">
+                className="slider-apex before:absolute before:left-0 before:z-10 before:h-full before:w-[100px] after:absolute after:right-0 after:top-0 after:z-10 after:h-full after:w-[100px]  after:from-[#000] after:to-transparent">
                 <div className="slider-track-apex gap-8">
-                    {games.concat(games).map((game, index) => (
+                    {marqueeEvents.concat(marqueeEvents).map((game, index) => (
                         <div key={index} className="slide-apex">
                             <div
                                 className="relative group rounded-[22px] bg-white/5 dark:bg-zinc-900/30 backdrop-blur-sm border border-white/10 h-full w-full flex flex-col items-center justify-center text-center overflow-hidden hover:border-purple-500/50 transition-colors duration-300">
@@ -255,7 +265,7 @@ export default function ApexScroll() {
                                     className="absolute inset-0 bg-gradient-to-br from-purple-500/10 to-cyan-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                                 <h3
                                     className="relative z-10 text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-cyan-400 font-red-rose mb-2">
-                                    {game.title}
+                                    {game}
                                 </h3>
                             </div>
                         </div>

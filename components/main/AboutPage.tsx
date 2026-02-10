@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import Footer from './Footer';
 import { Tooltip } from '@/components/ui/tooltip-card'
+import Link from 'next/link';
 
 const AboutPage = () => {
   return (
@@ -56,7 +57,7 @@ const AboutPage = () => {
             <p
               className="text-2xl lg:text-3xl font-space text-justify"
             >
-              The 2025 edition of Infinitus marked a defining chapter in the university’s cultural legacy, bringing together an extraordinary gathering of over 10,000 students from diverse backgrounds. With more than 5,000 participants actively competing across events, performances, and showcases, the fest radiated unmatched energy and celebrated the spirit of innovation, creativity, and collaboration shaping the present generation. Infinitus ’25 significantly strengthened its digital presence, achieving an impressive social media outreach of over 15,000 through stories, reels, and live interactions. Adding to its digital success, the Infinitus ’25 website earned recognition from Awards, marking a milestone in design and digital excellence. The official website continued to serve as a dynamic information hub, attracting more than 5,000 visitors seeking updates, schedules, and highlights. This landmark edition not only celebrated culture and talent but also embraced the future, setting a higher benchmark and redefining expectations for the editions to come.            </p>
+              The 2025 edition of Infinitus marked a defining chapter in the university’s cultural legacy, bringing together an extraordinary gathering of over 10,000 students from diverse backgrounds. With more than 5,000 participants actively competing across events, performances, and showcases, the fest radiated unmatched energy and celebrated the spirit of innovation, creativity, and collaboration shaping the present generation. Infinitus ’25 significantly strengthened its digital presence, achieving an impressive social media outreach of over 15,000 through stories, reels, and live interactions. Adding to its digital success, the Infinitus ’25 website earned recognition from <Link className='relative z-[60] inline Welcome-text' target='_blank' href="https://www.awwwards.com">Awwwards</Link>, marking a milestone in design and digital excellence. The official website continued to serve as a dynamic information hub, attracting more than 5,000 visitors seeking updates, schedules, and highlights. This landmark edition not only celebrated culture and talent but also embraced the future, setting a higher benchmark and redefining expectations for the editions to come.            </p>
           </div>
           <div className="mx-auto z-50">
             <Image
