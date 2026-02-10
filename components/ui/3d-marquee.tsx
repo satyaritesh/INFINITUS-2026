@@ -18,7 +18,7 @@ export const ThreeDMarquee = ({
     React.useEffect(() => {
         const updateColumns = () => {
             if (window.innerWidth < 1024) {
-                setColumns(2); // Phone/Tablet -> 2 columns
+                setColumns(3); // Phone/Tablet -> 3 columns
             } else {
                 setColumns(4); // Desktop -> 4 columns
             }
@@ -44,7 +44,7 @@ export const ThreeDMarquee = ({
                 className,
             )}
         >
-            <div className="flex size-full items-center justify-center p-20" style={{ perspective: "1000px" }}>
+            <div className="flex size-full items-center justify-center p-4 lg:p-20" style={{ perspective: "1000px" }}>
                 <div
                     className="size-full shrink-0 scale-75 lg:scale-100 transform-gpu"
                     style={{
@@ -58,7 +58,7 @@ export const ThreeDMarquee = ({
                         }}
                         className={cn(
                             "relative grid size-full origin-center gap-8",
-                            columns === 2 ? "grid-cols-2" : "grid-cols-4"
+                            columns === 2 ? "grid-cols-2" : columns === 3 ? "grid-cols-3" : "grid-cols-4"
                         )}
                     >
                         {chunks.map((subarray, colIndex) => (
@@ -80,7 +80,7 @@ export const ThreeDMarquee = ({
                                             alt={`Image ${imageIndex + 1}`}
                                             width={400}
                                             height={300}
-                                            className="aspect-[4/3] w-full max-w-[400px] rounded-xl object-cover ring-1 ring-white/10 shadow-2xl transition-all duration-300 hover:scale-105 -lg:w-[17rem]"
+                                            className="aspect-[4/3] w-full max-w-[400px] rounded-xl object-cover ring-1 ring-white/10 shadow-2xl transition-all duration-300 hover:scale-105"
                                         />
                                     </div>
                                 ))}
