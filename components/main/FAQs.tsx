@@ -9,16 +9,16 @@ import { motion } from 'framer-motion';
 
 export const faqData = [
   {
-    "question": "Should SRM students register for competitions through the website?",
-    "answer": "No, SRMAP students are not required to register on the website. The students will receive a separate registration form."
+    "question": "Can SRM-AP students register for competitions through the website?",
+    "answer": " Yes, SRM-AP students can also register for competitions through the official website."
   },
   {
     "question": "How do I register for the college fest?",
     "answer": "To register for the college fest, simply visit our website and navigate to the registration page. Fill out the required information and follow the prompts to complete your registration."
   },
   {
-    "question": "Will accommodation be provided for participants coming from other institutions?",
-    "answer": "Accommodation will be provided based on first-come first-serve basis and for a duration of 3 days. Other university students who live further than 65 kilometers away will be accommodated."
+    "question": "Will accommodation be provided for participants from other institutions?",
+    "answer": "Yes, accommodation will be provided for participants from other institutions at a certain fee per day. An option to avail accommodation will be available during the registration process and must be selected at that time. Accommodation will be allotted on a first-come, first-served basis."
   },
   {
     "question": "Do we get Participation fee refund if we fail to show up?",
@@ -26,7 +26,7 @@ export const faqData = [
   },
   {
     "question": "Is transportation provided to and from the venue, or should attendees arrange their own transportation?",
-    "answer": "Transport charges will not be provided for participants of other institutions. Buses will be provided from nearby bus stations and train stations to our University."
+    "answer": "Transportation will not be provided by the University, and transportation expenses will not be covered. However, buses will be available at specific times to the nearby railway station. Further details will be shared at a later stage."
   },
   {
     "question": "What are the registration deadlines?",
@@ -45,16 +45,16 @@ export const faqData = [
     "answer": "Absolutely! We welcome participants from other universities to join us for the college fest. Please make sure to register on our website to secure your spot."
   },
   {
-    "question": "Where can I find accommodation information for participants from other universities?",
-    "answer": "Free accommodation will be provided to all participants on campus."
+    "question": "Where can I find information regarding accommodation for participants from other institutions?",
+    "answer": "For accommodation-related queries, please contact our Hospitality Head: Wasim – +91 7981031813"
   },
   {
     "question": "Do participants from other universities need to stay on campus during the duration of the fest?",
     "answer": "Yes, participants from other universities are required to stay on campus for the duration of the fest. This helps facilitate networking and ensures a seamless festival experience."
   },
   {
-    "question": "Are meals provided for participants staying on campus?",
-    "answer": "Yes, meals will be available for participants on a per day pay basis."
+    "question": "Are meals provided for participants on campus?",
+    "answer": " Yes, meals will be available for participants on campus and will be chargeable. For further queries."
   },
   {
     "question": "How can I contact the organizers if I have any questions or concerns?",
@@ -67,6 +67,54 @@ export const faqData = [
   {
     "question": "Is there a provision for on-spot registrations for events?",
     "answer": "Event registration is exclusively through the website, and on-spot registrations are unavailable."
+  },
+  {
+    "question": "Is it possible to exit and re-enter the campus during the fest?",
+    "answer": "Participants are requested to strictly adhere to the exit and entry rules and guidelines shared by the University."
+  },
+  {
+    "question": "Can teams be formed with members from different universities for team events?",
+    "answer": "No, a team must consist of members from the same organisation."
+  },
+  {
+    "question": "Are participants allowed to bring non-participants as guests to the fest?",
+    "answer": "No. Participants from outside the university are not allowed to bring guests without valid passes."
+  },
+  {
+    "question": "Where can participants from other institutions apply for accommodation?",
+    "answer": "Participants can opt for accommodation while registering for their respective competitions and at the designated help desk."
+  },
+  {
+    "question": "Will accommodation be provided for the entirety of the event or on a per-day basis?",
+    "answer": "Accommodation will be provided on a per/day basis."
+  },
+  {
+    "question": "Where should participants report the loss of personal belongings?",
+    "answer": "Participants should report to the Directorate of Student Affairs at the SR Block and contact the help desk for further assistance."
+  },
+  {
+    "question": "Where should participants report in case of emergencies?",
+    "answer": "All emergencies should be reported immediately to the Directorate of Student Affairs."
+  },
+  {
+    "question": "Are there any restrictions on items that can be brought onto the campus?",
+    "answer": "Yes. Alcohol, intoxicating substances, and items that promote violence are strictly prohibited."
+  },
+  {
+    "question": "Is there a limit to the number of events a participant can take part in?",
+    "answer": "No, there is no limit on the number of events a participant may participate in."
+  },
+  {
+    "question": "What is accessible with a pass?",
+    "answer": "The fest pass allows access to all events, proshows, and general activities taking place during the fest."
+  },
+  {
+    "question": "Do pass holders need to register for competitions?",
+    "answer": "Yes. While a pass holder can view and attend events, proshows, and activities, separate registration is mandatory to participate in any competition."
+  },
+  {
+    "question": "What about participants without a pass?",
+    "answer": "Participants without a fest pass may enter only the specific competitions they have registered for and will not have access to other events, proshows, or activities."
   }
 ];
 
