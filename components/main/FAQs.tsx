@@ -34,7 +34,7 @@ export const faqData = [
   },
   {
     "question": "Can I register as an individual, or do I need to register as part of a team?",
-    "answer": "Both individual and team registrations are accepted for certain events. Please check the event details on our website for specific registration requirements. Teams are requested to make a single registration for the competition."
+    "answer": "Teams are requested to make single registration only for SRMAP students. This is not applicable for externals."
   },
   {
     "question": "Is there a registration fee for the college fest?",
@@ -50,11 +50,11 @@ export const faqData = [
   },
   {
     "question": "Do participants from other universities need to stay on campus during the duration of the fest?",
-    "answer": "Yes, participants from other universities are required to stay on campus for the duration of the fest. This helps facilitate networking and ensures a seamless festival experience."
+    "answer": "No it is important they stay during the event time only. Not the entirety of the fest. It is upto them how they want to plan their stay."
   },
   {
     "question": "Are meals provided for participants on campus?",
-    "answer": " Yes, meals will be available for participants on campus and will be chargeable. For further queries."
+    "answer": " Yes, meals will be available for participants on campus and will be chargeable."
   },
   {
     "question": "How can I contact the organizers if I have any questions or concerns?",
@@ -155,7 +155,7 @@ function Questions() {
                   </span>
                 </div>
                 {openStates[index] ? (
-                  <div className='flex justify-center py-5'>
+                  <div className='flex justify-start py-5'>
                     <p className='text-3xl text-purple-200 font-space px-10 text-wrap'>{faq.answer}</p>
                   </div>
                 ) : null}

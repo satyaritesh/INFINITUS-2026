@@ -23,8 +23,8 @@ const EventsCard: React.FC<EventsCardProps> = ({ title, imageSrc, name, href, bu
           thickness={4}
           style={{ borderRadius: 16 }}
         >
-          <div className="card1 flex items-center h-[500px] transition-all duration-500 ease-out hover:scale-105 hover:-translate-y-3 hover:shadow-[0_25px_60px_-12px_rgba(191,128,255,0.5)] hover:brightness-110 cursor-pointer">
-            <Image className='h-[500px] w-full object-cover rounded-lg'
+          <div className="card1 flex items-center h-auto md:h-[500px] transition-all duration-500 ease-out hover:scale-105 hover:-translate-y-3 hover:shadow-[0_25px_60px_-12px_rgba(191,128,255,0.5)] hover:brightness-110 cursor-pointer">
+            <Image className='h-auto md:h-[500px] w-full object-cover rounded-lg'
               src={imageSrc}
               width={500}
               height={500}

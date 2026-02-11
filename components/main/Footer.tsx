@@ -117,24 +117,24 @@ const Footer: React.FC = () => {
 
       </div>
 
-      <div className="w-full text-center flex flex-row items-center justify-center cursor-pointer gap-2 hover:scale-110 whitespace-nowrap -lg:mt-2">
+      <div className="w-full text-center flex flex-wrap flex-row items-center justify-center cursor-pointer gap-2 hover:scale-110 -lg:mt-2 px-2">
         <Link href="https://github.com/satyaritesh/INFINITUS-2026" target="_blank" aria-label="GitHub" className="z-50 font-space text-lg lg:text-2xl hover:scale-110">
           <FaGithub className="text-2xl lg:text-3xl" />
         </Link>
-        <span className="text-lg lg:text-2xl font-space flex items-center gap-1">
+        <span className="text-lg lg:text-2xl font-space flex flex-wrap items-center justify-center gap-1">
           Made with ♥️ by <span className="text-purple-400">: </span>
-          <Link href="https://www.instagram.com/riteshaests.exe?igsh=MWswZTJlbWFrb2swcA==" target='_blank' className="text-purple-400 z-50">Satya Ritesh</Link>
+          <Link href="https://www.instagram.com/riteshaests.exe?igsh=MWswZTJlbWFrb2swcA==" target='_blank' className="text-purple-400 z-50 whitespace-nowrap">Satya Ritesh</Link>
           <span className="text-purple-400"> and </span>
-          <Link href="https://www.instagram.com/sadhvikbaba?igsh=ZjBqMHcxMXdqMTk5" target='_blank' className="text-purple-400 z-50">Sadhvik Baba</Link>
+          <Link href="https://www.instagram.com/sadhvikbaba?igsh=ZjBqMHcxMXdqMTk5" target='_blank' className="text-purple-400 z-50 whitespace-nowrap">Sadhvik Baba</Link>
         </span>
       </div>
 
-      <div className="w-full text-center flex flex-row items-center justify-center cursor-pointer gap-2 whitespace-nowrap">
-        <span className="text-lg lg:text-2xl font-space flex items-center gap-1">
+      <div className="w-full text-center flex flex-wrap flex-row items-center justify-center cursor-pointer gap-2 px-2 pb-10">
+        <span className="text-lg lg:text-2xl font-space flex flex-wrap items-center justify-center gap-1">
           Special Thanks to ♥️ <span className="text-purple-400">: </span>
-          <div className="text-purple-400 z-50"> Nishant Tiwari </div>
+          <div className="text-purple-400 z-50 whitespace-nowrap"> Nishant Tiwari </div>
           <span className="text-purple-400"> and </span>
-          <div className="text-purple-400 z-50"> Omkar Ghongade </div>
+          <div className="text-purple-400 z-50 whitespace-nowrap"> Omkar Ghongade </div>
         </span>
       </div>
     </div>
