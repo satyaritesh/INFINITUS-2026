@@ -25,7 +25,7 @@ const JsonLd = () => {
         image: [
             'https://infinitus26.com/images/footerImages/INFINITUS2026LOGO.jpeg',
         ],
-        description: 'Join Infinitus 2026, the Annual National Level Techno Cultural Fest at SRM University Andhra Pradesh. Experience 3 days of innovation, technology competitions, cultural performances, hackathons, workshops, gaming tournaments (Apex Trails), and live concerts from March 1-3, 2026.',
+        description: 'Join Infinitus 2026, the Annual National Level Techno Cultural Fest at SRM University Andhra Pradesh. Experience 3 days of innovation, technology competitions, cultural performances, hackathons, workshops, gaming tournaments (Apex Trails), and live concerts from February 25-28, 2026.',
         url: 'https://infinitus26.com',
         organizer: {
             '@type': 'Organization',

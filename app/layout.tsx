@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     default: 'Infinitus 2026 | Annual National Techno Cultural Fest - SRM University AP',
     template: '%s | Infinitus 2026 - SRM University AP',
   },
-  description: 'Join Infinitus 2026, the Annual National Level Techno Cultural Fest at SRM University Andhra Pradesh from March 1-3, 2026. Experience 3 days of innovation, technology competitions, cultural performances, hackathons, workshops, gaming tournaments, and live concerts. Register now for India\'s most exciting college fest!',
+  description: 'Join Infinitus 2026, the Annual National Level Techno Cultural Fest at SRM University Andhra Pradesh from February 25-28, 2026. Experience 3 days of innovation, technology competitions, cultural performances, hackathons, workshops, gaming tournaments, and live concerts. Register now for India\'s most exciting college fest!',
   keywords: [
     'Infinitus 2026',
     'Infinitus',
@@ -70,7 +70,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Infinitus 2026 | Annual National Techno Cultural Fest - SRM University AP',
-    description: 'The Annual National Level Techno Cultural Fest of SRM University Andhra Pradesh. Join us for 3 days of innovation, technology, culture, gaming, and entertainment from March 1-3, 2026!',
+    description: 'The Annual National Level Techno Cultural Fest of SRM University Andhra Pradesh. Join us for 3 days of innovation, technology, culture, gaming, and entertainment from February 25-28, 2026!',
     url: 'https://infinitus26.com',
     siteName: 'Infinitus 2026',
     images: [
@@ -87,7 +87,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Infinitus 2026 | National Techno Cultural Fest',
-    description: 'Experience the biggest Techno Cultural Fest of Andhra Pradesh at SRM University AP. 3 days of tech, culture & entertainment. March 1-3, 2026.',
+    description: 'Experience the biggest Techno Cultural Fest of Andhra Pradesh at SRM University AP. 3 days of tech, culture & entertainment. February 25-28, 2026.',
     images: ['https://infinitus26.com/images/footerImages/INFINITUS2026LOGO.jpeg'],
     creator: '@SRMAP_Official',
     site: '@SRMAP_Official',
