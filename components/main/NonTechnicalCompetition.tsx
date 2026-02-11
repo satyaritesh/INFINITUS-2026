@@ -59,20 +59,6 @@ Ocean&apos;s Eleven and museum heist scenarios.Teams solve themed puzzles to ste
           </div>
           <div>
             < Card
-              imageSrc="/images/NON TECHNICAL/among us.png"
-              title="Your Event Title"
-              initialDescription="Experience a real-life Among Us, where trust & teamwork are vital & deception decides destiny!. Crewmates complete tasks to survive, while hidden Imposters deceive and eliminate without being caught." 
-              linkTo={'https://www.canva.com/design/DAHA5_QS5uo/2nJkltOMaibCkspEWWQ45A/edit?utm_content=DAHA5_QS5uo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'} />
-            <EventDetails
-              venue="+91 9537530501"
-              date="25-28 February 2026"
-              time="0 /-"
-              href="https://forms.gle/3pVoNyFTW6Rv6tGx6"
-              href2='https://unstop.com/p/among-us-real-life-edition-infinitus-2026-srm-university-srmap-andhra-pradesh-1638058'
-            />
-          </div>
-          <div>
-            < Card
               imageSrc="/images/NON TECHNICAL/escape room.png"
               title="Your Event Title"
               initialDescription="Experience the thrill and challenge of a haunted escape room! Teams must unlock four different locks to escape the horror-themed room before time runs out" 
@@ -83,20 +69,6 @@ Ocean&apos;s Eleven and museum heist scenarios.Teams solve themed puzzles to ste
               time="5,000 /-"
               href="https://forms.gle/3pVoNyFTW6Rv6tGx6"
               href2='https://unstop.com/p/horror-escape-room-infinitus-2026-srm-university-srmap-andhra-pradesh-1638063'
-            />
-          </div>
-          <div>
-            < Card
-              imageSrc="/images/NON TECHNICAL/cube clash.png"
-              title="Dance Competition"
-              initialDescription="Two competitions for participants. One 3 x 3 cube clash and another mosaic challenge" 
-              linkTo={'https://www.canva.com/design/DAHA55akbQk/yeEoHJXvWV6gmu5Extcvew/edit?utm_content=DAHA55akbQk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'} />
-            <EventDetails
-              venue="+91 9265025088"
-              date="25-28 February 2026"
-              time="0 /-"
-              href="https://forms.gle/3pVoNyFTW6Rv6tGx6"
-              href2='https://www.worldcubeassociation.org/competitions/SRMAPCubeClashFeb2026'
             />
           </div>
           <div>
@@ -178,21 +150,6 @@ innovation."
           </div>
           <div>
             < Card
-              imageSrc="/images/NON TECHNICAL/Herbal Quest.png"
-              title="Your Event Title"
-              initialDescription="Herbal Quest is a simple nature-based treasure hunt where teams
-explore campus plants and complete herbal-themed tasks
-" linkTo={'https://www.canva.com/design/DAHA51-KwQ8/JafePWz-aV1txQvTA89eAQ/edit?utm_content=DAHA51-KwQ8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'} />
-            <EventDetails
-              venue="+91 9023230922"
-              date="25-28 February 2026"
-              time="0 /-"
-              href="https://forms.gle/3pVoNyFTW6Rv6tGx6"
-              href2='https://unstop.com/p/herbal-quest-infinitus-2026-srm-university-srmap-andhra-pradesh-1638078'
-            />
-          </div>
-          <div>
-            < Card
               imageSrc="/images/Cultural/Anime Hunt.png"
               title="Your Event Title"
               initialDescription="An anime themed Treasure hunt where you have to find 4 poneglyphs
@@ -224,6 +181,49 @@ Along with another online event Reel-A-Live, where anyone can express themselves
               href="https://forms.gle/3pVoNyFTW6Rv6tGx6"
               href2='https://unstop.com/competitions/chaos-hour-where-wellness-goes-wild-infinitus-2026-srm-university-srmap-andhra-pradesh-1638080'
 
+            />
+          </div>
+          <div>
+            < Card
+              imageSrc="/images/NON TECHNICAL/cube clash.png"
+              title="Dance Competition"
+              initialDescription="Two competitions for participants. One 3 x 3 cube clash and another mosaic challenge" 
+              linkTo={'https://www.canva.com/design/DAHA55akbQk/yeEoHJXvWV6gmu5Extcvew/edit?utm_content=DAHA55akbQk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'} />
+            <EventDetails
+              venue="+91 9265025088"
+              date="25-28 February 2026"
+              time="0 /-"
+              href="https://www.worldcubeassociation.org/competitions/SRMAPCubeClashFeb2026"
+              href2='https://www.worldcubeassociation.org/competitions/SRMAPCubeClashFeb2026'
+            />
+          </div>
+          <div>
+            < Card
+              imageSrc="/images/NON TECHNICAL/Herbal Quest.png"
+              title="Your Event Title"
+              initialDescription="Herbal Quest is a simple nature-based treasure hunt where teams
+explore campus plants and complete herbal-themed tasks
+" linkTo={'https://www.canva.com/design/DAHA51-KwQ8/JafePWz-aV1txQvTA89eAQ/edit?utm_content=DAHA51-KwQ8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'} />
+            <EventDetails
+              venue="+91 9023230922"
+              date="25-28 February 2026"
+              time="0 /-"
+              href="https://forms.gle/3pVoNyFTW6Rv6tGx6"
+              href2='https://unstop.com/p/herbal-quest-infinitus-2026-srm-university-srmap-andhra-pradesh-1638078'
+            />
+          </div>
+          <div>
+            < Card
+              imageSrc="/images/NON TECHNICAL/among us.png"
+              title="Your Event Title"
+              initialDescription="Experience a real-life Among Us, where trust & teamwork are vital & deception decides destiny!. Crewmates complete tasks to survive, while hidden Imposters deceive and eliminate without being caught." 
+              linkTo={'https://www.canva.com/design/DAHA5_QS5uo/2nJkltOMaibCkspEWWQ45A/edit?utm_content=DAHA5_QS5uo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'} />
+            <EventDetails
+              venue="+91 9537530501"
+              date="25-28 February 2026"
+              time="0 /-"
+              href="https://forms.gle/3pVoNyFTW6Rv6tGx6"
+              href2='https://unstop.com/p/among-us-real-life-edition-infinitus-2026-srm-university-srmap-andhra-pradesh-1638058'
             />
           </div>
         </div>

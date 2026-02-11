@@ -25,7 +25,7 @@ const AboutPage = () => {
               <Tooltip
                 containerClassName="text-neutral-600 dark:text-neutral-400"
                 content="SRM University is a private research university located in Guntur, Andhra Pradesh, India. It was established in 2017 by the SRM Institute of Science and Technology."
-              ><span className="font-bold font-red-rose text-white">SRM &nbsp; University</span></Tooltip>{" "}
+              ><span className="font-bold font-red-rose text-white whitespace-nowrap italic">SRM &nbsp; University - AP</span></Tooltip>{" "}
               &nbsp; Andhra &nbsp; Pradesh
             </h2>
             <p className="text-2xl lg:text-3xl font-space text-justify">
@@ -71,7 +71,7 @@ const AboutPage = () => {
           </div>
         </div>
         <hr />
-        <h1 className=' text-center text-6xl font-semibold Welcome-text bg-clip-text text-transparent bg-gradient-to-b from-white to-[#AAAAAA] py-20 font-red-rose'>Director Student Affairs</h1>
+        <h1 className=' text-center text-6xl font-semibold Welcome-text bg-clip-text text-transparent bg-gradient-to-b from-white to-[#AAAAAA] py-20 font-red-rose'>Director - Student Affairs</h1>
         <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-between p-8 gap-16">
           <div className="mx-auto z-50">
             <Image
@@ -105,7 +105,7 @@ const AboutPage = () => {
           </div>
         </div>
         <hr />
-        <h1 className=' text-center text-6xl font-semibold Welcome-text text-transparent bg-gradient-to-r from-fuchsia-200 to-cyan-200 bg-clip-text py-20 font-red-rose'>Associate Director Student Affairs</h1>
+        <h1 className=' text-center text-6xl font-semibold Welcome-text text-transparent bg-gradient-to-r from-fuchsia-200 to-cyan-200 bg-clip-text py-20 font-red-rose'>Associate Director - Student Affairs</h1>
         <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-between p-8 gap-16">
           <div className="lg:w-1/2">
             <h2 className="text-4xl lg:text-5xl font-semibold mb-4 lg:mb-6 text-left lg:text-left bg-clip-text text-transparent bg-gradient-to-b from-white to-[#AAAAAA] font-red-rose">A note from the Associate Director Student Affairs</h2>

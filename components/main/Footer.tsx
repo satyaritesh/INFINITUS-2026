@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
       <footer className="pt-8 z-50 ">
         <div className="container mx-auto flex flex-col lg:flex-row justify-between">
           <div className="mb-8 lg:mb-0 lg:mr-4">
-            <h4 className="text-3xl lg:text-3xl mb-4 font-space font-bold">SRM University-Andhra Pradesh</h4>
+            <h4 className='font-bold italic'>SRM University-AP, Andhra Pradesh</h4>
             <p className='text-xl lg:text-2xl font-light'>
               Neerukonda, Mangalagiri Mandal, Guntur District, Andhra Pradesh, 522240
             </p>
@@ -105,7 +105,7 @@ const Footer: React.FC = () => {
         </div>
 
         {/* 5. SRM AP LOGO */}
-        <div className="order-2 lg:order-5 w-1/5 lg:w-auto flex justify-center">
+        <div className="order-2 lg:order-5 w-1/5 lg:w-auto justify-center hidden">
           <Image
             src="/images/footerImages/SRMAPLOGO.jpeg"
             alt="SRM AP"
