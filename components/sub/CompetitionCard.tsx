@@ -29,17 +29,17 @@ const Card: React.FC<CardProps> = ({ imageSrc, title, initialDescription, linkTo
   return (
     <div className='px-[10px] lg:p-0 float'>
       <div
-        className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30"
+        className="group relative rounded-2xl cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30"
         onClick={() => setIsClicked(!isClicked)}
       >
-        <div className="aspect-[2/3] w-full max-w-[400px] flex justify-center items-center relative">
+        <div className="aspect-[2/3] w-full max-w-[400px] md:w-[400px] md:h-[600px] md:aspect-auto flex justify-center items-center relative rounded-2xl overflow-hidden">
           {imageLoading && (
             <div className="absolute inset-0 flex justify-center items-center">
               <BeatLoader color="#ffffff" loading={imageLoading} size={15} />
             </div>
           )}
           <Image
-            className={`h-full rounded-2xl w-full object-contain transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125 ${isClicked ? 'rotate-3 scale-125' : ''} ${imageLoading ? 'hidden' : ''}`}
+            className={`h-full rounded-2xl w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125 ${isClicked ? 'rotate-3 scale-125' : ''} ${imageLoading ? 'hidden' : ''}`}
             src={imageSrc}
             alt=""
             fill
