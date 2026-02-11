@@ -3,7 +3,7 @@ import { MetadataRoute } from 'next'
 export const dynamic = 'force-static';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-    const baseUrl = 'https://infinitus-2026-srmap.vercel.app' // Replace with actual domain
+    const baseUrl = 'https://infinitus26.com'
 
     return [
         {

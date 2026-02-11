@@ -26,27 +26,59 @@ const redRose = Red_Rose({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://infinitus-2026-srmap.vercel.app/'), // Replace with actual domain when deployed
+  metadataBase: new URL('https://infinitus26.com'),
   title: {
-    default: 'Infinitus 2026 | SRM University AP',
-    template: '%s | Infinitus 2026',
+    default: 'Infinitus 2026 | Annual National Techno Cultural Fest - SRM University AP',
+    template: '%s | Infinitus 2026 - SRM University AP',
   },
-  description: 'Join Infinitus 2026, the Annual National Level Techno Cultural Fest of SRM University Andhra Pradesh. Experience 3 days of innovation, culture, and entertainment.',
-  keywords: ['Infinitus', 'Infinitus 2026', 'SRM AP', 'SRM University Andhra Pradesh', 'Techno Cultural Fest', 'College Fest', 'Tech Fest', 'Cultural Fest', 'Hackathon', 'Concert'],
-  authors: [{ name: 'SRM University AP' }],
+  description: 'Join Infinitus 2026, the Annual National Level Techno Cultural Fest at SRM University Andhra Pradesh from March 1-3, 2026. Experience 3 days of innovation, technology competitions, cultural performances, hackathons, workshops, gaming tournaments, and live concerts. Register now for India\'s most exciting college fest!',
+  keywords: [
+    'Infinitus 2026',
+    'Infinitus',
+    'SRM AP',
+    'SRM University Andhra Pradesh',
+    'SRM Amaravati',
+    'Techno Cultural Fest',
+    'College Fest 2026',
+    'Tech Fest India',
+    'Cultural Fest Andhra Pradesh',
+    'National Level Fest',
+    'Hackathon 2026',
+    'Technical Competitions',
+    'Cultural Events',
+    'College Events',
+    'Student Fest',
+    'Gaming Tournament',
+    'Workshops',
+    'Concert',
+    'Fest Registration',
+    'Andhra Pradesh College Fest',
+    'SRMAP Events',
+    'Apex Trails',
+    'Battle of Bands',
+  ],
+  authors: [{ name: 'SRM University AP', url: 'https://srmap.edu.in' }],
   creator: 'SRM University AP',
   publisher: 'SRM University AP',
+  category: 'Education & Events',
+  applicationName: 'Infinitus 2026',
+  referrer: 'origin-when-cross-origin',
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
   openGraph: {
-    title: 'Infinitus 2026 | SRM University AP',
-    description: 'The Annual National Level Techno Cultural Fest of SRM University Andhra Pradesh. Join us for innovation, music, and fun!',
-    url: 'https://infinitus-srmap.com',
+    title: 'Infinitus 2026 | Annual National Techno Cultural Fest - SRM University AP',
+    description: 'The Annual National Level Techno Cultural Fest of SRM University Andhra Pradesh. Join us for 3 days of innovation, technology, culture, gaming, and entertainment from March 1-3, 2026!',
+    url: 'https://infinitus26.com',
     siteName: 'Infinitus 2026',
     images: [
       {
-        url: '/images/footerImages/INFINITUS2026LOGO.jpeg', // Using existing logo path
+        url: 'https://infinitus26.com/images/footerImages/INFINITUS2026LOGO.jpeg',
         width: 1200,
         height: 630,
-        alt: 'Infinitus 2026 Logo',
+        alt: 'Infinitus 2026 - SRM University AP Techno Cultural Fest Logo',
       },
     ],
     locale: 'en_US',
@@ -54,18 +86,22 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Infinitus 2026 | SRM University AP',
-    description: 'Experience the biggest Techno Cultural Fest of Andhra Pradesh at SRM University AP.',
-    images: ['/images/footerImages/INFINITUS2026LOGO.jpeg'],
+    title: 'Infinitus 2026 | National Techno Cultural Fest',
+    description: 'Experience the biggest Techno Cultural Fest of Andhra Pradesh at SRM University AP. 3 days of tech, culture & entertainment. March 1-3, 2026.',
+    images: ['https://infinitus26.com/images/footerImages/INFINITUS2026LOGO.jpeg'],
+    creator: '@SRMAP_Official',
+    site: '@SRMAP_Official',
   },
   icons: {
     icon: '/favicon.ico',
     shortcut: '/favicon.ico',
     apple: '/favicon.ico',
   },
+  manifest: '/manifest.json',
   robots: {
     index: true,
     follow: true,
+    nocache: false,
     googleBot: {
       index: true,
       follow: true,
@@ -73,6 +109,12 @@ export const metadata: Metadata = {
       'max-image-preview': 'large',
       'max-snippet': -1,
     },
+  },
+  alternates: {
+    canonical: 'https://infinitus26.com',
+  },
+  verification: {
+    google: 'google-site-verification-code', // Replace with actual Google Search Console verification code
   },
 }
 

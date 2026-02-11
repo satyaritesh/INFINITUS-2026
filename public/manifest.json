@@ -1,0 +1,24 @@
+{
+    "name": "Infinitus 2026",
+    "short_name": "Infinitus26",
+    "description": "Annual National Level Techno Cultural Fest of SRM University Andhra Pradesh",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#030014",
+    "theme_color": "#030014",
+    "orientation": "portrait",
+    "icons": [
+        {
+            "src": "/favicon.ico",
+            "sizes": "any",
+            "type": "image/x-icon"
+        }
+    ],
+    "categories": [
+        "education",
+        "events",
+        "entertainment"
+    ],
+    "lang": "en-US",
+    "dir": "ltr"
+}

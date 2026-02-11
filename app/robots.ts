@@ -9,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
             allow: '/',
             disallow: '/private/',
         },
-        sitemap: 'https://infinitus-2026-srmap.vercel.app/sitemap.xml',
+        sitemap: 'https://infinitus26.com/sitemap.xml',
     }
 }

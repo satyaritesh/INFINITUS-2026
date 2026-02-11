@@ -1,0 +1,27 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://infinitus26.com/sitemap.xml
+
+# Disallow crawling of API routes and certain directories
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+
+# Crawl-delay (optional, helps prevent server overload)
+Crawl-delay: 0
+
+# Allow all major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
