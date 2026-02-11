@@ -41,7 +41,7 @@ const committees = [
   { id: 17, name: "Documentation", imageSrc: "/images/final website photos/Documenttion.jpeg", head: "Shashank", coHead: "MG Preethi" },
   { id: 18, name: "Discipline Committee", imageSrc: "/images/final website photos/Discipline Commitee.jpeg", head: "Roop Sai Karthik", coHead: "Revanth Settipalli" },
   { id: 19, name: "Stalls", imageSrc: "/images/final website photos/stalls.jpeg", head: "Dinesh", },
-  { id: 20, name: "HackSRM", imageSrc: "/images/final website photos/HackSRM.jpeg", head: "Nitish Sriram", coHead: "Bhowmik" },
+  { id: 20, name: "HackSRM", imageSrc: "/images/final website photos/HackSRM.jpeg", head: "Nitish Sriram", coHead: "Bhargavi" },
 ];
 
 const TeamMemberSection = () => {

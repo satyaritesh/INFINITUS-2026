@@ -33,7 +33,8 @@ const Cultural: React.FC<Types> = ({ types }) => {
       buttons: [
         { label: "Solo Western", href: "https://unstop.com/p/symphony-solo-western-infinitus-2026-srm-university-srmap-andhra-pradesh-1638039" },
         { label: "Solo Eastern", href: "https://unstop.com/p/symphony-solo-eastern-infinitus-2026-srm-university-srmap-andhra-pradesh-1638036" },
-        { label: "Instrumental", href: "https://unstop.com/p/symphony-instrumental-infinitus-2026-srm-university-srmap-andhra-pradesh-1638032" }
+        { label: "Instrumental", href: "https://unstop.com/p/symphony-instrumental-infinitus-2026-srm-university-srmap-andhra-pradesh-1638032" },
+        { label: "Battle of Bands", href: "https://unstop.com/p/symphony-battle-of-bands-infinitus-2026-srm-university-srmap-andhra-pradesh-1638041" }
       ]
     },
     behindTheMask: {
@@ -61,7 +62,8 @@ const Cultural: React.FC<Types> = ({ types }) => {
       buttons: [
         { label: "Solo Western", href: "https://forms.gle/3pVoNyFTW6Rv6tGx6" },
         { label: "Solo Eastern", href: "https://forms.gle/3pVoNyFTW6Rv6tGx6" },
-        { label: "Instrumental", href: "https://forms.gle/3pVoNyFTW6Rv6tGx6" }
+        { label: "Instrumental", href: "https://forms.gle/3pVoNyFTW6Rv6tGx6" },
+        { label: "Battle of Bands", href: "https://forms.gle/3pVoNyFTW6Rv6tGx6" }
       ]
     },
     behindTheMaskSRM: {

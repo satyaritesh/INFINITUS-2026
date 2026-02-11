@@ -39,7 +39,7 @@ const Card: React.FC<CardProps> = ({ imageSrc, title, initialDescription, linkTo
             </div>
           )}
           <Image
-            className={`h-full rounded-2xl w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125 ${isClicked ? 'rotate-3 scale-125' : ''} ${imageLoading ? 'hidden' : ''}`}
+            className={`h-full rounded-2xl w-full object-contain transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125 ${isClicked ? 'rotate-3 scale-125' : ''} ${imageLoading ? 'hidden' : ''}`}
             src={imageSrc}
             alt=""
             fill
