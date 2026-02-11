@@ -32,7 +32,7 @@ const Card: React.FC<CardProps> = ({ imageSrc, title, initialDescription, linkTo
         className="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30"
         onClick={() => setIsClicked(!isClicked)}
       >
-        <div className="h-[600px] w-[400px] flex justify-center items-center relative">
+        <div className="aspect-[2/3] w-full max-w-[400px] flex justify-center items-center relative">
           {imageLoading && (
             <div className="absolute inset-0 flex justify-center items-center">
               <BeatLoader color="#ffffff" loading={imageLoading} size={15} />

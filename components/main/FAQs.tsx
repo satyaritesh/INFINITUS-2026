@@ -34,7 +34,7 @@ export const faqData = [
   },
   {
     "question": "Can I register as an individual, or do I need to register as part of a team?",
-    "answer": "Teams are requested to make single registration only for SRMAP students. This is not applicable for externals."
+    "answer": "Teams comprising SRMAP students are required to complete a single registration per team.This requirement does not apply to external participants."
   },
   {
     "question": "Is there a registration fee for the college fest?",
@@ -50,7 +50,7 @@ export const faqData = [
   },
   {
     "question": "Do participants from other universities need to stay on campus during the duration of the fest?",
-    "answer": "No it is important they stay during the event time only. Not the entirety of the fest. It is upto them how they want to plan their stay."
+    "answer": "No, it is only necessary for the participants to be present during their respective event timings, not for the entire duration of the fest."
   },
   {
     "question": "Are meals provided for participants on campus?",
