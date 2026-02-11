@@ -109,7 +109,7 @@ const AboutPage = () => {
         <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-between p-8 gap-16">
           <div className="lg:w-1/2">
             <h2 className="text-4xl lg:text-5xl font-semibold mb-4 lg:mb-6 text-left lg:text-left bg-clip-text text-transparent bg-gradient-to-b from-white to-[#AAAAAA] font-red-rose">A note from the Associate Director Student Affairs</h2>
-            <p className="text-2xl lg:text-3xl font-space text-justify">
+            <p className="text-2xl lg:text-3xl font-space text-justify" >
               Infinitus is a celebration of innovation, creativity, and student spirit. It brings together technology and culture on a single platform, encouraging students to explore ideas, showcase talent, and collaborate beyond classrooms.
               <br />
               <br />
@@ -118,7 +118,7 @@ const AboutPage = () => {
               <br />
               Warm regards,
               <br />
-              Revathi B
+              Revathi B.
               <br />
               Associate Director Student Affairs
             </p>
