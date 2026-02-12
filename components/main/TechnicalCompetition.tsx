@@ -83,7 +83,7 @@ const Technical: React.FC<Types> = ({ types }) => {
             < Card
               imageSrc="/images/TECHNICAL/Tech - Drone Soccer.png"
               title="Drone Soccer"
-              initialDescription="International FPV Drone Race is a high-speed competitive event conducted at global racing standards, where skilled pilots race FPV drones through a professionally designed track. Following MultiGP-style formats, the event showcases precision flying, advanced drone technology, and real-time competition, making it one of the most exciting technical highlights of the fest."
+              initialDescription="An official event with multiple cubing competitions in collaboration with WCA."
               linkTo={'https://www.canva.com/design/DAHA5-YI12I/onaN2nUCCDmGApsvKaLA_g/edit?utm_content=DAHA5-YI12I&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'} />
             <EventDetails
               venue="+91 9893986159"
