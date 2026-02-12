@@ -30,7 +30,7 @@ export function ThreeDCardDemo() {
         <div>
           <div className="relative group/card hover:shadow-2xl hover:shadow-emerald-500/[0.1] bg-black border-white/[0.2]  w-[35rem] sm:w-[60rem] mx-6 sm:h-[60rem] h-auto rounded-xl p-6 border sm:p-8 transition-all duration-300 ease-in-out">
             <div className="text-3xl sm:text-4xl font-space font-bold text-neutral-600 text-white">
-              Registrations for External Students
+              Registrations for Externals
             </div>
             <div className="text-neutral-500 text-xl hover:scale-105 sm:text-2xl mt-2 dark:text-neutral-300 transition-transform duration-200 ease-in-out">
               Click here to continue
