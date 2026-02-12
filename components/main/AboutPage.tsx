@@ -51,7 +51,7 @@ const AboutPage = () => {
                 }
                 containerClassName="flex gap-2 items-center flex-wrap"
               >
-                <p className='text-white'> SRM &nbsp; University-AP&apos;s &nbsp; </p><p className='Welcome-text font-red-rose'>Annual National Level Techno Cultural Fest</p> &nbsp; <p className='text-white'>!</p>
+                <p className='text-white'> SRM &nbsp; University-AP&apos;s &nbsp; </p><p className='Welcome-text font-red-rose'>Annual National Level Techno Cultural Fest</p> &nbsp; 
               </Tooltip>
             </h2>
             <p

@@ -13,7 +13,7 @@ const teamMembers = [
   { id: 5, name: "Leonel", designation: "General Secretary (IR)", imageSrc: "/images/TEAM IMAGES/General Secretary.png" },
   { id: 6, name: "Sri Nandan Talluri", designation: "Treasurer", imageSrc: "/images/TEAM IMAGES/Treasurer.png" },
   { id: 7, name: "Rakesh Settipalli", designation: "Executive , Public Relations", imageSrc: "/images/TEAM IMAGES/PR HEAD.png" },
-  { id: 8, name: "Nipun", designation: "Executive, Events ", imageSrc: "/images/TEAM IMAGES/Nipun.jpeg" },
+  { id: 8, name: "Nipun Sai Kokonda", designation: "Executive, Events ", imageSrc: "/images/TEAM IMAGES/Nipun.jpeg" },
   { id: 9, name: "Sathwik Kompalli", designation: "Executive, Events", imageSrc: "/images/TEAM IMAGES/Cultural-exe.png" },
   { id: 10, name: "Dinesh Reddy Andluru", designation: "Executive, Technical ", imageSrc: "/images/TEAM IMAGES/Technical executive.png" },
   { id: 11, name: "Sai Avinash", designation: "Executive, Writers and Co.", imageSrc: "/images/TEAM IMAGES/avinash.png" },
@@ -23,11 +23,11 @@ const teamMembers = [
 
 const committees = [
   { id: 1, name: "Technical", imageSrc: "/images/final website photos/Technical.jpeg", head: "Vedansh", coHead: "Tejesh" },
-  { id: 2, name: "Non-Technical", imageSrc: "/images/final website photos/Non-Tech.jpeg", head: "Sathwik G", coHead: "Prateek" },
+  { id: 2, name: "Non-Technical", imageSrc: "/images/final website photos/Non-Tech.jpeg", head: "Sathwik G", coHead: "Pratik Mahata" },
   { id: 3, name: "Culturals", imageSrc: "/images/final website photos/culturals.jpeg", head: "Abhinav", coHead: "Sanjana" },
-  { id: 4, name: "Logistics", imageSrc: "/images/final website photos/logistics.jpeg", head: "Shashank", coHead: "Joyson" },
+  { id: 4, name: "Logistics", imageSrc: "/images/final website photos/logistics.jpeg", head: "Sashank", coHead: "Joyson" },
   { id: 5, name: "Fun Activities", imageSrc: "/images/final website photos/fun activites.jpeg", head: "Prosnita", coHead: "Thanvi" },
-  { id: 6, name: "Decor", imageSrc: "/images/final website photos/decor.jpeg", head: "Anjali", coHead: "Humera" },
+  { id: 6, name: "Decor", imageSrc: "/images/final website photos/decor.jpeg", head: "Sivanjali", coHead: "Humera" },
   { id: 7, name: "Pre-Infinitus", imageSrc: "/images/final website photos/Pre-infinitus.jpeg", head: "Sathwik K", coHead: "Dhanush G" },
   { id: 8, name: "Business Relations", imageSrc: "/images/final website photos/Business Relations.jpeg", head: "Amruth", coHead: "Jathin" },
   { id: 9, name: "Publicity", imageSrc: "/images/final website photos/Publicity Committee.jpeg", head: "Mohnish", coHead: "Raghavi" },

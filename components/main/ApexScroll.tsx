@@ -188,7 +188,7 @@ export default function ApexScroll() {
                     Apex Trials Journey
                 </h2>
                 <p className="text-neutral-500 text-3xl text-center w-full max-w-sm">
-                    Experience the ultimate competition through 22 competitive events.
+                    Experience the ultimate competition through 29 competitive events.
                 </p>
             </div>
 

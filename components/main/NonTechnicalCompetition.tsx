@@ -35,7 +35,7 @@ phone charms using Mouldit clay
             <EventDetails
               venue="+91 7061828823"
               date="25-28 February 2026"
-              time="2500 /-"
+              time="0 /-"
               href="https://forms.gle/3pVoNyFTW6Rv6tGx6"
               href2='https://unstop.com/p/charmistry-mouldit-moments-infinitus-2026-srm-university-srmap-andhra-pradesh-1638053'
             />
@@ -52,7 +52,7 @@ Ocean&apos;s Eleven and museum heist scenarios.Teams solve themed puzzles to ste
             <EventDetails
               venue="+91 8247426373"
               date="25-28 February 2026"
-              time="10,000 /-"
+              time="2,000 /-"
               href="https://forms.gle/3pVoNyFTW6Rv6tGx6"
               href2='https://unstop.com/p/the-art-heist-infinitus-2026-srm-university-srmap-andhra-pradesh-1638056'
             />
@@ -61,7 +61,7 @@ Ocean&apos;s Eleven and museum heist scenarios.Teams solve themed puzzles to ste
             < Card
               imageSrc="/images/NON TECHNICAL/escape room.png"
               title="Your Event Title"
-              initialDescription="Experience the thrill and challenge of a haunted escape room! Teams must unlock four different locks to escape the horror-themed room before time runs out" 
+              initialDescription="Experience the thrill and challenge of a haunted escape room! Teams must unlock four different locks to escape the horror-themed room before time runs out"
               linkTo={'https://www.canva.com/design/DAHA56BONUU/xD1Bdv5uK-zzEh_tDc1tqQ/edit?utm_content=DAHA56BONUU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'} />
             <EventDetails
               venue="+91 6300357731"
@@ -138,7 +138,7 @@ innovation."
             < Card
               imageSrc="/images/NON TECHNICAL/global fusion.png"
               title="Global Fusion"
-              initialDescription="The event tests participants on quick thinking, global awareness, teamwork, speech clarity, and crisis handling." 
+              initialDescription="The event tests participants on quick thinking, global awareness, teamwork, speech clarity, and crisis handling."
               linkTo={'https://www.canva.com/design/DAHA5x8K9O0/-CLu-_51cz6smd44ryhyRA/edit?utm_content=DAHA5x8K9O0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'} />
             <EventDetails
               venue="+91 9537530501"
@@ -187,7 +187,7 @@ Along with another online event Reel-A-Live, where anyone can express themselves
             < Card
               imageSrc="/images/NON TECHNICAL/cube clash.png"
               title="Dance Competition"
-              initialDescription="Two competitions for participants. One 3 x 3 cube clash and another mosaic challenge" 
+              initialDescription="Two competitions for participants. One 3 x 3 cube clash and another mosaic challenge"
               linkTo={'https://www.canva.com/design/DAHA55akbQk/yeEoHJXvWV6gmu5Extcvew/edit?utm_content=DAHA55akbQk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'} />
             <EventDetails
               venue="+91 9265025088"
@@ -207,7 +207,7 @@ explore campus plants and complete herbal-themed tasks
             <EventDetails
               venue="+91 9023230922"
               date="25-28 February 2026"
-              time="0 /-"
+              time="3,000 /-"
               href="https://forms.gle/3pVoNyFTW6Rv6tGx6"
               href2='https://unstop.com/p/herbal-quest-infinitus-2026-srm-university-srmap-andhra-pradesh-1638078'
             />
@@ -216,7 +216,7 @@ explore campus plants and complete herbal-themed tasks
             < Card
               imageSrc="/images/NON TECHNICAL/among us.png"
               title="Your Event Title"
-              initialDescription="Experience a real-life Among Us, where trust & teamwork are vital & deception decides destiny!. Crewmates complete tasks to survive, while hidden Imposters deceive and eliminate without being caught." 
+              initialDescription="Experience a real-life Among Us, where trust & teamwork are vital & deception decides destiny!. Crewmates complete tasks to survive, while hidden Imposters deceive and eliminate without being caught."
               linkTo={'https://www.canva.com/design/DAHA5_QS5uo/2nJkltOMaibCkspEWWQ45A/edit?utm_content=DAHA5_QS5uo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'} />
             <EventDetails
               venue="+91 9537530501"
