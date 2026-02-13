@@ -20,11 +20,6 @@ const Footer: React.FC = () => {
           <div className="mb-8 lg:mb-0 lg:mr-8">
             <h4 className="text-3xl lg:text-4xl font-bold font-space mb-4">Contact Us</h4>
             <div className="flex flex-col gap-1">
-             
-              <div className='text-xl lg:text-2xl font-light flex flex-row items-center whitespace-nowrap gap-2'>
-                <span>Nithenn Redhi:</span>
-                <a href="tel:+917893842614">+91 7893842614</a>
-              </div>
               <div className='text-xl lg:text-2xl font-light flex flex-row items-center whitespace-nowrap gap-2'>
                 <span>Rishabh:</span>
                 <a href="tel:+918757318759">+91 8757318759</a>
