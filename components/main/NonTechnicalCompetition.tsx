@@ -24,39 +24,7 @@ const NonTechnical: React.FC<Types> = ({ types }) => {
       </h1>
       <div className='flex flex-col items-center justify-center md:flex-row md:justify-center'>
         <div className='grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3'>
-          <div>
-            < Card
-              imageSrc="/images/TECHNICAL/charmistry.png"
-              title="Your Event Title"
-              initialDescription="A hands-on creative session where participants learn to craft customized
-phone charms using Mouldit clay
-
-              " linkTo={'https://www.canva.com/design/DAHA5seIFOA/RMFL_PV-8wmSAexmBoG7_g/edit?utm_content=DAHA5seIFOA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'} />
-            <EventDetails
-              venue="+91 7061828823"
-              date="25-28 February 2026"
-              time="0 /-"
-              href="https://forms.gle/3pVoNyFTW6Rv6tGx6"
-              href2='https://unstop.com/p/charmistry-mouldit-moments-infinitus-2026-srm-university-srmap-andhra-pradesh-1638053'
-            />
-          </div>
-          <div>
-            < Card
-              imageSrc="/images/Cultural/art heist.png"
-              title="Your Event Title"
-              initialDescription="A story-driven escape challenge inspired by
-Ocean&apos;s Eleven and museum heist scenarios.Teams solve themed puzzles to steal the “Golden Canvas” without triggering alarms."
-
-              linkTo={'https://www.canva.com/design/DAHA55D9biY/V24vh8CLPjEc9FnahsU2cA/edit?utm_content=DAHA55D9biY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'}
-            />
-            <EventDetails
-              venue="+91 8247426373"
-              date="25-28 February 2026"
-              time="2,000 /-"
-              href="https://forms.gle/3pVoNyFTW6Rv6tGx6"
-              href2='https://unstop.com/p/the-art-heist-infinitus-2026-srm-university-srmap-andhra-pradesh-1638056'
-            />
-          </div>
+          
           <div>
             < Card
               imageSrc="/images/NON TECHNICAL/escape room.png"
@@ -169,6 +137,21 @@ clues for multiple anime not just one piece
           </div>
           <div>
             < Card
+              imageSrc="/images/NON TECHNICAL/Herbal Quest.png"
+              title="Your Event Title"
+              initialDescription="Herbal Quest is a simple nature-based treasure hunt where teams
+explore campus plants and complete herbal-themed tasks
+" linkTo={'https://www.canva.com/design/DAHA51-KwQ8/JafePWz-aV1txQvTA89eAQ/edit?utm_content=DAHA51-KwQ8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'} />
+            <EventDetails
+              venue="+91 9023230922"
+              date="25-28 February 2026"
+              time="3,000 /-"
+              href="https://forms.gle/3pVoNyFTW6Rv6tGx6"
+              href2='https://unstop.com/p/herbal-quest-infinitus-2026-srm-university-srmap-andhra-pradesh-1638078'
+            />
+          </div>
+          <div>
+            < Card
               imageSrc="/images/NON TECHNICAL/Chaos Hour.png"
               title="Your Event Title"
               initialDescription="Chaos Hour blends fun, mindfulness, and connection - transforming “wellness” from a quiet idea into a dynamic, laughter-filled experience.
@@ -197,21 +180,7 @@ Along with another online event Reel-A-Live, where anyone can express themselves
               href2='https://www.worldcubeassociation.org/competitions/SRMAPCubeClashFeb2026'
             />
           </div>
-          <div>
-            < Card
-              imageSrc="/images/NON TECHNICAL/Herbal Quest.png"
-              title="Your Event Title"
-              initialDescription="Herbal Quest is a simple nature-based treasure hunt where teams
-explore campus plants and complete herbal-themed tasks
-" linkTo={'https://www.canva.com/design/DAHA51-KwQ8/JafePWz-aV1txQvTA89eAQ/edit?utm_content=DAHA51-KwQ8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'} />
-            <EventDetails
-              venue="+91 9023230922"
-              date="25-28 February 2026"
-              time="3,000 /-"
-              href="https://forms.gle/3pVoNyFTW6Rv6tGx6"
-              href2='https://unstop.com/p/herbal-quest-infinitus-2026-srm-university-srmap-andhra-pradesh-1638078'
-            />
-          </div>
+          
           <div>
             < Card
               imageSrc="/images/NON TECHNICAL/among us.png"
@@ -224,6 +193,39 @@ explore campus plants and complete herbal-themed tasks
               time="0 /-"
               href="https://forms.gle/3pVoNyFTW6Rv6tGx6"
               href2='https://unstop.com/p/among-us-real-life-edition-infinitus-2026-srm-university-srmap-andhra-pradesh-1638058'
+            />
+          </div>
+          <div>
+            < Card
+              imageSrc="/images/TECHNICAL/charmistry.png"
+              title="Your Event Title"
+              initialDescription="A hands-on creative session where participants learn to craft customized
+phone charms using Mouldit clay
+
+              " linkTo={'https://www.canva.com/design/DAHA5seIFOA/RMFL_PV-8wmSAexmBoG7_g/edit?utm_content=DAHA5seIFOA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'} />
+            <EventDetails
+              venue="+91 7061828823"
+              date="25-28 February 2026"
+              time="0 /-"
+              href="https://forms.gle/3pVoNyFTW6Rv6tGx6"
+              href2='https://unstop.com/p/charmistry-mouldit-moments-infinitus-2026-srm-university-srmap-andhra-pradesh-1638053'
+            />
+          </div>
+          <div>
+            < Card
+              imageSrc="/images/Cultural/art heist.png"
+              title="Your Event Title"
+              initialDescription="A story-driven escape challenge inspired by
+Ocean&apos;s Eleven and museum heist scenarios.Teams solve themed puzzles to steal the “Golden Canvas” without triggering alarms."
+
+              linkTo={'https://www.canva.com/design/DAHA55D9biY/V24vh8CLPjEc9FnahsU2cA/edit?utm_content=DAHA55D9biY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'}
+            />
+            <EventDetails
+              venue="+91 8247426373"
+              date="25-28 February 2026"
+              time="0 /-"
+              href="https://forms.gle/3pVoNyFTW6Rv6tGx6"
+              href2='https://unstop.com/p/the-art-heist-infinitus-2026-srm-university-srmap-andhra-pradesh-1638056'
             />
           </div>
         </div>
