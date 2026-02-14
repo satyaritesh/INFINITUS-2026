@@ -27,7 +27,7 @@ const Technical: React.FC<Types> = ({ types }) => {
             < Card
               imageSrc="/images/TECHNICAL/BGMI Master Series.png"
               title="BGMI Master Series"
-              initialDescription="BGFS is a Battlegrounds Mobile India tournament conducted exclusively for first-year students. This event provides a platform for freshers to demonstrate their gaming skills, strategic thinking, and team coordination in a competitive environment.Participants will compete for attractive prizes, with the winning team securing a direct entry into the official roster selection process for the current academic year."
+              initialDescription="Battlegrounds Mobile India (BGMI) is a part of the University Esports Championship 3.0 (UEC 3.0), conducted exclusively for university students. Teams compete in a 4-player squad format on mobile devices, earning Placement Points and Kill Points under official tournament rules. Perform consistently and secure your ticket to the UEC 3.0 Grand Finale."
               linkTo={'https://www.canva.com/design/DAHA53V8WqU/3GH6T1BgZ-fD1Ty7cd1IOA/edit?utm_content=DAHA53V8WqU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'} />
             <EventDetails
               venue="+91 9315268810"
@@ -41,7 +41,7 @@ const Technical: React.FC<Types> = ({ types }) => {
             < Card
               imageSrc="/images/TECHNICAL/VR Tennis.png"
               title="VR Tennis"
-              initialDescription="Sponsored Event Under University Esports Championship"
+              initialDescription="Virtual Reality (VR) Tennis is a part of the University Esports Championship 3.0 (UEC 3.0), organized as an individual esports competition. Participants compete under standardized settings to achieve the highest score and advance based on leaderboard rankings."
               linkTo={'https://www.canva.com/design/DAHA5_oKB3A/HZccwyw1LZk_WX6xRJ2W4w/edit?utm_content=DAHA5_oKB3A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'} />
             <EventDetails
               venue="+91 9265025088"
@@ -55,7 +55,7 @@ const Technical: React.FC<Types> = ({ types }) => {
             < Card
               imageSrc="/images/TECHNICAL/Valorant Vanguard Series.png"
               title="Valorant Vanguard Series"
-              initialDescription="Valorant Freshers Series is a college esports tournament conducted exclusively for BTech first-year students. This event provides a platform for freshers to showcase their gaming skills, teamwork, and strategic thinking in an intense competitive environment. Participants will compete for attractive prizes, with the winning team earning recognition and a chance to represent the college in higher-level Valorant competitions. Step into the arena and prove your mettle in this thrilling campus showdown."
+              initialDescription="Valorant is a part of the University Esports Championship 3.0 (UEC 3.0), conducted as an offline 5v5 Local Area Network (LAN) tournament. The competition includes group stages and playoffs, leading up to the Grand Finale. Teams must win their matches to earn a place in the UEC 3.0 Grand Finale."
               linkTo={'https://www.canva.com/design/DAHA5-TKhh8/-4Statke5jDTB8IaLTdk2Q/edit?utm_content=DAHA5-TKhh8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'} />
             <EventDetails
               venue="+91 7702068993"
@@ -69,7 +69,7 @@ const Technical: React.FC<Types> = ({ types }) => {
             < Card
               imageSrc="/images/TECHNICAL/Real Cricket.png"
               title="Real Cricket"
-              initialDescription="Real Cricket Freshers Series is a competitive mobile cricket tournament organized exclusively for BTech first-year students. The event serves as a platform for freshers to demonstrate their cricketing skills, tactical play, and team coordination in a spirited environment. Participants compete for attractive prizes, with the winning squad getting a chance to enter the official campus esports selection for the academic year. Step onto the digital pitch and showcase your talent in this exciting cricket showdown."
+              initialDescription="Real Cricket is conducted as an individual 1 vs 1 esports tournament. Matches will be played for 2 or 5 overs, as decided by the organizers. Rankings are determined based on match wins and run difference according to the official rules."
               linkTo={'https://www.canva.com/design/DAHA54DRh8Y/UhKz3oe6c4sdT4Au713ZFQ/edit?utm_content=DAHA54DRh8Y&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'} />
             <EventDetails
               venue="+91 9537530501"
@@ -83,12 +83,12 @@ const Technical: React.FC<Types> = ({ types }) => {
             < Card
               imageSrc="/images/TECHNICAL/Tech - Drone Soccer.png"
               title="Drone Soccer"
-              initialDescription="An official event with multiple cubing competitions in collaboration with WCA."
+              initialDescription="Imagine Quidditch meets Rocket League in a high-stakes, full-contact aerial battle. In Drone Soccer, two teams of five pilots navigate collision-proof drones inside a netted arena, aiming to fly their designated \'Striker\' through the opponent's circular goal. While the Striker hunts for points, the other four drones act as a flying wall of defenders, physically ramming and blocking the opposition in a chaotic display of speed and strategy. It\'s a fast-paced blend of e-sports and robotics that rewards split-second reflexes and intense teamwork."
               linkTo={'https://www.canva.com/design/DAHA5-YI12I/onaN2nUCCDmGApsvKaLA_g/edit?utm_content=DAHA5-YI12I&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'} />
             <EventDetails
               venue="+91 9893986159"
               date="25-28 February 2026"
-              time="1,00,000 /-"
+              time="20,000 /-"
               href="https://forms.gle/3pVoNyFTW6Rv6tGx6"
               href2='https://unstop.com/p/drone-soccer-infinitus-2026-srm-university-srmap-andhra-pradesh-1638596'
             />
