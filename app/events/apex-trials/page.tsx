@@ -14,7 +14,7 @@ const ApexTrials = () => {
             <div className="container mx-auto px-4 py-20 z-[20]">
 
                 <h1 className="text-[40px] md:text-[60px] font-semibold font-red-rose text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-center pt-20 pb-10">
-                    APEX TRIALS 2.0
+                    APEX TRAILS 2.0
                 </h1>
 
                 <div className="px-4 md:px-10 mb-20 text-center">
