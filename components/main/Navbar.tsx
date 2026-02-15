@@ -5,9 +5,12 @@ import Link from "next/link";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { usePathname } from "next/navigation";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
+  const pathname = usePathname();
+  const isHomePage = pathname === '/';
 
   const links = [
     {
@@ -64,14 +67,35 @@ const Navbar = () => {
 
   return (
     <div className={`flex justify-between items-center w-full h-28 p-5 text-white  z-[9999] fixed top-0 left-0 ${nav ? 'nav-open' : ''}`} style={{ backgroundColor: '#030014' }}>
-      <motion.div variants={slideInFromRight(40)} className="py-5 px-3">
+      {/* Mobile: Left logo - SRM on home page, INFINITUS on other pages */}
+      <div className="md:hidden pl-2 z-10 order-1">
+        {isHomePage ? (
+          <Link href={"https://www.srmap.edu.in"} target="_blank">
+            <Image
+              src="/images/footerImages/SRMAPLOGO.jpeg"
+              alt="SRM AP Logo"
+              width={65}
+              height={70}
+              className="object-contain"
+            />
+          </Link>
+        ) : (
+          <Link href="/">
+            <Image src='/img.png' alt='INFINITUS Logo' className='h-10 object-contain w-40' width={200} height={70} />
+          </Link>
+        )}
+      </div>
+
+      {/* Desktop: INFINITUS Logo on left */}
+      <motion.div variants={slideInFromRight(40)} className="py-5 px-3 hidden md:block">
         <div className='flex items-center mb-2'>
           <Link href="/">
-            <Image src='/img.png' alt='Logo' className='h-13 object-contain w-52' width={208} height={52} />
+            <Image src='/img.png' alt='INFINITUS Logo' className='h-13 object-contain w-52' width={200} height={70} />
           </Link>
         </div>
       </motion.div>
 
+      {/* Desktop Navigation */}
       <ul className="hidden md:flex md:justify-center md:align-middle gap-2 ">
         {links.map(({ id, name, link, target }) => (
           <React.Fragment key={id}>
@@ -98,9 +122,9 @@ const Navbar = () => {
         ))}
       </ul>
 
-
-      <div onClick={toggleNav} className="cursor-pointer font-space pr-4 z-10 text-white text-2xl md:hidden">
-        {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
+      {/* Mobile: Hamburger on right */}
+      <div onClick={toggleNav} className="cursor-pointer font-space pr-2 z-10 text-white text-2xl md:hidden order-3">
+        {nav ? <FaTimes size={28} /> : <FaBars size={28} />}
       </div>
 
       {nav && (
@@ -141,7 +165,7 @@ const Navbar = () => {
               )}
             </React.Fragment>
           ))}
-          
+
         </ul>
       )}
     </div>
