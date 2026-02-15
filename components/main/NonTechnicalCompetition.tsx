@@ -170,7 +170,16 @@ Along with another online event Reel-A-Live, where anyone can express themselves
             < Card
               imageSrc="/images/NON TECHNICAL/cube clash.png"
               title="Dance Competition"
-              initialDescription="Two competitions for participants. One 3 x 3 cube clash and another mosaic challenge"
+              initialDescription="An official event with multiple cubing competitions in collaboration with WCA.
+8 competitions :
+2x2 Cube
+3x3x3 Cube
+3x3x3 One-Handed
+3x3x3 Blindfolded
+4x4x4 Cube
+Megaminx
+Skewb
+Pyraminx"
               linkTo={'https://www.canva.com/design/DAHA55akbQk/yeEoHJXvWV6gmu5Extcvew/edit?utm_content=DAHA55akbQk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'} />
             <EventDetails
               venue="+91 9265025088"
