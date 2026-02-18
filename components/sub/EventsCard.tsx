@@ -9,12 +9,14 @@ interface EventsCardProps {
   name: string;
   href: string;
   buttonText?: string;
+  contactName?: string;
+  contactNumber?: string;
 }
 
-const EventsCard: React.FC<EventsCardProps> = ({ title, imageSrc, name, href, buttonText = 'Continue' }) => {
+const EventsCard: React.FC<EventsCardProps> = ({ title, imageSrc, name, href, buttonText = 'Continue', contactName, contactNumber }) => {
   return (
     <div>
-      <h1 className='text-center sm:text-5xl w-full text-4xl font-semibold text-gray-400 font-red-rose py-10'>{title}</h1>
+      <h1 className='text-center sm:text-5xl w-full text-4xl font-semibold text-gray-400 font-red-rose py-10 ' >{title}</h1>
       <Link href={href}>
         <ElectricBorder
           color="#bf80ff"
@@ -33,8 +35,14 @@ const EventsCard: React.FC<EventsCardProps> = ({ title, imageSrc, name, href, bu
           </div>
         </ElectricBorder>
       </Link>
+      {contactName && contactNumber && (
+        <div className="flex flex-col items-center justify-center py-2 mt-4 text-white/80">
+          <p className="text-3xl font-red-rose font-medium">{contactName}</p>
+          <p className="text-md text-gray-300">{contactNumber}</p>
+        </div>
+      )}
       <Link href={href}>
-        <div className='w-full h-40 flex justify-center items-center'>
+        <div className='w-full h-20 flex justify-center items-center'>
           <button className="group relative p-6 rounded-2xl backdrop-blur-md border-2 border-indigo-400/60 bg-gradient-to-br from-indigo-600/70 via-purple-700/60 to-indigo-800/70 shadow-[0_0_20px_rgba(99,102,241,0.3)] hover:shadow-[0_0_30px_rgba(99,102,241,0.5)] hover:scale-[1.02] hover:-translate-y-1 active:scale-95 transition-all duration-500 ease-out cursor-pointer hover:border-indigo-300/80 overflow-hidden w-1/2">
             <div className="absolute inset-0 bg-gradient-to-r from-transparent via-indigo-300/40 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000 ease-out"></div>
             <div className="absolute inset-0 rounded-2xl bg-gradient-to-r from-indigo-400/20 via-purple-400/30 to-indigo-400/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
