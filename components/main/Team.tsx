@@ -35,7 +35,7 @@ const committees = [
   { id: 11, name: "Registrations", imageSrc: "/images/final website photos/registrations.jpeg", head: "Jashwanth", coHead: "Manish" },
   { id: 12, name: "Hospitality", imageSrc: "/images/final website photos/Hospitality.jpeg", head: "Wasim Raja", coHead: "Nirmal" },
   { id: 13, name: "Post Production", imageSrc: "/images/final website photos/Post Production.jpeg", head: "Praharsha", coHead: "Abhinay" },
-  { id: 14, name: "Design", imageSrc: "/images/final website photos/Design.jpeg", head: "Adithya", coHead: "Mihirkanth" },
+  { id: 14, name: "Design", imageSrc: "/images/final website photos/Design.jpeg", head: "Adithya", coHead: "Mihirkant" },
   { id: 15, name: "Website", imageSrc: "/images/final website photos/website.jpg", head: "Sadhvik", coHead: "Ritesh" },
   { id: 16, name: "Media Production", imageSrc: "/images/final website photos/Media Production.jpeg", head: "Koushik", coHead: "Vasisht" },
   { id: 17, name: "Documentation", imageSrc: "/images/final website photos/Documenttion.jpeg", head: "Shashank", coHead: "MG Preethi" },
