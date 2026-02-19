@@ -31,7 +31,7 @@ const Technical: React.FC<Types> = ({ types }) => {
               linkTo={'https://www.canva.com/design/DAHA53V8WqU/3GH6T1BgZ-fD1Ty7cd1IOA/edit?utm_content=DAHA53V8WqU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'} />
             <EventDetails
               venue="+91 9315268810"
-              date="25-28 February 2026"
+              date="25-26 February 2026"
               time="30,000 /-"
               href="https://forms.gle/3pVoNyFTW6Rv6tGx6"
               href2='https://unstop.com/p/bgmi-master-series-infinitus-2026-srm-university-srmap-andhra-pradesh-1638014'
@@ -45,7 +45,7 @@ const Technical: React.FC<Types> = ({ types }) => {
               linkTo={'https://www.canva.com/design/DAHA5_oKB3A/HZccwyw1LZk_WX6xRJ2W4w/edit?utm_content=DAHA5_oKB3A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'} />
             <EventDetails
               venue="+91 9265025088"
-              date="25-28 February 2026"
+              date="25-26 February 2026"
               time="10,000 /-"
               href="https://forms.gle/3pVoNyFTW6Rv6tGx6"
               href2='https://unstop.com/p/vr-tennis-infinitus-2026-srm-university-srmap-andhra-pradesh-1638037'
@@ -59,7 +59,7 @@ const Technical: React.FC<Types> = ({ types }) => {
               linkTo={'https://www.canva.com/design/DAHA5-TKhh8/-4Statke5jDTB8IaLTdk2Q/edit?utm_content=DAHA5-TKhh8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'} />
             <EventDetails
               venue="+91 7702068993"
-              date="25-28 February 2026"
+              date="25-26 February 2026"
               time="22,500 /-"
               href="https://forms.gle/3pVoNyFTW6Rv6tGx6"
               href2='https://unstop.com/p/valorant-vanguard-series-infinitus-2026-srm-university-srmap-andhra-pradesh-1638018'
@@ -73,7 +73,7 @@ const Technical: React.FC<Types> = ({ types }) => {
               linkTo={'https://www.canva.com/design/DAHA54DRh8Y/UhKz3oe6c4sdT4Au713ZFQ/edit?utm_content=DAHA54DRh8Y&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'} />
             <EventDetails
               venue="+91 9537530501"
-              date="25-28 February 2026"
+              date="27 February 2026"
               time="10,000 /-"
               href="https://forms.gle/3pVoNyFTW6Rv6tGx6"
               href2='https://unstop.com/p/real-cricket-infinitus-2026-srm-university-srmap-andhra-pradesh-1638044'
@@ -87,7 +87,7 @@ const Technical: React.FC<Types> = ({ types }) => {
               linkTo={'https://www.canva.com/design/DAHA5-YI12I/onaN2nUCCDmGApsvKaLA_g/edit?utm_content=DAHA5-YI12I&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'} />
             <EventDetails
               venue="+91 9893986159"
-              date="25-28 February 2026"
+              date="25-26 February 2026"
               time="20,000 /-"
               href="https://forms.gle/3pVoNyFTW6Rv6tGx6"
               href2='https://unstop.com/p/drone-soccer-infinitus-2026-srm-university-srmap-andhra-pradesh-1638596'
@@ -102,7 +102,7 @@ The course may include curves, junctions, and varying speeds to test precision a
               linkTo={'https://www.canva.com/design/DAHA58V5Anw/0TWUdFaufrrhOIFRuRa2Jg/edit?utm_content=DAHA58V5Anw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'} />
             <EventDetails
               venue="+91 6009923073"
-              date="25-28 February 2026"
+              date="27 February 2026"
               time="22,000 /-"
               href="https://forms.gle/3pVoNyFTW6Rv6tGx6"
               href2='https://unstop.com/p/robo-rush-line-follower-bot-infinitus-2026-srm-university-srmap-andhra-pradesh-1638047'
@@ -119,7 +119,7 @@ The track design will be revealed only on the day of competition."
               linkTo={'https://www.canva.com/design/DAHA536yCWw/MKYrlWyKBY24btLbdy8k9A/edit?utm_content=DAHA536yCWw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'} />
             <EventDetails
               venue="+91 7702068993"
-              date="25-28 February 2026"
+              date="26 February 2026"
               time="22,000 /-"
               href="https://forms.gle/3pVoNyFTW6Rv6tGx6"
               href2='https://unstop.com/p/obstacle-course-bot-infinitus-2026-srm-university-srmap-andhra-pradesh-1638052'
@@ -134,7 +134,7 @@ The track design will be revealed only on the day of competition."
             />
             <EventDetails
               venue="+91 7061828823"
-              date="25-28 February 2026"
+              date="26 February 2026"
               time="30,000 /-"
               href="https://forms.gle/3pVoNyFTW6Rv6tGx6"
               href2='https://unstop.com/competitions/texpo-2026-student-innovation-and-industry-technology-expo-srm-university-srmap-andhra-pradesh-1638340'
@@ -150,7 +150,7 @@ The session is designed specifically for engineering students who already unders
               linkTo={'https://www.canva.com/design/DAHA57Oms_U/0y_ZyKElX3bGitEUROwNwQ/edit?utm_content=DAHA57Oms_U&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'} />
             <EventDetails
               venue="+91 6009923073"
-              date="25-28 February 2026"
+              date="25 February 2026"
               time="NA"
               href="https://forms.gle/3pVoNyFTW6Rv6tGx6"
               href2='https://unstop.com/p/inside-googles-lab-infinitus-2026-srm-university-srmap-andhra-pradesh-1637982'
@@ -165,7 +165,7 @@ The session will bridge the gap between academic learning and industry practices
               linkTo={'https://www.canva.com/design/DAHA5_LMY-I/FFG9MC4ESWCBrIKGodn2Ow/edit?utm_content=DAHA5_LMY-I&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'} />
             <EventDetails
               venue="+91 6009923073"
-              date="25-28 February 2026"
+              date="25 February 2026"
               time="NA"
               href="https://forms.gle/3pVoNyFTW6Rv6tGx6"
               href2='https://unstop.com/p/robotics-reimagined-infinitus-2026-srm-university-srmap-andhra-pradesh-1637992'
@@ -179,7 +179,7 @@ The session will bridge the gap between academic learning and industry practices
               linkTo={'https://www.canva.com/design/DAHA50-F-mQ/dP9VjvrKFgSdTWxF3O9sMQ/edit?utm_content=DAHA50-F-mQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'} />
             <EventDetails
               venue="+91 7061828823"
-              date="25-28 February 2026"
+              date="26-27 February 2026"
               time="0 /-"
               href="https://forms.gle/3pVoNyFTW6Rv6tGx6"
               href2='https://unstop.com/p/null-point-ctf-infinitus-2026-srm-university-srmap-andhra-pradesh-1638584'
@@ -194,7 +194,7 @@ The workshop aims to equip learners with industry-relevant hardware design skill
               linkTo={'https://www.canva.com/design/DAHA534TS6w/NXsPwGxuRnnLEOohCz6rig/edit?utm_content=DAHA534TS6w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'} />
             <EventDetails
               venue="+91 7061828823"
-              date="25-28 February 2026"
+              date="25 February 2026"
               time="NA"
               href="https://forms.gle/3pVoNyFTW6Rv6tGx6"
               href2='https://unstop.com/workshops-webinars/pcb-design-workshop-infinitus-2026-srm-university-srmap-andhra-pradesh-1638004'
@@ -208,7 +208,7 @@ The workshop aims to equip learners with industry-relevant hardware design skill
               linkTo={'https://www.canva.com/design/DAHA56bugi0/SGz_DC8yrF6pN6D9u00U0w/edit?utm_content=DAHA56bugi0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'} />
             <EventDetails
               venue="+91 7061828823"
-              date="25-28 February 2026"
+              date="26 February 2026"
               time="NA"
               href="https://forms.gle/3pVoNyFTW6Rv6tGx6"
               href2='https://unstop.com/p/tech-sprint-robotics-reimagined-infinitus-2026-srm-university-srmap-andhra-pradesh-1637997'

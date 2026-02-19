@@ -103,7 +103,7 @@ const Cultural: React.FC<Types> = ({ types }) => {
             />
             <EventDetails
               venue="+91 9963123747"
-              date="25-28 February 2026"
+              date="26 February 2026"
               time="1,00,000 /-"
               href='https://forms.gle/3pVoNyFTW6Rv6tGx6'
               onSrmClick={() => setActivePopup('globalBeatsSRM')}
@@ -120,7 +120,7 @@ const Cultural: React.FC<Types> = ({ types }) => {
             />
             <EventDetails
               venue="+91 8886266647"
-              date="25-28 February 2026"
+              date="26 February 2026"
               time="48,000 /-"
               href='#'
               onSrmClick={() => setActivePopup('symphonySRM')}
@@ -138,7 +138,7 @@ const Cultural: React.FC<Types> = ({ types }) => {
             />
             <EventDetails
               venue="+91 6303853941"
-              date="25-28 February 2026"
+              date="26 February 2026"
               time="5,000 /-"
               href='#'
               onSrmClick={() => setActivePopup('behindTheMaskSRM')}
@@ -154,7 +154,7 @@ const Cultural: React.FC<Types> = ({ types }) => {
               linkTo={'https://www.canva.com/design/DAHA5jgQetQ/kQlZrlAeyTHsfsv_bNKx8A/edit?utm_content=DAHA5jgQetQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'} />
             <EventDetails
               venue="+91 6009923073"
-              date="25-28 February 2026"
+              date="28 February 2026"
               time="0 /-"
               href="https://forms.gle/3pVoNyFTW6Rv6tGx6"
               href2='https://unstop.com/p/filmathon-infinitus-2026-srm-university-srmap-andhra-pradesh-1638045'

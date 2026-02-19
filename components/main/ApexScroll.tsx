@@ -11,9 +11,9 @@ import confetti from "canvas-confetti";
 import CategoryPopup from "../sub/CategoryPopup";
 
 const games = [
-    { title: "The Rope Labyrinth", image: "/images/ApexTrails/Rope maze .png" },
-    { title: "Red Light, Green Light", image: "/images/ApexTrails/red light green light .png" },
-    { title: "The Mingle Mixer", image: "/images/ApexTrails/Mingle.png" },
+    { title: "The Rope Labyrinth", image: "/images/ApexTrails/Rope maze .png", date: "26 Feb" },
+    { title: "Red Light, Green Light", image: "/images/ApexTrails/red light green light .png", date: "27 Feb" },
+    { title: "The Mingle Mixer", image: "/images/ApexTrails/Mingle.png", date: "27 Feb" },
     { title: "Synergy Challenge", image: "/images/ApexTrails/teamwork.png" },
 ];
 
@@ -32,7 +32,7 @@ const TimelineItem = ({
     index,
     activeCard,
 }: {
-    item: { title: string; image: string };
+    item: { title: string; image: string; date?: string };
     index: number;
     activeCard: number[];
 }) => {
@@ -70,6 +70,11 @@ const TimelineItem = ({
                     <h2 className={`text-2xl font-bold font-red-rose ${isActive ? "text-transparent bg-clip-text bg-gradient-to-r" : "text-neutral-300"} ${index % 2 === 0 ? "from-cyan-400 to-purple-400" : "from-purple-400 to-cyan-400"}`}>
                         {item.title}
                     </h2>
+                    {item.date && (
+                        <p className={`text-lg font-medium font-red-rose ${isActive ? "text-purple-300" : "text-neutral-500"} mt-2`}>
+                            {item.date}
+                        </p>
+                    )}
                 </div>
             </div>
         </div>
