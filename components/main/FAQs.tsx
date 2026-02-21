@@ -13,6 +13,10 @@ export const faqData = [
     "answer": " Yes, SRM-AP students can also register for competitions through the official website."
   },
   {
+    "question": "How should SRM-AP alumni register for Infinitus 2026?",
+    "answer": "Alumni of SRM-AP are requested to register through the dedicated alumni registration link provided on the website."
+  },
+  {
     "question": "How do I register for the college fest?",
     "answer": "To register for the college fest, simply visit our website and navigate to the registration page. Fill out the required information and follow the prompts to complete your registration."
   },
@@ -131,7 +135,7 @@ function Questions() {
     <section className='pt-20'>
       <Navbar />
       <FlareCursor />
-      <h1 className='m-20 text-center text-5xl md:text-6xl font-semibold Welcome-text text-transparent bg-gradient-to-r from-fuchsia-200 to-cyan-200 bg-clip-text font-space'>
+      <h1 className='m-20 text-center text-5xl md:text-6xl font-semibold Welcome-text text-transparent bg-gradient-to-r from-fuchsia-200 to-cyan-200 bg-clip-text font-red-rose'>
         Frequently Asked Questions
       </h1>
       <div className='py-6 mx-auto px-3'>
