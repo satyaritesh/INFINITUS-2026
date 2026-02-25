@@ -71,7 +71,7 @@ const AboutPage = () => {
           </div>
         </div>
         <hr />
-        <h1 className=' text-center text-6xl font-semibold Welcome-text text-transparent bg-gradient-to-r from-fuchsia-200 to-cyan-200 bg-clip-text py-20 font-red-rose'>Vice Chancellor&apos;s Message</h1>
+        <h1 className=' text-center text-6xl font-semibold Welcome-text text-transparent bg-gradient-to-r from-fuchsia-200 to-cyan-200 bg-clip-text py-20 font-red-rose'>Vice Chancellor - SRM-AP</h1>
         <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-between p-8 gap-16">
           <div className="mx-auto z-50">
             <Image
@@ -88,31 +88,53 @@ const AboutPage = () => {
               A note from the Vice Chancellor
             </h2>
             <p className="text-2xl lg:text-3xl font-space text-justify">
-              Dear students, <br /><br />
-              INFINITUS it is a celebration of innovation, creativity and togetherness. <br /><br />
-              A true blend of technology and imagination that brings together talent across the nation to foster the sprit of collaboration and enthusiasm. <br /><br />
-              I encourage you to participate wholeheartedly, challenge your limits, and embrace the opportunity to learn from one another. <br /><br />
-              May this edition of Infinitus foster new friendships, inspire bold ideas, and create memories that last a lifetime.
+              It gives me immense pleasure to extend my warm greetings to all students, DSA, organizers, faculty, guests, and well-wishers of Infinitus 2026.
+              <br /><br />
+              Infinitus is more than just a celebration—it is a vibrant expression of youthful energy, creativity, innovation, and collaboration. It provides our students with a dynamic platform to explore their talents beyond the classroom, strengthen friendships, and showcase the remarkable spirit that defines our university community.
+              <br /><br />
+              In today’s rapidly evolving world, holistic development is essential. Academic excellence must be complemented by cultural engagement, leadership experiences, artistic exploration, and teamwork. Events such as Infinitus play a vital role in nurturing confidence, resilience, and a spirit of healthy competition among our students.
+              <br /><br />
+              I commend the organizing committee, faculty coordinators, sponsors, and volunteers whose dedication and meticulous planning have made this festival possible. Your commitment reflects the shared vision of building a campus that encourages innovation, inclusivity, and excellence.
+              <br /><br />
+              To all participants, I encourage you to engage wholeheartedly, celebrate responsibly, and make lasting memories. May this festival inspire new ideas, strengthen bonds, and ignite aspirations that extend far beyond these few days of celebration.
+              <br /><br />
+              I wish Infinitus 2026 grand success.
+              <br /><br />
+              Best Regards,
+              <br /><br />
+              Prof Ch. Satish Kumar
+              <br />
+              Vice Chancellor
             </p>
           </div>
         </div>
         <hr />
-        <h1 className=' text-center text-6xl font-semibold Welcome-text text-transparent bg-gradient-to-r from-fuchsia-200 to-cyan-200 bg-clip-text py-20 font-red-rose'>Pro-Chancellor&apos;s Message</h1>
+        <h1 className=' text-center text-6xl font-semibold Welcome-text text-transparent bg-gradient-to-r from-fuchsia-200 to-cyan-200 bg-clip-text py-20 font-red-rose'>Registrar - SRM-AP</h1>
         <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-between p-8 gap-16">
           <div className="lg:w-1/2">
             <h2 className="text-4xl lg:text-5xl font-semibold mb-4 lg:mb-6 text-left lg:text-left bg-clip-text text-transparent bg-gradient-to-b from-white to-[#AAAAAA] font-red-rose">
-              A note from the Pro-Chancellor
+              A note from the Registrar
             </h2>
             <p className="text-2xl lg:text-3xl font-space text-justify">
-              Infinitus is a testament to the pursuit of excellence, where technical innovation and cultural creativity converge to shape the leaders of tomorrow. As Pro-Chancellor, it is my distinct honor to welcome you to this national platform that fosters intellectual growth and artistic brilliance. <br /><br />
-              This edition of Infinitus 2026 has been envisioned as a catalyst for collaboration, challenging students to step beyond their comfort zones and explore new horizons. It reflects our university&apos;s unwavering commitment to providing a world-class environment for development and discovery. <br /><br />
-              I encourage every participant to embrace this opportunity with passion and purpose. May your journey through Infinitus be one of profound learning and lasting inspiration.
+              INFINITUS it is a celebration of innovation, creativity and togetherness.
+              <br /><br />
+              A true blend of technology and imagination that brings together talent across the nation to foster the spirit of collaboration and enthusiasm.
+              <br /><br />
+              I encourage you to participate wholeheartedly, challenge your limits, and embrace the opportunity to learn from one another.
+              <br /><br />
+              May this edition of Infinitus foster new friendships, inspire bold ideas, and create memories that last a lifetime.
+              <br /><br />
+              Best Regards,
+              <br /><br />
+              Dr R Premkumar
+              <br />
+              Registrar
             </p>
           </div>
           <div className="mx-auto z-50">
             <Image
-              src="/images/chance.jpeg"
-              alt="Pro-Chancellor"
+              src="/images/premkumar.png"
+              alt="Registrar"
               width={450}
               height={500}
               style={{ width: '550px', height: '600px' }}
