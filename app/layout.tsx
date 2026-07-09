@@ -26,14 +26,16 @@ const redRose = Red_Rose({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://infinitus26.com'),
+  metadataBase: new URL('https://infinitus-2026-srmap.vercel.app'),
   title: {
     default: 'Infinitus 2026 | Annual National Techno Cultural Fest - SRM University AP',
     template: '%s | Infinitus 2026 - SRM University AP',
   },
   description: 'Join Infinitus 2026, the Annual National Level Techno Cultural Fest at SRM University Andhra Pradesh from February 25-28, 2026. Experience 3 days of innovation, technology competitions, cultural performances, hackathons, workshops, gaming tournaments, and live concerts. Register now for India\'s most exciting college fest!',
   keywords: [
+    'Infinitus 2026 SRMAP',
     'Infinitus 2026',
+    'infinitus 2026',
     'Infinitus',
     'SRM AP',
     'SRM University Andhra Pradesh',
@@ -71,11 +73,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Infinitus 2026 | Annual National Techno Cultural Fest - SRM University AP',
     description: 'The Annual National Level Techno Cultural Fest of SRM University Andhra Pradesh. Join us for 3 days of innovation, technology, culture, gaming, and entertainment from February 25-28, 2026!',
-    url: 'https://infinitus26.com',
+    url: 'https://infinitus-2026-srmap.vercel.app',
     siteName: 'Infinitus 2026',
     images: [
       {
-        url: 'https://infinitus26.com/images/footerImages/INFINITUS2026LOGO.jpeg',
+        url: 'https://infinitus-2026-srmap.vercel.app/images/footerImages/INFINITUS2026LOGO.jpeg',
         width: 1200,
         height: 630,
         alt: 'Infinitus 2026 - SRM University AP Techno Cultural Fest Logo',
@@ -88,7 +90,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Infinitus 2026 | National Techno Cultural Fest',
     description: 'Experience the biggest Techno Cultural Fest of Andhra Pradesh at SRM University AP. 3 days of tech, culture & entertainment. February 25-28, 2026.',
-    images: ['https://infinitus26.com/images/footerImages/INFINITUS2026LOGO.jpeg'],
+    images: ['https://infinitus-2026-srmap.vercel.app/images/footerImages/INFINITUS2026LOGO.jpeg'],
     creator: '@SRMAP_Official',
     site: '@SRMAP_Official',
   },
@@ -111,7 +113,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: 'https://infinitus26.com',
+    canonical: 'https://infinitus-2026-srmap.vercel.app',
   },
   verification: {
     google: 'google-site-verification-code', // Replace with actual Google Search Console verification code

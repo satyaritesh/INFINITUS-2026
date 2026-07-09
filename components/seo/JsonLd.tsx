@@ -23,15 +23,15 @@ const JsonLd = () => {
             },
         },
         image: [
-            'https://infinitus26.com/images/footerImages/INFINITUS2026LOGO.jpeg',
+            'https://infinitus-2026-srmap.vercel.app/images/footerImages/INFINITUS2026LOGO.jpeg',
         ],
         description: 'Join Infinitus 2026, the Annual National Level Techno Cultural Fest at SRM University Andhra Pradesh. Experience 3 days of innovation, technology competitions, cultural performances, hackathons, workshops, gaming tournaments (Apex Trails), and live concerts from February 25-28, 2026.',
-        url: 'https://infinitus26.com',
+        url: 'https://infinitus-2026-srmap.vercel.app',
         organizer: {
             '@type': 'Organization',
             name: 'SRM University AP',
             url: 'https://srmap.edu.in',
-            logo: 'https://infinitus26.com/images/footerImages/INFINITUS2026LOGO.jpeg',
+            logo: 'https://infinitus-2026-srmap.vercel.app/images/footerImages/INFINITUS2026LOGO.jpeg',
         },
         performer: {
             '@type': 'Organization',
@@ -39,11 +39,11 @@ const JsonLd = () => {
         },
         offers: {
             '@type': 'Offer',
-            url: 'https://infinitus26.com',
+            url: 'https://infinitus-2026-srmap.vercel.app',
             availability: 'https://schema.org/InStock',
             validFrom: '2026-01-01T00:00:00+05:30',
         },
-        keywords: 'techno cultural fest, college fest, SRM AP, Infinitus 2026, hackathon, cultural events, technical competitions, gaming tournament, concerts, workshops, student fest, Andhra Pradesh',
+        keywords: 'infinitus 2026 SRMAP, infinitus 2026, techno cultural fest, college fest, SRM AP, Infinitus 2026, hackathon, cultural events, technical competitions, gaming tournament, concerts, workshops, student fest, Andhra Pradesh',
     };
 
     return (

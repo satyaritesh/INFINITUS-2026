@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Sitemaps
-Sitemap: https://infinitus26.com/sitemap.xml
+Sitemap: https://infinitus-2026-srmap.vercel.app/sitemap.xml
 
 # Disallow crawling of API routes and certain directories
 Disallow: /api/
